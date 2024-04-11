@@ -141,9 +141,6 @@ def sample(args, device, generative_model, dataset_info,
         assert_correctly_masked(x, node_mask)
         assert_mean_zero_with_mask(x, node_mask)
 
-        one_hot = h['categorical']
-        charges = h['integer']
-
         assert_correctly_masked(one_hot.float(), node_mask)
         if args.include_charges:
             assert_correctly_masked(charges.float(), node_mask)
@@ -151,7 +148,7 @@ def sample(args, device, generative_model, dataset_info,
     else:
         raise ValueError(args.probabilistic_model)
 
-    return one_hot, charges, x, node_mask
+    return x, h, node_mask
 
 
 def sample_sweep_conditional(args, device, generative_model, dataset_info, prop_dist, n_nodes=19, n_frames=100):

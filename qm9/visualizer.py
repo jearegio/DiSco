@@ -16,38 +16,21 @@ from qm9 import bond_analyze
 ###########-->
 
 
-def save_xyz_file(path, one_hot, charges, positions, dataset_info, node_mask=None):
-    try:
-        os.makedirs(path)
-    except OSError:
-        pass
-
+def save_xyz_file(filename, one_hot, charges, positions, dataset_info, node_mask=None):
     if node_mask is not None:
         atomsxmol = torch.sum(node_mask, dim=1)
     else:
         atomsxmol = [one_hot.size(1)] * one_hot.size(0)
 
-    now = datetime.now()
-    timestamp = now.strftime("%m-%d-%Y_%H-%M-%S")
-    output_dir = f'{path}{timestamp}'
-    os.mkdir(output_dir)
-
-    filenames = []
-    for batch_i in range(one_hot.size(0)):
-        filename = f'{output_dir}/molecule_{batch_i}.txt'
-        f = open(filename, "w")
-        f.write("%d\n\n" % atomsxmol[batch_i])
-        atoms = torch.argmax(one_hot[batch_i], dim=1)
-        n_atoms = int(atomsxmol[batch_i])
-        for atom_i in range(n_atoms):
-            atom = atoms[atom_i]
-            atom = dataset_info['atom_decoder'][atom]
-            f.write("%s %.9f %.9f %.9f\n" % (atom, positions[batch_i, atom_i, 0], positions[batch_i, atom_i, 1], positions[batch_i, atom_i, 2]))
-        f.close()
-        
-        filenames.append(filename)
-
-    return filenames
+    f = open(filename, "w")
+    f.write("%d\n" % atomsxmol[0])
+    atoms = torch.argmax(one_hot[0], dim=1)
+    n_atoms = int(atomsxmol[0])
+    for atom_i in range(n_atoms):
+        atom = atoms[atom_i]
+        atom = dataset_info['atom_decoder'][atom]
+        f.write("\n%s %.9f %.9f %.9f" % (atom, positions[0, atom_i, 0], positions[0, atom_i, 1], positions[0, atom_i, 2]))
+    f.close()
 
 
 def load_molecule_xyz(file, dataset_info):
