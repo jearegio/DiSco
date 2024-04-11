@@ -5,6 +5,7 @@ import glob
 import random
 import matplotlib
 import imageio
+from datetime import datetime
 
 
 matplotlib.use('Agg')
@@ -15,7 +16,7 @@ from qm9 import bond_analyze
 ###########-->
 
 
-def save_xyz_file(path, one_hot, charges, positions, dataset_info, id_from=0, name='molecule', node_mask=None):
+def save_xyz_file(path, one_hot, charges, positions, dataset_info, node_mask=None):
     try:
         os.makedirs(path)
     except OSError:
@@ -26,8 +27,15 @@ def save_xyz_file(path, one_hot, charges, positions, dataset_info, id_from=0, na
     else:
         atomsxmol = [one_hot.size(1)] * one_hot.size(0)
 
+    now = datetime.now()
+    timestamp = now.strftime("%m-%d-%Y_%H-%M-%S")
+    output_dir = f'{path}{timestamp}'
+    os.mkdir(output_dir)
+
+    filenames = []
     for batch_i in range(one_hot.size(0)):
-        f = open(path + name + '_' + "%03d.txt" % (batch_i + id_from), "w")
+        filename = f'{output_dir}/molecule_{batch_i}.txt'
+        f = open(filename, "w")
         f.write("%d\n\n" % atomsxmol[batch_i])
         atoms = torch.argmax(one_hot[batch_i], dim=1)
         n_atoms = int(atomsxmol[batch_i])
@@ -36,6 +44,10 @@ def save_xyz_file(path, one_hot, charges, positions, dataset_info, id_from=0, na
             atom = dataset_info['atom_decoder'][atom]
             f.write("%s %.9f %.9f %.9f\n" % (atom, positions[batch_i, atom_i, 0], positions[batch_i, atom_i, 1], positions[batch_i, atom_i, 2]))
         f.close()
+        
+        filenames.append(filename)
+
+    return filenames
 
 
 def load_molecule_xyz(file, dataset_info):
@@ -175,9 +187,9 @@ def plot_data3d(positions, atom_type, dataset_info, camera_elev=0, camera_azim=0
     ax._axis3don = False
 
     if bg == 'black':
-        ax.w_xaxis.line.set_color("black")
+        ax.xaxis.line.set_color("black")
     else:
-        ax.w_xaxis.line.set_color("white")
+        ax.xaxis.line.set_color("white")
 
     plot_molecule(ax, positions, atom_type, alpha, spheres_3d,
                   hex_bg_color, dataset_info)
@@ -238,9 +250,9 @@ def plot_data3d_uncertainty(
     ax._axis3don = False
 
     if bg == 'black':
-        ax.w_xaxis.line.set_color("black")
+        ax.xaxis.line.set_color("black")
     else:
-        ax.w_xaxis.line.set_color("white")
+        ax.xaxis.line.set_color("white")
 
     for i in range(len(all_positions)):
         positions = all_positions[i]
