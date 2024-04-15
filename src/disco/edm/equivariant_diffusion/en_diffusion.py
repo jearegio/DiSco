@@ -1,10 +1,10 @@
-from equivariant_diffusion import utils
+from ..equivariant_diffusion import utils
 import numpy as np
 import math
 import torch
-from egnn import models
+from ..egnn import models
 from torch.nn import functional as F
-from equivariant_diffusion import utils as diffusion_utils
+from ..equivariant_diffusion import utils as diffusion_utils
 
 
 # Defining some useful util functions.

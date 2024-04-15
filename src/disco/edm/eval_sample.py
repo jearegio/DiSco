@@ -7,16 +7,16 @@ except ModuleNotFoundError:
 import edm.utils as utils
 import argparse
 from configs.datasets_config import qm9_with_h, qm9_without_h
-from qm9 import dataset
-from qm9.models import get_model
+from . import dataset
+from .models import get_model
 
 from equivariant_diffusion.utils import assert_correctly_masked
 import torch
 import pickle
 import qm9.visualizer as vis
-from qm9.analyze import check_stability
+from .analyze import check_stability
 from os.path import join
-from qm9.sampling import sample_chain, sample
+from .sampling import sample_chain, sample
 from configs.datasets_config import get_dataset_info
 import os
 from datetime import datetime

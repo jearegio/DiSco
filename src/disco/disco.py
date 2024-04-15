@@ -1,3 +1,4 @@
+import os
 import pickle
 import torch
 from os.path import join
@@ -10,7 +11,7 @@ from edm.qm9.models import get_model, get_optim
 from edm.qm9.sampling import sample
 
 class DiSco:
-    def __init__(self, disco_args, model_path='edm/outputs/edm_qm9'):
+    def __init__(self, disco_args, model_path='src/disco/edm/outputs/edm_qm9'):
         with open(join(model_path, 'args.pickle'), 'rb') as f:
             self.args = pickle.load(f)
         utils.create_folders(self.args)
@@ -40,8 +41,18 @@ class DiSco:
         self.nodes_dist = nodes_dist
 
         self.disco_args = disco_args
+        self.curr_cycle = 0
+
+    def get_cycle_dir(self):
+        return f"{self.disco_args['output_dir']}/cycle_{self.curr_cycle}"
+
+    def update_cycle(self):
+        self.curr_cycle += 1
+        os.makedirs(self.get_cycle_dir())
 
     def disco_diffuse(self):
+        print("Sampling...")
+
         # Sample molecules from diffusion model
         nodesxsample = torch.full((self.disco_args['n_tries'], 1), self.disco_args['n_nodes'])
         x, h, node_mask, edge_mask = sample(self.args, self.device, self.model, self.dataset_info, nodesxsample=nodesxsample)
@@ -59,7 +70,8 @@ class DiSco:
             mol_stable = check_stability(x_squeeze, atom_type, self.dataset_info)[0]
 
             if mol_stable:
-                filename = f'{self.output_dir}/molecule_{stable_counter+1}.xyz'
+                print(f"\tFound stable molecule {stable_counter+1}/{self.disco_args['n_samples']}")
+                filename = f'{self.get_cycle_dir()}/molecule_{stable_counter+1}.xyz'
                 vis.save_xyz_file(filename, one_hot[i:i+1], charges[i:i+1], x[i:i+1], self.dataset_info, node_mask=node_mask[i:i+1])
                 filenames_stable.append(filename)
                 idx_stable.append(i)
@@ -79,11 +91,15 @@ class DiSco:
         return x_stable, h_stable, node_mask_stable, edge_mask_stable, filenames_stable
 
     def disco_score(self, filenames):
-        scores = torch.tensor([self.score_func(filename) for filename in filenames])
+        print("Scoring...")
+
+        scores = torch.tensor([self.disco_args['score_func'](filename) for filename in filenames])
 
         return scores
 
     def disco_align(self, x, h, scores, node_mask, edge_mask):
+        print("Aligning...")
+
         # Standardize scores
         scores = (scores - scores.mean()) / scores.std()
 
@@ -111,6 +127,7 @@ class DiSco:
             optimizer.step()
 
             losses.append(weighted_loss.item())
+            print(f"Epoch: {epoch}, Loss: {weighted_loss.item()}")
         
         losses = torch.tensor(losses)
         
@@ -124,10 +141,12 @@ class DiSco:
         return scores, losses
 
     def run(self):
-        for cycle in range(self.disco_args['disco_cycles']):
+        while self.curr_cycle <= self.disco_args['disco_cycles']:
+            # Increment cycle and make new directory
+            self.update_cycle()
+            
             scores, losses = self.disco_step()
 
             # Save training data
-            cycle_dir = f"{self.disco_args['output_dir']}/cycle_{cycle+1}"
-            torch.save(scores, f'{cycle_dir}/scores.pt')
-            torch.save(losses, f'{cycle_dir}/losses.pt')
+            torch.save(scores, f'{self.get_cycle_dir()}/scores.pt')
+            torch.save(losses, f'{self.get_cycle_dir()}/losses.pt')

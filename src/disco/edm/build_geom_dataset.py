@@ -4,7 +4,7 @@ import numpy as np
 import torch
 from torch.utils.data import BatchSampler, DataLoader, Dataset, SequentialSampler
 import argparse
-from qm9.data import collate as qm9_collate
+from . import collate as qm9_collate
 
 
 def extract_conformers(args):

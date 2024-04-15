@@ -3,11 +3,11 @@ from equivariant_diffusion.utils import assert_mean_zero_with_mask, remove_mean_
     assert_correctly_masked, sample_center_gravity_zero_gaussian_with_mask
 import numpy as np
 import qm9.visualizer as vis
-from qm9.analyze import analyze_stability_for_molecules
-from qm9.sampling import sample_chain, sample, sample_sweep_conditional
+from .analyze import analyze_stability_for_molecules
+from .sampling import sample_chain, sample, sample_sweep_conditional
 import edm.utils as utils
 import qm9.utils as qm9utils
-from qm9 import losses
+from . import losses
 import time
 import torch
 

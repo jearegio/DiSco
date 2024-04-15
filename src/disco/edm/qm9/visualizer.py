@@ -10,7 +10,7 @@ from datetime import datetime
 
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-from qm9 import bond_analyze
+from . import bond_analyze
 ##############
 ### Files ####
 ###########-->

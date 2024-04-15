@@ -9,15 +9,15 @@ import argparse
 import wandb
 from configs.datasets_config import get_dataset_info
 from os.path import join
-from qm9 import dataset
-from qm9.models import get_optim, get_model
+from . import dataset
+from .models import get_optim, get_model
 from equivariant_diffusion import en_diffusion
 from equivariant_diffusion.utils import assert_correctly_masked
 from equivariant_diffusion import utils as flow_utils
 import torch
 import time
 import pickle
-from qm9.utils import prepare_context, compute_mean_mad
+from .utils import prepare_context, compute_mean_mad
 from edm.train_test import train_epoch, test, analyze_and_save
 
 parser = argparse.ArgumentParser(description='E3Diffusion')

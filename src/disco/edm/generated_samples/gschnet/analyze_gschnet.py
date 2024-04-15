@@ -6,7 +6,7 @@ except ModuleNotFoundError:
 
 import pickle
 import torch.nn.functional as F
-from qm9.analyze import analyze_stability_for_molecules
+from .analyze import analyze_stability_for_molecules
 import numpy as np
 import torch
 

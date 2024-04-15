@@ -10,7 +10,7 @@ import edm.utils as utils
 import argparse
 import wandb
 from os.path import join
-from qm9.models import get_optim, get_model
+from .models import get_optim, get_model
 from equivariant_diffusion import en_diffusion
 
 from equivariant_diffusion import utils as diffusion_utils
@@ -18,7 +18,7 @@ import torch
 import time
 import pickle
 
-from qm9.utils import prepare_context, compute_mean_mad
+from .utils import prepare_context, compute_mean_mad
 import edm.train_test as train_test
 
 
