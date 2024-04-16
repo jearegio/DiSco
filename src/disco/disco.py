@@ -108,6 +108,8 @@ class DiSco:
             scores = scores
         elif self.disco_args['objective'] == 'minimize':
             scores = -scores
+        else:
+            raise ValueError("Invalid optimization objective.")
 
         # Weighted scores
         exp_scores = torch.exp(self.disco_args['beta'] * scores)
