@@ -30,3 +30,4 @@ qm9_conditional.sh
 figures/
 geom_drugs.sh
 disco_outputs
+analysis/*/gif/*.png

@@ -10,7 +10,7 @@ score_func = functools.partial(calc_energy, basis=basis, xc=xc)
 
 # Set up training arguments
 disco_args = DiScoArgs(
-    disco_cycles=2,
+    disco_cycles=25,
     objective='minimize', 
     n_nodes=10,
     n_samples=200, 
