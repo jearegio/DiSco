@@ -15,7 +15,7 @@ class DiScoArgs:
 
         config_path = f"{self.args['output_dir']}/disco_config.json"
         with open(config_path, "w") as outfile: 
-            json.dump({key: value for key, value in self.args.items() if key != 'score_func'}, outfile, indent=4) # can't serialize score function
+            json.dump(self.args, outfile, indent=4)
 
     def __getitem__(self, key):
         return self.args[key]

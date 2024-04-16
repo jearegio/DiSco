@@ -2,6 +2,7 @@ import os
 import pickle
 import torch
 from os.path import join
+from scorer import PySCFScorer
 import edm.qm9.visualizer as vis
 import edm.utils as utils
 from edm.configs.datasets_config import get_dataset_info
@@ -39,6 +40,9 @@ class DiSco:
         flow.load_state_dict(flow_state_dict)
         self.model = flow
         self.nodes_dist = nodes_dist
+
+        # initialize scorer
+        self.scorer = PySCFScorer(metric=disco_args['metric'], basis=disco_args['basis'], xc=disco_args['xc'])
 
         self.disco_args = disco_args
         self.curr_cycle = 0
@@ -93,7 +97,7 @@ class DiSco:
     def disco_score(self, filenames):
         print("Scoring...")
 
-        scores = torch.tensor([self.disco_args['score_func'](filename) for filename in filenames])
+        scores = torch.tensor([self.scorer.score(filename) for filename in filenames])
 
         return scores
 
