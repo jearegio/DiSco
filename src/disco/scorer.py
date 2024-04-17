@@ -1,6 +1,6 @@
 from pyscf import dft, gto
 import numpy as np
-from pyscf.prop.polarizability.rks import Polarizability
+# from pyscf.prop.polarizability.rks import Polarizability
 from abc import ABC, abstractmethod
 
 class Scorer(ABC):
@@ -28,8 +28,8 @@ class PySCFScorer(Scorer):
             return self.calc_electron_affinity(mf)
         elif self.metric == 'dipole_magnitude':
             return self.calc_dipole_magnitude(mf)
-        elif self.metric == 'polarizability':
-            return self.calc_polarizability(mf)
+        # elif self.metric == 'polarizability':
+        #     return self.calc_polarizability(mf)
         else:
             raise ValueError('Invalid metric.')
 

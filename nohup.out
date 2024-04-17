@@ -107,207 +107,207 @@ Sampling...
 Scoring...
 /home/jose/DiSco/.venv/lib64/python3.11/site-packages/pyscf/dft/libxc.py:1102: UserWarning: Since PySCF-2.3, B3LYP (and B3P86) are changed to the VWN-RPA variant, corresponding to the original definition by Stephens et al. (issue 1480) and the same as the B3LYP functional in Gaussian. To restore the VWN5 definition, you can put the setting "B3LYP_WITH_VWN5 = True" in pyscf_conf.py
   warnings.warn('Since PySCF-2.3, B3LYP (and B3P86) are changed to the VWN-RPA variant, '
-converged SCF energy = -440.773387179141
-converged SCF energy = -404.273048737413
-converged SCF energy = -461.436137342487
-converged SCF energy = -391.152229539504
-converged SCF energy = -408.062407550046
-converged SCF energy = -207.539247417228
-converged SCF energy = -424.918430609308
-converged SCF energy = -354.647150511811
-converged SCF energy = -448.663426558152
-converged SCF energy = -387.406459053296
-converged SCF energy = -448.651904047267
-converged SCF energy = -297.478538040134
-converged SCF energy = -424.853798021002
-converged SCF energy = -408.076887967041
-converged SCF energy = -354.597283900034
-converged SCF energy = -297.494457230124
-converged SCF energy = -347.064966651273
-converged SCF energy = -375.110702002232
-converged SCF energy = -333.998614374354
-converged SCF energy = -350.874663961873
-converged SCF energy = -318.0527338508
-converged SCF energy = -297.486609582455
-converged SCF energy = -350.826163787258
-converged SCF energy = -537.375436887071
-converged SCF energy = -448.633572812725
-converged SCF energy = -387.431437894831
-converged SCF energy = -404.149890772158
-converged SCF energy = -461.431877617372
-converged SCF energy = -484.935259854217
-converged SCF energy = -297.478324146319
-converged SCF energy = -314.350659240951
-converged SCF energy = -452.443620190309
-converged SCF energy = -444.601607123894
-converged SCF energy = -444.585339538182
-converged SCF energy = -391.130399939516
-converged SCF energy = -501.75794783212
-converged SCF energy = -297.455800371454
-converged SCF energy = -347.067819604782
-converged SCF energy = -408.082176235439
-converged SCF energy = -350.873955972921
-converged SCF energy = -318.017416915678
-converged SCF energy = -631.127575019688
-converged SCF energy = -350.892983657577
-converged SCF energy = -207.518912367368
-converged SCF energy = -497.952257042606
-converged SCF energy = -447.392122623856
-converged SCF energy = -190.615537302632
-converged SCF energy = -498.016634971932
-converged SCF energy = -297.466769272968
-converged SCF energy = -550.242718562217
-converged SCF energy = -317.91848672055
-converged SCF energy = -444.576100758713
-converged SCF energy = -444.586199982193
-converged SCF energy = -452.396797961382
-converged SCF energy = -318.12531666643
-converged SCF energy = -404.178135168318
-converged SCF energy = -318.032505880069
-converged SCF energy = -407.996780358013
-converged SCF energy = -318.063268575907
-converged SCF energy = -501.800260191111
-converged SCF energy = -350.84558449205
-converged SCF energy = -461.430893096246
-converged SCF energy = -391.169899308993
-converged SCF energy = -318.012507454173
-converged SCF energy = -502.011452358857
-converged SCF energy = -457.631641557654
-converged SCF energy = -542.350907905885
-converged SCF energy = -354.650959784268
-converged SCF energy = -314.359141810768
-converged SCF energy = -550.213986857565
-converged SCF energy = -337.776309940329
-converged SCF energy = -444.634439339553
-converged SCF energy = -350.875888584962
-converged SCF energy = -408.058412922363
-converged SCF energy = -444.594149790055
-converged SCF energy = -260.839908180126
-converged SCF energy = -391.212401001212
-converged SCF energy = -457.676012532286
-converged SCF energy = -391.240214087068
-converged SCF energy = -354.65427481649
-converged SCF energy = -448.372817602572
-converged SCF energy = -301.257317329659
-converged SCF energy = -448.630477938687
-converged SCF energy = -404.287772130492
-converged SCF energy = -301.264379250222
-converged SCF energy = -408.049990868118
-converged SCF energy = -190.660429391439
-converged SCF energy = -301.260047632424
-converged SCF energy = -354.596146299463
-converged SCF energy = -461.427822529951
-converged SCF energy = -444.600221442695
-converged SCF energy = -452.440922276244
-converged SCF energy = -440.806052573151
-converged SCF energy = -444.573746679178
-converged SCF energy = -501.808291184733
-converged SCF energy = -387.434785803867
-converged SCF energy = -550.170897861613
-converged SCF energy = -404.276511114969
-converged SCF energy = -318.051410343766
-converged SCF energy = -318.007230982044
+converged SCF energy = -337.749036472576
+converged SCF energy = -408.057176085872
+converged SCF energy = -318.003170148633
+converged SCF energy = -297.477762954383
+converged SCF energy = -411.704918111887
+converged SCF energy = -297.48436824774
+converged SCF energy = -546.408181636166
+converged SCF energy = -444.584390776308
+converged SCF energy = -391.216958551867
+converged SCF energy = -452.417174268834
+converged SCF energy = -404.28194002763
+converged SCF energy = -391.171407165332
+converged SCF energy = -461.453999126742
+converged SCF energy = -301.128783334172
+converged SCF energy = -452.440288684956
+converged SCF energy = -337.754876516939
+converged SCF energy = -550.191788883084
+converged SCF energy = -444.53082560732
+converged SCF energy = -444.545246576378
+converged SCF energy = -391.208360677558
+converged SCF energy = -354.656304804477
+converged SCF energy = -404.28644199563
+converged SCF energy = -408.038063614608
+converged SCF energy = -367.720030689834
+converged SCF energy = -297.46911507533
+converged SCF energy = -404.283257547596
+converged SCF energy = -391.190402775394
+converged SCF energy = -354.622058331351
+converged SCF energy = -297.497326702913
+converged SCF energy = -350.874916562602
+converged SCF energy = -407.978807155327
+converged SCF energy = -590.825379640635
+converged SCF energy = -227.154481606288
+converged SCF energy = -240.250374325443
+converged SCF energy = -404.300734028142
+converged SCF energy = -244.049051573952
+converged SCF energy = -297.471733019224
+converged SCF energy = -354.666851318549
+converged SCF energy = -440.778205929937
+converged SCF energy = -318.018748972931
+converged SCF energy = -440.81879488979
+converged SCF energy = -358.715673827576
+converged SCF energy = -452.405273845644
+converged SCF energy = -280.571670716464
+converged SCF energy = -391.184966481674
+converged SCF energy = -497.907949071528
+converged SCF energy = -461.38958417482
+converged SCF energy = -350.869843062431
+converged SCF energy = -297.509606579913
+converged SCF energy = -301.135029521891
+converged SCF energy = -350.88166578593
+converged SCF energy = -444.572529820312
+converged SCF energy = -452.438465783173
+converged SCF energy = -207.418526288087
+converged SCF energy = -387.425651828891
+converged SCF energy = -444.581666643463
+converged SCF energy = -244.050063913341
+converged SCF energy = -354.659701951584
+converged SCF energy = -281.40453212384
+converged SCF energy = -444.61181846907
+converged SCF energy = -301.208122726673
+converged SCF energy = -465.140504827986
+converged SCF energy = -452.424070089357
+converged SCF energy = -318.022486284835
+converged SCF energy = -337.829286418095
+converged SCF energy = -297.512848317786
+converged SCF energy = -358.711509940439
+converged SCF energy = -424.858674669136
+converged SCF energy = -301.139537433642
+converged SCF energy = -314.348938155468
+converged SCF energy = -264.529410094373
+converged SCF energy = -408.041600870163
+converged SCF energy = -314.285325700579
+converged SCF energy = -461.390371071023
+converged SCF energy = -501.803806658092
+converged SCF energy = -497.941749523844
+converged SCF energy = -440.796319488194
+converged SCF energy = -301.157537768241
+converged SCF energy = -457.627797285175
+converged SCF energy = -190.645636734609
+converged SCF energy = -407.999082368318
+converged SCF energy = -301.136790173037
+converged SCF energy = -314.35825932833
+converged SCF energy = -297.433315929574
+converged SCF energy = -400.358535528882
+converged SCF energy = -415.894021522811
+converged SCF energy = -337.723626740942
+converged SCF energy = -301.177853862408
+converged SCF energy = -452.43511305094
+converged SCF energy = -452.453182492484
+converged SCF energy = -387.421624170358
+converged SCF energy = -408.071186752017
+converged SCF energy = -444.614491219067
+converged SCF energy = -550.216120703417
+converged SCF energy = -494.160451879962
+converged SCF energy = -318.123566059966
+converged SCF energy = -350.880116999549
+converged SCF energy = -391.187891197126
+converged SCF energy = -494.100794996575
+converged SCF energy = -350.864562672937
 Aligning...
-Epoch: 0, Loss: 0.20640385268497013
-Epoch: 1, Loss: 0.2447862211582284
-Epoch: 2, Loss: 0.2159876119168142
-Epoch: 3, Loss: 0.22894124740435665
-Epoch: 4, Loss: 0.23065910493612812
-Epoch: 5, Loss: 0.24172407459552786
-Epoch: 6, Loss: 0.196556247587788
-Epoch: 7, Loss: 0.2139252836818919
-Epoch: 8, Loss: 0.17709817152456822
-Epoch: 9, Loss: 0.21432823050181948
-Epoch: 10, Loss: 0.20377898573571748
-Epoch: 11, Loss: 0.19546134224326395
-Epoch: 12, Loss: 0.2036144629797953
-Epoch: 13, Loss: 0.19256189338906915
-Epoch: 14, Loss: 0.23511821260177826
-Epoch: 15, Loss: 0.19535533801984414
-Epoch: 16, Loss: 0.17759103714255958
-Epoch: 17, Loss: 0.13936455553340504
-Epoch: 18, Loss: 0.19689858242157976
-Epoch: 19, Loss: 0.28065085057488787
-Epoch: 20, Loss: 0.15809008934070864
-Epoch: 21, Loss: 0.18579969334076205
-Epoch: 22, Loss: 0.22475931064240598
-Epoch: 23, Loss: 0.2088520877651836
-Epoch: 24, Loss: 0.22585450467980564
-Epoch: 25, Loss: 0.2180047385283654
-Epoch: 26, Loss: 0.18006798121992618
-Epoch: 27, Loss: 0.1840670904024977
-Epoch: 28, Loss: 0.15336761718723124
-Epoch: 29, Loss: 0.2066251528679667
-Epoch: 30, Loss: 0.17175005569407303
-Epoch: 31, Loss: 0.19687967448430183
-Epoch: 32, Loss: 0.16622786669122747
-Epoch: 33, Loss: 0.2685122218163088
-Epoch: 34, Loss: 0.22267102966462204
-Epoch: 35, Loss: 0.24336493044504579
-Epoch: 36, Loss: 0.21048727378381016
-Epoch: 37, Loss: 0.19259593658409885
-Epoch: 38, Loss: 0.19569973302929597
-Epoch: 39, Loss: 0.21746097178164264
-Epoch: 40, Loss: 0.1827533034688679
-Epoch: 41, Loss: 0.2012901819873624
-Epoch: 42, Loss: 0.19641169280080165
-Epoch: 43, Loss: 0.154847604360901
-Epoch: 44, Loss: 0.22231819230372155
-Epoch: 45, Loss: 0.23503605926060483
-Epoch: 46, Loss: 0.1642145708147654
-Epoch: 47, Loss: 0.20535761158642235
-Epoch: 48, Loss: 0.2005843986941335
-Epoch: 49, Loss: 0.19788425560194434
-Epoch: 50, Loss: 0.21350933096567423
-Epoch: 51, Loss: 0.1897023370307804
-Epoch: 52, Loss: 0.22115237668461
-Epoch: 53, Loss: 0.23088791005035403
-Epoch: 54, Loss: 0.1854353642696954
-Epoch: 55, Loss: 0.18036529170055798
-Epoch: 56, Loss: 0.1810526116047456
-Epoch: 57, Loss: 0.15527082377993712
-Epoch: 58, Loss: 0.23627153637519363
-Epoch: 59, Loss: 0.18363702151300731
-Epoch: 60, Loss: 0.19904205292957955
-Epoch: 61, Loss: 0.18329075064823577
-Epoch: 62, Loss: 0.17752043380565838
-Epoch: 63, Loss: 0.18783246979198123
-Epoch: 64, Loss: 0.2091448025354773
-Epoch: 65, Loss: 0.16376640349756025
-Epoch: 66, Loss: 0.18157053190256506
-Epoch: 67, Loss: 0.16750284402179527
-Epoch: 68, Loss: 0.1932601133578836
-Epoch: 69, Loss: 0.19523152077804803
-Epoch: 70, Loss: 0.18249343176516492
-Epoch: 71, Loss: 0.1643855382083577
-Epoch: 72, Loss: 0.14855575335263824
-Epoch: 73, Loss: 0.21381470839617256
-Epoch: 74, Loss: 0.18563212590037886
-Epoch: 75, Loss: 0.22558955783809923
-Epoch: 76, Loss: 0.2025910776296828
-Epoch: 77, Loss: 0.16329404295421499
-Epoch: 78, Loss: 0.1722748383552711
-Epoch: 79, Loss: 0.21037773871758703
-Epoch: 80, Loss: 0.19655607434204822
-Epoch: 81, Loss: 0.1554090393971511
-Epoch: 82, Loss: 0.1834625651786193
-Epoch: 83, Loss: 0.17035386761502339
-Epoch: 84, Loss: 0.18697685349596
-Epoch: 85, Loss: 0.18188547719082532
-Epoch: 86, Loss: 0.14658908578271188
-Epoch: 87, Loss: 0.2197645216235508
-Epoch: 88, Loss: 0.21131642281906873
-Epoch: 89, Loss: 0.17191709642335937
-Epoch: 90, Loss: 0.17693369701545383
-Epoch: 91, Loss: 0.17778360394053422
-Epoch: 92, Loss: 0.2410144500213272
-Epoch: 93, Loss: 0.19359577611501635
-Epoch: 94, Loss: 0.2250681805799156
-Epoch: 95, Loss: 0.19615335780747623
-Epoch: 96, Loss: 0.21559844977467635
-Epoch: 97, Loss: 0.17140324834497492
-Epoch: 98, Loss: 0.1849432189064703
-Epoch: 99, Loss: 0.19819094210798724
+Epoch: 0, Loss: 0.16646088448576238
+Epoch: 1, Loss: 0.25112620127693164
+Epoch: 2, Loss: 0.21915629334239925
+Epoch: 3, Loss: 0.25446722008110767
+Epoch: 4, Loss: 0.25627434558431456
+Epoch: 5, Loss: 0.22410916320588595
+Epoch: 6, Loss: 0.20734421601444936
+Epoch: 7, Loss: 0.19138702925556164
+Epoch: 8, Loss: 0.20789919413656108
+Epoch: 9, Loss: 0.22549430267755033
+Epoch: 10, Loss: 0.21898289702085538
+Epoch: 11, Loss: 0.17922969333908348
+Epoch: 12, Loss: 0.21559746499642415
+Epoch: 13, Loss: 0.20120482888928537
+Epoch: 14, Loss: 0.20819065954147026
+Epoch: 15, Loss: 0.2486070146182457
+Epoch: 16, Loss: 0.21759742538808322
+Epoch: 17, Loss: 0.23126589915468362
+Epoch: 18, Loss: 0.20712065399866583
+Epoch: 19, Loss: 0.20930246045361522
+Epoch: 20, Loss: 0.17451650568215837
+Epoch: 21, Loss: 0.23252165193086596
+Epoch: 22, Loss: 0.21730058832084417
+Epoch: 23, Loss: 0.22566090938591862
+Epoch: 24, Loss: 0.19239201553804322
+Epoch: 25, Loss: 0.2107358083882246
+Epoch: 26, Loss: 0.2504983148059629
+Epoch: 27, Loss: 0.2128967304810737
+Epoch: 28, Loss: 0.21907642703667202
+Epoch: 29, Loss: 0.20723352089027092
+Epoch: 30, Loss: 0.15566344146391253
+Epoch: 31, Loss: 0.23194371445369955
+Epoch: 32, Loss: 0.19438702203302177
+Epoch: 33, Loss: 0.18224267107103745
+Epoch: 34, Loss: 0.2103576480599228
+Epoch: 35, Loss: 0.224540055805388
+Epoch: 36, Loss: 0.22038465445047087
+Epoch: 37, Loss: 0.19821741826447828
+Epoch: 38, Loss: 0.21371436934147883
+Epoch: 39, Loss: 0.1907329229992856
+Epoch: 40, Loss: 0.15994021693752264
+Epoch: 41, Loss: 0.2519145563637491
+Epoch: 42, Loss: 0.1845754205475844
+Epoch: 43, Loss: 0.19624506867180067
+Epoch: 44, Loss: 0.1797669937780785
+Epoch: 45, Loss: 0.2057022512029096
+Epoch: 46, Loss: 0.22631862746949197
+Epoch: 47, Loss: 0.20649932642952312
+Epoch: 48, Loss: 0.1901622013979924
+Epoch: 49, Loss: 0.20021610520340816
+Epoch: 50, Loss: 0.17043272794300823
+Epoch: 51, Loss: 0.18272407914587738
+Epoch: 52, Loss: 0.1676630623526426
+Epoch: 53, Loss: 0.22250884820273456
+Epoch: 54, Loss: 0.19938698773031577
+Epoch: 55, Loss: 0.23216881296791558
+Epoch: 56, Loss: 0.18639257018112818
+Epoch: 57, Loss: 0.24338175801207293
+Epoch: 58, Loss: 0.16656934354980205
+Epoch: 59, Loss: 0.22297884938474086
+Epoch: 60, Loss: 0.22627421730246824
+Epoch: 61, Loss: 0.2335332839426612
+Epoch: 62, Loss: 0.16405078899944667
+Epoch: 63, Loss: 0.16642212939131576
+Epoch: 64, Loss: 0.2649789321961172
+Epoch: 65, Loss: 0.20775491250660102
+Epoch: 66, Loss: 0.23748595948739457
+Epoch: 67, Loss: 0.20244301142621252
+Epoch: 68, Loss: 0.2016799558558076
+Epoch: 69, Loss: 0.2401604602822588
+Epoch: 70, Loss: 0.21756181815196968
+Epoch: 71, Loss: 0.2558871437297773
+Epoch: 72, Loss: 0.18227449242540497
+Epoch: 73, Loss: 0.17376292002353658
+Epoch: 74, Loss: 0.20127540313151954
+Epoch: 75, Loss: 0.21495216376697038
+Epoch: 76, Loss: 0.20513072418759565
+Epoch: 77, Loss: 0.250134218441855
+Epoch: 78, Loss: 0.243624643870744
+Epoch: 79, Loss: 0.20008631621790535
+Epoch: 80, Loss: 0.1664197141244462
+Epoch: 81, Loss: 0.184692128329452
+Epoch: 82, Loss: 0.18474924656896613
+Epoch: 83, Loss: 0.2292853917039256
+Epoch: 84, Loss: 0.21229112258070298
+Epoch: 85, Loss: 0.2257653338299739
+Epoch: 86, Loss: 0.18350848525841854
+Epoch: 87, Loss: 0.19240101930775882
+Epoch: 88, Loss: 0.22049602813789895
+Epoch: 89, Loss: 0.22450809705875238
+Epoch: 90, Loss: 0.17499247922175676
+Epoch: 91, Loss: 0.20186656529991345
+Epoch: 92, Loss: 0.23065430353804822
+Epoch: 93, Loss: 0.2058529064676009
+Epoch: 94, Loss: 0.19607752653778915
+Epoch: 95, Loss: 0.19708442909519996
+Epoch: 96, Loss: 0.15866886150608125
+Epoch: 97, Loss: 0.17622579865925403
+Epoch: 98, Loss: 0.1685310454245141
+Epoch: 99, Loss: 0.2053299203235183
 Sampling...
 	Found stable molecule 1/100
 	Found stable molecule 2/100
@@ -410,207 +410,207 @@ Sampling...
 	Found stable molecule 99/100
 	Found stable molecule 100/100
 Scoring...
-converged SCF energy = -190.656272517526
-converged SCF energy = -190.656345377751
-converged SCF energy = -207.41849675279
-converged SCF energy = -244.037519702965
-converged SCF energy = -190.611203712582
-converged SCF energy = -243.934978436664
-converged SCF energy = -190.653474553023
-converged SCF energy = -190.656138731955
-converged SCF energy = -190.656282603482
-converged SCF energy = -350.879680957525
-converged SCF energy = -190.643927634898
-converged SCF energy = -133.479808493788
-converged SCF energy = -333.999798146421
-converged SCF energy = -133.468038745873
-converged SCF energy = -391.135867905277
-converged SCF energy = -190.658208203471
-converged SCF energy = -260.930605881742
-converged SCF energy = -301.166907365186
-converged SCF energy = -337.803124246548
-converged SCF energy = -354.581983936047
-converged SCF energy = -301.200029456615
-converged SCF energy = -260.89984513315
-converged SCF energy = -318.051562060186
-converged SCF energy = -301.168709517695
-converged SCF energy = -426.817203223839
-converged SCF energy = -318.006810891871
-converged SCF energy = -387.425745436869
-converged SCF energy = -354.642853597851
-converged SCF energy = -227.159973377745
-converged SCF energy = -190.615381579993
-converged SCF energy = -387.440254348819
-converged SCF energy = -244.087781172768
-converged SCF energy = -297.492389540721
-converged SCF energy = -190.659991059395
-converged SCF energy = -186.870131301693
-converged SCF energy = -297.474091011675
-converged SCF energy = -244.020149399135
-converged SCF energy = -190.660484809377
-converged SCF energy = -350.875345780818
-converged SCF energy = -350.826300167331
-converged SCF energy = -354.664163070186
-converged SCF energy = -154.061462120749
-converged SCF energy = -301.195876340483
-converged SCF energy = -190.668992645555
-converged SCF energy = -207.433936617562
-converged SCF energy = -391.211492734633
-converged SCF energy = -301.164264077146
-converged SCF energy = -133.479837103051
-converged SCF energy = -207.540724209002
-converged SCF energy = -260.946563741539
-converged SCF energy = -207.503799183468
-converged SCF energy = -297.458310937173
-converged SCF energy = -444.657166415633
-converged SCF energy = -154.060833184351
-converged SCF energy = -318.006208052545
-converged SCF energy = -133.480409834457
-converged SCF energy = -244.071562521241
-converged SCF energy = -207.538734140505
-converged SCF energy = -190.653700703726
-converged SCF energy = -190.654805735519
-converged SCF energy = -280.583814405432
-converged SCF energy = -154.076894547473
-converged SCF energy = -314.28577306235
-converged SCF energy = -207.540813964187
-converged SCF energy = -244.048783563601
-converged SCF energy = -297.495397080694
-converged SCF energy = -354.573400160822
-converged SCF energy = -354.560073760043
-converged SCF energy = -297.496492679872
-converged SCF energy = -301.126386488194
-converged SCF energy = -350.864256679983
-converged SCF energy = -190.667524846494
-converged SCF energy = -337.761663136463
-converged SCF energy = -297.491397219803
-converged SCF energy = -207.503968397549
-converged SCF energy = -280.589066509364
-converged SCF energy = -190.658042689854
-converged SCF energy = -297.495939574183
-converged SCF energy = -297.493486680706
-converged SCF energy = -297.437444794681
-converged SCF energy = -318.04961612027
-converged SCF energy = -154.062117838466
-converged SCF energy = -244.072445528895
-converged SCF energy = -190.660206980226
-converged SCF energy = -297.420219984467
-converged SCF energy = -280.57950227919
-converged SCF energy = -437.072195331666
-converged SCF energy = -354.625109347148
-converged SCF energy = -297.467957663436
-converged SCF energy = -407.983202151895
-converged SCF energy = -297.466681803486
-converged SCF energy = -391.184924904742
-converged SCF energy = -207.411700169285
-converged SCF energy = -400.513596640317
-converged SCF energy = -408.027017049129
-converged SCF energy = -190.664427865415
-converged SCF energy = -391.247363627926
-converged SCF energy = -244.048720534773
-converged SCF energy = -190.668374604718
-converged SCF energy = -391.169599496838
+converged SCF energy = -350.86946317556
+converged SCF energy = -391.181761683361
+converged SCF energy = -408.031460820102
+converged SCF energy = -354.619020118836
+converged SCF energy = -318.030369786894
+converged SCF energy = -244.014802839246
+converged SCF energy = -387.418564056809
+converged SCF energy = -391.215617988056
+converged SCF energy = -354.587412223774
+converged SCF energy = -354.617093609968
+converged SCF energy = -411.703490895263
+converged SCF energy = -444.583879623052
+converged SCF energy = -367.731408803946
+converged SCF energy = -387.389793207498
+converged SCF energy = -244.092191508696
+converged SCF energy = -318.131695478855
+converged SCF energy = -354.660113266866
+converged SCF energy = -391.122734499944
+converged SCF energy = -350.843267022788
+converged SCF energy = -244.016603554251
+converged SCF energy = -448.657094664202
+converged SCF energy = -408.054325405905
+converged SCF energy = -440.80949932954
+converged SCF energy = -391.232470698449
+converged SCF energy = -483.997322567046
+converged SCF energy = -354.586142715674
+converged SCF energy = -318.008678906388
+converged SCF energy = -354.659956277047
+converged SCF energy = -408.070510789514
+converged SCF energy = -318.011681151027
+converged SCF energy = -354.595688445984
+converged SCF energy = -244.053310093557
+converged SCF energy = -391.15231238681
+converged SCF energy = -154.073840455517
+converged SCF energy = -314.2796149254
+converged SCF energy = -444.561572468662
+converged SCF energy = -483.992300579241
+converged SCF energy = -408.010481650135
+converged SCF energy = -444.611897357558
+converged SCF energy = -318.026801443497
+converged SCF energy = -391.163166627614
+converged SCF energy = -318.025403144554
+converged SCF energy = -497.956850107661
+converged SCF energy = -538.281114148023
+converged SCF energy = -448.395065119141
+converged SCF energy = -444.559052369036
+converged SCF energy = -461.463142607895
+converged SCF energy = -337.715098733887
+converged SCF energy = -494.128846081159
+converged SCF energy = -387.417470656414
+converged SCF energy = -388.284039988841
+converged SCF energy = -350.828714124274
+converged SCF energy = -444.598268307152
+converged SCF energy = -408.032690412216
+converged SCF energy = -444.584223335516
+converged SCF energy = -391.153323142191
+converged SCF energy = -404.214381699374
+converged SCF energy = -448.395256967822
+converged SCF energy = -318.024673024396
+converged SCF energy = -424.857967275395
+converged SCF energy = -337.802462690164
+converged SCF energy = -444.59602784305
+converged SCF energy = -436.946816156356
+converged SCF energy = -408.06864873004
+converged SCF energy = -354.47894144202
+converged SCF energy = -244.012063325771
+converged SCF energy = -400.343470015141
+converged SCF energy = -337.771978961956
+converged SCF energy = -444.563882951519
+converged SCF energy = -461.447866610745
+converged SCF energy = -333.940529908708
+converged SCF energy = -244.091796126494
+converged SCF energy = -371.392999188159
+converged SCF energy = -411.798776844586
+converged SCF energy = -391.189214823019
+converged SCF energy = -317.999921853361
+converged SCF energy = -354.606651104553
+converged SCF energy = -461.449008171328
+converged SCF energy = -461.349251861424
+converged SCF energy = -350.870843167171
+converged SCF energy = -538.319831977913
+converged SCF energy = -404.163369691077
+converged SCF energy = -354.605872955111
+converged SCF energy = -367.714432236613
+converged SCF energy = -444.623621141023
+converged SCF energy = -354.645184662766
+converged SCF energy = -190.667737422358
+converged SCF energy = -391.152594169393
+converged SCF energy = -244.052809346737
+converged SCF energy = -444.615948316371
+converged SCF energy = -391.127540562802
+converged SCF energy = -444.567702486151
+converged SCF energy = -444.624607443031
+converged SCF energy = -337.769528694804
+converged SCF energy = -391.169848460637
+converged SCF energy = -444.590972053942
+converged SCF energy = -497.931027131833
+converged SCF energy = -387.430683535322
+converged SCF energy = -354.662811019746
+converged SCF energy = -461.45176186019
 Aligning...
-Epoch: 0, Loss: 0.1917800924438716
-Epoch: 1, Loss: 0.20572346333699656
-Epoch: 2, Loss: 0.21251742380620525
-Epoch: 3, Loss: 0.2148960520741998
-Epoch: 4, Loss: 0.19477316971490774
-Epoch: 5, Loss: 0.21048686985372725
-Epoch: 6, Loss: 0.17505127006553742
-Epoch: 7, Loss: 0.1861483802964947
-Epoch: 8, Loss: 0.21837906330378323
-Epoch: 9, Loss: 0.2311831234416179
-Epoch: 10, Loss: 0.1668777687785984
-Epoch: 11, Loss: 0.2178377969650029
-Epoch: 12, Loss: 0.21764879960187916
-Epoch: 13, Loss: 0.19356134382646267
-Epoch: 14, Loss: 0.2092955997740496
-Epoch: 15, Loss: 0.18401886209090101
-Epoch: 16, Loss: 0.17869843122848
-Epoch: 17, Loss: 0.16639446290776594
-Epoch: 18, Loss: 0.19321736685078214
-Epoch: 19, Loss: 0.1876162305149102
-Epoch: 20, Loss: 0.1849264210606321
-Epoch: 21, Loss: 0.21203091264808116
-Epoch: 22, Loss: 0.1674210711735945
-Epoch: 23, Loss: 0.20168901638061384
-Epoch: 24, Loss: 0.20450671324653363
-Epoch: 25, Loss: 0.21444603632766232
-Epoch: 26, Loss: 0.1758399449301922
-Epoch: 27, Loss: 0.23111363916086064
-Epoch: 28, Loss: 0.22269326134078832
-Epoch: 29, Loss: 0.14835439823288613
-Epoch: 30, Loss: 0.16289518688814028
-Epoch: 31, Loss: 0.17928857442036464
-Epoch: 32, Loss: 0.20138812892721697
-Epoch: 33, Loss: 0.19422569672784004
-Epoch: 34, Loss: 0.15358043369354696
-Epoch: 35, Loss: 0.15458543670626065
-Epoch: 36, Loss: 0.1862499719985084
-Epoch: 37, Loss: 0.19739099427843143
-Epoch: 38, Loss: 0.2128187032201572
-Epoch: 39, Loss: 0.19134368631014845
-Epoch: 40, Loss: 0.18267845472762317
-Epoch: 41, Loss: 0.16735821763842396
-Epoch: 42, Loss: 0.2034031848199308
-Epoch: 43, Loss: 0.20094512201934175
-Epoch: 44, Loss: 0.18140614235197203
-Epoch: 45, Loss: 0.22869296355588148
-Epoch: 46, Loss: 0.18565389662404916
-Epoch: 47, Loss: 0.18383089383500498
-Epoch: 48, Loss: 0.18546395336323093
-Epoch: 49, Loss: 0.1855830572923216
-Epoch: 50, Loss: 0.14418757490294046
-Epoch: 51, Loss: 0.1845937691723109
-Epoch: 52, Loss: 0.20326023511489233
-Epoch: 53, Loss: 0.20210438006059886
-Epoch: 54, Loss: 0.18205601560044796
-Epoch: 55, Loss: 0.2045408881429096
-Epoch: 56, Loss: 0.21345909772709992
-Epoch: 57, Loss: 0.17991075718896996
-Epoch: 58, Loss: 0.1510881673411958
-Epoch: 59, Loss: 0.1595532885579233
-Epoch: 60, Loss: 0.19318794823757912
-Epoch: 61, Loss: 0.18719694213336752
-Epoch: 62, Loss: 0.18592713308713038
-Epoch: 63, Loss: 0.19616704238928948
-Epoch: 64, Loss: 0.1850158712738508
-Epoch: 65, Loss: 0.20334575484850245
-Epoch: 66, Loss: 0.17622680344019315
-Epoch: 67, Loss: 0.19210198583189708
-Epoch: 68, Loss: 0.19284696329173287
-Epoch: 69, Loss: 0.18178595876021075
-Epoch: 70, Loss: 0.19253832360776682
-Epoch: 71, Loss: 0.17639258674115232
-Epoch: 72, Loss: 0.2102843396401388
-Epoch: 73, Loss: 0.1917998938138355
-Epoch: 74, Loss: 0.14711620422549543
-Epoch: 75, Loss: 0.17570087917291652
-Epoch: 76, Loss: 0.1771524876581307
-Epoch: 77, Loss: 0.17038000970125197
-Epoch: 78, Loss: 0.19194957142592742
-Epoch: 79, Loss: 0.22247659448565268
-Epoch: 80, Loss: 0.1977103937097997
-Epoch: 81, Loss: 0.1741255118101863
-Epoch: 82, Loss: 0.22042233979071899
-Epoch: 83, Loss: 0.17058956497277644
-Epoch: 84, Loss: 0.23575982526336675
-Epoch: 85, Loss: 0.1770054482139389
-Epoch: 86, Loss: 0.2020691120907388
-Epoch: 87, Loss: 0.171592433590228
-Epoch: 88, Loss: 0.1662532660526869
-Epoch: 89, Loss: 0.16315543282930464
-Epoch: 90, Loss: 0.16474008092393533
-Epoch: 91, Loss: 0.21364029041604976
-Epoch: 92, Loss: 0.15299503252351446
-Epoch: 93, Loss: 0.2167074121116768
-Epoch: 94, Loss: 0.20874200339913584
-Epoch: 95, Loss: 0.1785680517475898
-Epoch: 96, Loss: 0.19576626758234056
-Epoch: 97, Loss: 0.2121912583172387
-Epoch: 98, Loss: 0.20351198907429044
-Epoch: 99, Loss: 0.21173595762530378
+Epoch: 0, Loss: 0.17177988432727162
+Epoch: 1, Loss: 0.19452077564457526
+Epoch: 2, Loss: 0.18507237028047363
+Epoch: 3, Loss: 0.2798666370556705
+Epoch: 4, Loss: 0.2916380202511072
+Epoch: 5, Loss: 0.2352562367402031
+Epoch: 6, Loss: 0.22882396279385597
+Epoch: 7, Loss: 0.24280707013622446
+Epoch: 8, Loss: 0.2654213834625114
+Epoch: 9, Loss: 0.20252932292156497
+Epoch: 10, Loss: 0.19999062122545735
+Epoch: 11, Loss: 0.22019692273384445
+Epoch: 12, Loss: 0.1968653004496823
+Epoch: 13, Loss: 0.19385535931343065
+Epoch: 14, Loss: 0.19470966511139753
+Epoch: 15, Loss: 0.22445056394691648
+Epoch: 16, Loss: 0.1975191135226194
+Epoch: 17, Loss: 0.32045321477817273
+Epoch: 18, Loss: 0.17262311894361457
+Epoch: 19, Loss: 0.20864922282903575
+Epoch: 20, Loss: 0.20404126547847168
+Epoch: 21, Loss: 0.1853035217044749
+Epoch: 22, Loss: 0.1622415697773998
+Epoch: 23, Loss: 0.20232183212323052
+Epoch: 24, Loss: 0.23822042561148526
+Epoch: 25, Loss: 0.23210064354815152
+Epoch: 26, Loss: 0.1447491749219015
+Epoch: 27, Loss: 0.2087910607257213
+Epoch: 28, Loss: 0.19937645043967217
+Epoch: 29, Loss: 0.24063200062390647
+Epoch: 30, Loss: 0.1818306323218578
+Epoch: 31, Loss: 0.17489012034312537
+Epoch: 32, Loss: 0.19642979714548672
+Epoch: 33, Loss: 0.1723274802061607
+Epoch: 34, Loss: 0.2150885854785145
+Epoch: 35, Loss: 0.2155827817992595
+Epoch: 36, Loss: 0.19902179469176637
+Epoch: 37, Loss: 0.2444241174720215
+Epoch: 38, Loss: 0.2405148833180321
+Epoch: 39, Loss: 0.21588574928369864
+Epoch: 40, Loss: 0.2085200727864451
+Epoch: 41, Loss: 0.21069964795538731
+Epoch: 42, Loss: 0.21005856049748975
+Epoch: 43, Loss: 0.17613218139498762
+Epoch: 44, Loss: 0.2068923981105833
+Epoch: 45, Loss: 0.16872578970033053
+Epoch: 46, Loss: 0.17285463720815158
+Epoch: 47, Loss: 0.2597156662613984
+Epoch: 48, Loss: 0.19670299037379535
+Epoch: 49, Loss: 0.17195294608654998
+Epoch: 50, Loss: 0.241308923861227
+Epoch: 51, Loss: 0.17834430556258762
+Epoch: 52, Loss: 0.2077074307174582
+Epoch: 53, Loss: 0.19557146224916275
+Epoch: 54, Loss: 0.19700614327252303
+Epoch: 55, Loss: 0.1709723159636277
+Epoch: 56, Loss: 0.205004534314784
+Epoch: 57, Loss: 0.21174178698303794
+Epoch: 58, Loss: 0.1594816500827263
+Epoch: 59, Loss: 0.2028695697590772
+Epoch: 60, Loss: 0.18662689994692866
+Epoch: 61, Loss: 0.22177427768248734
+Epoch: 62, Loss: 0.19631397323675032
+Epoch: 63, Loss: 0.22237174081580313
+Epoch: 64, Loss: 0.19386258186544975
+Epoch: 65, Loss: 0.16142042904725806
+Epoch: 66, Loss: 0.25064751787629747
+Epoch: 67, Loss: 0.1862404728214768
+Epoch: 68, Loss: 0.18460278173731137
+Epoch: 69, Loss: 0.2592039532658965
+Epoch: 70, Loss: 0.17457055106256014
+Epoch: 71, Loss: 0.2139058934389284
+Epoch: 72, Loss: 0.249142514541425
+Epoch: 73, Loss: 0.2165951897130577
+Epoch: 74, Loss: 0.19348084296651713
+Epoch: 75, Loss: 0.21960184992345366
+Epoch: 76, Loss: 0.17612774090030345
+Epoch: 77, Loss: 0.2094092393178268
+Epoch: 78, Loss: 0.1730297292582629
+Epoch: 79, Loss: 0.19353546984241107
+Epoch: 80, Loss: 0.23092706599228435
+Epoch: 81, Loss: 0.1857466029281111
+Epoch: 82, Loss: 0.1716521528005814
+Epoch: 83, Loss: 0.16081987105542092
+Epoch: 84, Loss: 0.2525228160813075
+Epoch: 85, Loss: 0.2604569657581122
+Epoch: 86, Loss: 0.2036408218295727
+Epoch: 87, Loss: 0.21093314583112802
+Epoch: 88, Loss: 0.24214504754167565
+Epoch: 89, Loss: 0.20734526404902798
+Epoch: 90, Loss: 0.22952890779027846
+Epoch: 91, Loss: 0.17801076062483479
+Epoch: 92, Loss: 0.24429169542464535
+Epoch: 93, Loss: 0.22363753482768572
+Epoch: 94, Loss: 0.16415536204844677
+Epoch: 95, Loss: 0.21872554858580023
+Epoch: 96, Loss: 0.21687415904389096
+Epoch: 97, Loss: 0.20745967224025205
+Epoch: 98, Loss: 0.1725790236811854
+Epoch: 99, Loss: 0.20871925452679724
 Sampling...
 	Found stable molecule 1/100
 	Found stable molecule 2/100
@@ -713,207 +713,207 @@ Sampling...
 	Found stable molecule 99/100
 	Found stable molecule 100/100
 Scoring...
-converged SCF energy = -190.656477742187
-converged SCF energy = -297.502681213242
-converged SCF energy = -154.061595413996
-converged SCF energy = -133.470921203894
-converged SCF energy = -207.518593925164
-converged SCF energy = -280.546707720955
-converged SCF energy = -133.480327795975
-converged SCF energy = -190.659423788466
-converged SCF energy = -190.660815397189
-converged SCF energy = -190.661157740638
-converged SCF energy = -133.475222887053
-converged SCF energy = -190.668372014305
-converged SCF energy = -154.060777242292
-converged SCF energy = -190.657165883823
-converged SCF energy = -260.873524128976
-converged SCF energy = -227.15224372052
-converged SCF energy = -207.432194946207
-converged SCF energy = -186.866892627461
-converged SCF energy = -133.476587723448
-converged SCF energy = -190.659943468652
-converged SCF energy = -260.894624966121
-converged SCF energy = -243.992895150974
-converged SCF energy = -190.657717722409
-converged SCF energy = -244.008526856882
-converged SCF energy = -227.156441622111
-converged SCF energy = -133.468742434628
-converged SCF energy = -227.158042914146
-converged SCF energy = -186.859734042617
-converged SCF energy = -133.477691977149
-converged SCF energy = -297.501407506286
-converged SCF energy = -190.616550939056
-converged SCF energy = -190.659541902331
-converged SCF energy = -133.47090034201
-converged SCF energy = -297.498973875933
-converged SCF energy = -190.641638066323
-converged SCF energy = -133.473783482192
-converged SCF energy = -133.466107683747
-converged SCF energy = -244.015370780501
-converged SCF energy = -297.468016165436
-converged SCF energy = -133.46085152846
-converged SCF energy = -154.021408302356
-converged SCF energy = -190.615317081998
-converged SCF energy = -190.659125301384
-converged SCF energy = -190.65532619889
-converged SCF energy = -280.591084613879
-converged SCF energy = -190.660938047774
-converged SCF energy = -244.028043560165
-converged SCF energy = -207.515872039262
-converged SCF energy = -154.062076724329
-converged SCF energy = -227.159065813555
-converged SCF energy = -186.826731589818
-converged SCF energy = -154.073830039576
-converged SCF energy = -301.128666629749
-converged SCF energy = -190.611954846299
-converged SCF energy = -133.472764663205
-converged SCF energy = -297.467551836634
-converged SCF energy = -190.66752278511
-converged SCF energy = -301.123547903022
-converged SCF energy = -186.819473960946
-converged SCF energy = -207.43969515736
-converged SCF energy = -133.472509136533
-converged SCF energy = -227.159145663071
-converged SCF energy = -154.07594633449
-converged SCF energy = -190.655021371676
-converged SCF energy = -354.614792280195
-converged SCF energy = -227.151743201975
-converged SCF energy = -190.657380441143
-converged SCF energy = -337.813418978159
-converged SCF energy = -133.474918168414
-converged SCF energy = -133.478044765358
-converged SCF energy = -190.657033973192
-converged SCF energy = -154.059473722219
-converged SCF energy = -190.606620211619
-converged SCF energy = -133.480748826284
-converged SCF energy = -207.452866897225
-converged SCF energy = -244.008287285642
-converged SCF energy = -190.658471023515
-converged SCF energy = -244.049067760702
-converged SCF energy = -133.463554382371
-converged SCF energy = -133.48147565947
-converged SCF energy = -186.825048834766
-converged SCF energy = -297.496655073998
-converged SCF energy = -207.339649567109
-converged SCF energy = -244.026356589922
-converged SCF energy = -154.062292721674
-converged SCF energy = -190.669632913488
-converged SCF energy = -133.475389362903
-converged SCF energy = -280.575849019783
-converged SCF energy = -154.061112361306
-converged SCF energy = -190.62030430895
-converged SCF energy = -133.47091894757
-converged SCF energy = -227.17369984276
-converged SCF energy = -133.476488559258
-converged SCF energy = -133.472857170125
-converged SCF energy = -190.650861811571
-converged SCF energy = -280.599753205107
-converged SCF energy = -154.062854204464
-converged SCF energy = -190.615839092436
-converged SCF energy = -186.836173422809
-converged SCF energy = -133.480592221059
+converged SCF energy = -411.687355916538
+converged SCF energy = -538.35951989308
+converged SCF energy = -391.137254921413
+converged SCF energy = -337.758377179745
+converged SCF energy = -407.980494334035
+converged SCF energy = -391.142515115877
+converged SCF energy = -301.247685138335
+converged SCF energy = -444.56639551313
+converged SCF energy = -538.288218616847
+converged SCF energy = -318.013408173535
+converged SCF energy = -444.602204634912
+converged SCF energy = -461.352174051651
+converged SCF energy = -301.231681285073
+converged SCF energy = -404.182702703438
+converged SCF energy = -371.397990215704
+converged SCF energy = -411.69968327021
+converged SCF energy = -391.167483141894
+converged SCF energy = -404.148699964008
+converged SCF energy = -391.167139278738
+converged SCF energy = -452.420939532257
+converged SCF energy = -404.22859819485
+converged SCF energy = -354.54976452399
+converged SCF energy = -350.741885503436
+converged SCF energy = -404.141263177593
+converged SCF energy = -318.130619881907
+converged SCF energy = -444.620150804792
+converged SCF energy = -407.976135119178
+converged SCF energy = -411.667275403329
+converged SCF energy = -404.137373652476
+converged SCF energy = -440.779925476032
+converged SCF energy = -411.70574207769
+converged SCF energy = -465.521747637406
+converged SCF energy = -260.836068193063
+converged SCF energy = -444.579693180214
+converged SCF energy = -411.686046999215
+converged SCF energy = -465.125893119202
+converged SCF energy = -444.595563790701
+converged SCF energy = -371.389587154668
+converged SCF energy = -465.172813545829
+converged SCF energy = -400.328156489274
+converged SCF energy = -411.694008668729
+converged SCF energy = -391.128595589894
+converged SCF energy = -411.694381263024
+converged SCF energy = -538.309202525688
+converged SCF energy = -391.174534681045
+converged SCF energy = -317.892455269948
+converged SCF energy = -387.282026222912
+converged SCF energy = -497.938999067683
+converged SCF energy = -391.140694256275
+converged SCF energy = -346.940712969052
+converged SCF energy = -411.785407601908
+converged SCF energy = -497.908722411581
+converged SCF energy = -354.64723033974
+converged SCF energy = -444.589312564134
+converged SCF energy = -391.146501859825
+converged SCF energy = -448.280925385106
+converged SCF energy = -448.285182550803
+converged SCF energy = -497.946632976993
+converged SCF energy = -448.278496151512
+converged SCF energy = -354.65993187433
+converged SCF energy = -371.402717903776
+converged SCF energy = -407.848982765497
+converged SCF energy = -391.14735009335
+converged SCF energy = -354.666649658079
+converged SCF energy = -207.516180009423
+converged SCF energy = -481.979522310595
+converged SCF energy = -465.093746349208
+converged SCF energy = -444.645277214833
+converged SCF energy = -444.418839317085
+converged SCF energy = -497.933151907602
+converged SCF energy = -448.378633724279
+converged SCF energy = -444.628482815083
+converged SCF energy = -501.753929337446
+converged SCF energy = -440.800469264236
+converged SCF energy = -538.375413434584
+converged SCF energy = -391.199898940211
+converged SCF energy = -497.931793328504
+converged SCF energy = -411.695907420429
+converged SCF energy = -408.067532349757
+converged SCF energy = -301.154603476007
+converged SCF energy = -297.440288357232
+converged SCF energy = -440.797234316821
+converged SCF energy = -501.758799778086
+converged SCF energy = -400.357962231695
+converged SCF energy = -497.93256484643
+converged SCF energy = -411.695519647518
+converged SCF energy = -440.788937113469
+converged SCF energy = -444.603190390966
+converged SCF energy = -408.016156073324
+converged SCF energy = -334.010348767499
+converged SCF energy = -538.380982977733
+converged SCF energy = -444.542723000807
+converged SCF energy = -318.051980965741
+converged SCF energy = -350.880223815989
+converged SCF energy = -444.546597076362
+converged SCF energy = -444.5967852803
+converged SCF energy = -448.273638188033
+converged SCF energy = -497.918983384675
+converged SCF energy = -346.941704784172
+converged SCF energy = -354.539017234368
 Aligning...
-Epoch: 0, Loss: 0.19391548834120964
-Epoch: 1, Loss: 0.2195774759353418
-Epoch: 2, Loss: 0.22668809694820483
-Epoch: 3, Loss: 0.2008384915346784
-Epoch: 4, Loss: 0.1816810682316716
-Epoch: 5, Loss: 0.19113165340246632
-Epoch: 6, Loss: 0.18829521728796472
-Epoch: 7, Loss: 0.17665323009645995
-Epoch: 8, Loss: 0.20519832100034205
-Epoch: 9, Loss: 0.18762143330078332
-Epoch: 10, Loss: 0.20700195410270147
-Epoch: 11, Loss: 0.2106554263453866
-Epoch: 12, Loss: 0.2071495263545046
-Epoch: 13, Loss: 0.1766848251944262
-Epoch: 14, Loss: 0.20127223787521453
-Epoch: 15, Loss: 0.21204531844084265
-Epoch: 16, Loss: 0.2086633959228078
-Epoch: 17, Loss: 0.15227973655820504
-Epoch: 18, Loss: 0.18146058905364384
-Epoch: 19, Loss: 0.16389937732843066
-Epoch: 20, Loss: 0.17128004405712652
-Epoch: 21, Loss: 0.15759651394181812
-Epoch: 22, Loss: 0.20536395271278182
-Epoch: 23, Loss: 0.20570720206138526
-Epoch: 24, Loss: 0.191272047640125
-Epoch: 25, Loss: 0.18253789346672078
-Epoch: 26, Loss: 0.21654908811233178
-Epoch: 27, Loss: 0.17749002736277397
-Epoch: 28, Loss: 0.16697820737535204
-Epoch: 29, Loss: 0.18887725932509125
-Epoch: 30, Loss: 0.18724060870144876
-Epoch: 31, Loss: 0.1610182810652519
-Epoch: 32, Loss: 0.19181034328621496
-Epoch: 33, Loss: 0.14127291485048074
-Epoch: 34, Loss: 0.1636184807178472
-Epoch: 35, Loss: 0.17760622904807524
-Epoch: 36, Loss: 0.18694530356154318
-Epoch: 37, Loss: 0.16502053197573494
-Epoch: 38, Loss: 0.15613544869848892
-Epoch: 39, Loss: 0.1786272241719584
-Epoch: 40, Loss: 0.1696195835537843
-Epoch: 41, Loss: 0.19678301060335743
-Epoch: 42, Loss: 0.1776782060594855
-Epoch: 43, Loss: 0.17570431140607387
-Epoch: 44, Loss: 0.16873561452470504
-Epoch: 45, Loss: 0.1841779512018193
-Epoch: 46, Loss: 0.20420507125788015
-Epoch: 47, Loss: 0.13693229541787824
-Epoch: 48, Loss: 0.184617425143774
-Epoch: 49, Loss: 0.22123362095276192
-Epoch: 50, Loss: 0.1625963152643973
-Epoch: 51, Loss: 0.19307460964127388
-Epoch: 52, Loss: 0.17048535019255898
-Epoch: 53, Loss: 0.18119303193290356
-Epoch: 54, Loss: 0.19974276355193318
-Epoch: 55, Loss: 0.17680359919588035
-Epoch: 56, Loss: 0.1903396691107927
-Epoch: 57, Loss: 0.17711049054120412
-Epoch: 58, Loss: 0.18784291788376348
-Epoch: 59, Loss: 0.19818827406776954
-Epoch: 60, Loss: 0.1760608034022184
-Epoch: 61, Loss: 0.19425484558356104
-Epoch: 62, Loss: 0.1777945563364676
-Epoch: 63, Loss: 0.17307181169573738
-Epoch: 64, Loss: 0.1956573074847414
-Epoch: 65, Loss: 0.16686887229941083
-Epoch: 66, Loss: 0.2309458846938268
-Epoch: 67, Loss: 0.1945799966971976
-Epoch: 68, Loss: 0.20521899127460352
-Epoch: 69, Loss: 0.17415502957307902
-Epoch: 70, Loss: 0.1730474974908617
-Epoch: 71, Loss: 0.1961540140187859
-Epoch: 72, Loss: 0.1871116285683085
-Epoch: 73, Loss: 0.1890583142958421
-Epoch: 74, Loss: 0.19910372083473302
-Epoch: 75, Loss: 0.17049387796788032
-Epoch: 76, Loss: 0.16637633108914607
-Epoch: 77, Loss: 0.1898131065867191
-Epoch: 78, Loss: 0.21427293606863912
-Epoch: 79, Loss: 0.1749243747850706
-Epoch: 80, Loss: 0.16143827109984826
-Epoch: 81, Loss: 0.1628837565831903
-Epoch: 82, Loss: 0.19480851724647374
-Epoch: 83, Loss: 0.20131332313894057
-Epoch: 84, Loss: 0.15732406246434694
-Epoch: 85, Loss: 0.19310963788587068
-Epoch: 86, Loss: 0.21874540911281956
-Epoch: 87, Loss: 0.20530688605526862
-Epoch: 88, Loss: 0.16930378686301603
-Epoch: 89, Loss: 0.1827928367938207
-Epoch: 90, Loss: 0.22929870230570382
-Epoch: 91, Loss: 0.1990154653067685
-Epoch: 92, Loss: 0.1932486652066936
-Epoch: 93, Loss: 0.1645876751841921
-Epoch: 94, Loss: 0.21638876534955404
-Epoch: 95, Loss: 0.16133227053631582
-Epoch: 96, Loss: 0.16214178222963654
-Epoch: 97, Loss: 0.22625310235426227
-Epoch: 98, Loss: 0.2042815146513474
-Epoch: 99, Loss: 0.16934393833543973
+Epoch: 0, Loss: 0.19027296256021353
+Epoch: 1, Loss: 0.19740895160600708
+Epoch: 2, Loss: 0.18670351066433843
+Epoch: 3, Loss: 0.23351740323205358
+Epoch: 4, Loss: 0.17840183565736267
+Epoch: 5, Loss: 0.16849268016237987
+Epoch: 6, Loss: 0.22085488504336134
+Epoch: 7, Loss: 0.2809003223831153
+Epoch: 8, Loss: 0.2106198352343318
+Epoch: 9, Loss: 0.20656544131915602
+Epoch: 10, Loss: 0.19944639034876233
+Epoch: 11, Loss: 0.24015679642061447
+Epoch: 12, Loss: 0.2067864029151805
+Epoch: 13, Loss: 0.20900485334389396
+Epoch: 14, Loss: 0.19338977569602672
+Epoch: 15, Loss: 0.23010834837705724
+Epoch: 16, Loss: 0.1994524699047773
+Epoch: 17, Loss: 0.20816240534216782
+Epoch: 18, Loss: 0.2462065461834453
+Epoch: 19, Loss: 0.16412400189335333
+Epoch: 20, Loss: 0.21442745119662615
+Epoch: 21, Loss: 0.19142148777960358
+Epoch: 22, Loss: 0.21255452153592752
+Epoch: 23, Loss: 0.25837220890497586
+Epoch: 24, Loss: 0.1942059256619625
+Epoch: 25, Loss: 0.1976271726393063
+Epoch: 26, Loss: 0.2135533709849958
+Epoch: 27, Loss: 0.1979491319762421
+Epoch: 28, Loss: 0.2094947627926575
+Epoch: 29, Loss: 0.18867325630261164
+Epoch: 30, Loss: 0.21832666669306192
+Epoch: 31, Loss: 0.20615056201835402
+Epoch: 32, Loss: 0.20522999665462327
+Epoch: 33, Loss: 0.18920472763143178
+Epoch: 34, Loss: 0.20520774194146352
+Epoch: 35, Loss: 0.2286083945356227
+Epoch: 36, Loss: 0.18240874458857498
+Epoch: 37, Loss: 0.23688156270446223
+Epoch: 38, Loss: 0.1995101641311355
+Epoch: 39, Loss: 0.20732818082589827
+Epoch: 40, Loss: 0.180796695226881
+Epoch: 41, Loss: 0.18794106989590786
+Epoch: 42, Loss: 0.244464494291436
+Epoch: 43, Loss: 0.26559445805562754
+Epoch: 44, Loss: 0.18548945799730254
+Epoch: 45, Loss: 0.21086147931706836
+Epoch: 46, Loss: 0.22005363625836405
+Epoch: 47, Loss: 0.17682746079403522
+Epoch: 48, Loss: 0.16252556566973003
+Epoch: 49, Loss: 0.22255537245329632
+Epoch: 50, Loss: 0.17212752239538276
+Epoch: 51, Loss: 0.24535505861733847
+Epoch: 52, Loss: 0.2179239545245527
+Epoch: 53, Loss: 0.2083786753240946
+Epoch: 54, Loss: 0.20350069702030257
+Epoch: 55, Loss: 0.18595978461913118
+Epoch: 56, Loss: 0.1860478863761127
+Epoch: 57, Loss: 0.22319028994870216
+Epoch: 58, Loss: 0.20790678800887313
+Epoch: 59, Loss: 0.21206650350392386
+Epoch: 60, Loss: 0.1993517609906958
+Epoch: 61, Loss: 0.1992371437427562
+Epoch: 62, Loss: 0.2075813819954076
+Epoch: 63, Loss: 0.23510631687532918
+Epoch: 64, Loss: 0.1989023619335972
+Epoch: 65, Loss: 0.17613444274277104
+Epoch: 66, Loss: 0.23500899330860286
+Epoch: 67, Loss: 0.20429018552474376
+Epoch: 68, Loss: 0.18009008772363794
+Epoch: 69, Loss: 0.2148216835104992
+Epoch: 70, Loss: 0.25646999104741247
+Epoch: 71, Loss: 0.1983322108090929
+Epoch: 72, Loss: 0.19749654950557016
+Epoch: 73, Loss: 0.26964692501778037
+Epoch: 74, Loss: 0.18430794559936886
+Epoch: 75, Loss: 0.2378777000479802
+Epoch: 76, Loss: 0.19994515461755286
+Epoch: 77, Loss: 0.19761456972367597
+Epoch: 78, Loss: 0.1922107888816444
+Epoch: 79, Loss: 0.21923015205673324
+Epoch: 80, Loss: 0.17099887233373115
+Epoch: 81, Loss: 0.2465431334489746
+Epoch: 82, Loss: 0.1680534806087482
+Epoch: 83, Loss: 0.20680666130164263
+Epoch: 84, Loss: 0.18151267776087773
+Epoch: 85, Loss: 0.19051948536567273
+Epoch: 86, Loss: 0.19160672350776803
+Epoch: 87, Loss: 0.1729755403665001
+Epoch: 88, Loss: 0.1836679114574791
+Epoch: 89, Loss: 0.20575285507159463
+Epoch: 90, Loss: 0.19160055344685759
+Epoch: 91, Loss: 0.2343555042923265
+Epoch: 92, Loss: 0.2146826145202212
+Epoch: 93, Loss: 0.19785129853289513
+Epoch: 94, Loss: 0.20459043425263138
+Epoch: 95, Loss: 0.203307837970456
+Epoch: 96, Loss: 0.1967211040352528
+Epoch: 97, Loss: 0.2165655783172237
+Epoch: 98, Loss: 0.1788694045951528
+Epoch: 99, Loss: 0.24587128017422633
 Sampling...
 	Found stable molecule 1/100
 	Found stable molecule 2/100
@@ -1016,2932 +1016,73 @@ Sampling...
 	Found stable molecule 99/100
 	Found stable molecule 100/100
 Scoring...
-converged SCF energy = -133.475296654949
-converged SCF energy = -133.470747266107
-converged SCF energy = -190.653548553862
-converged SCF energy = -133.469373920333
-converged SCF energy = -133.465789016588
-converged SCF energy = -227.14351952419
-converged SCF energy = -186.755611061713
-converged SCF energy = -133.471332428198
-converged SCF energy = -227.144792598988
-converged SCF energy = -133.468574418681
-converged SCF energy = -133.46278348881
-converged SCF energy = -133.478509226127
-converged SCF energy = -186.861181538588
-converged SCF energy = -243.932115861838
-converged SCF energy = -133.467487801217
-converged SCF energy = -154.058055481546
-converged SCF energy = -133.465986262123
-converged SCF energy = -133.469163589066
-converged SCF energy = -133.460924714617
-converged SCF energy = -133.476940815762
-converged SCF energy = -227.141779783745
-converged SCF energy = -133.461739828637
-converged SCF energy = -133.46997250857
-converged SCF energy = -133.477101034027
-converged SCF energy = -133.483342840598
-converged SCF energy = -154.079669409428
-converged SCF energy = -227.1563767699
-converged SCF energy = -133.470848616034
-converged SCF energy = -133.468365089654
-converged SCF energy = -244.007288998132
-converged SCF energy = -133.468287707508
-converged SCF energy = -133.468803665156
-converged SCF energy = -133.470612711551
-converged SCF energy = -133.472540730727
-converged SCF energy = -190.607763401403
-converged SCF energy = -227.145290870201
-converged SCF energy = -133.467145336332
-converged SCF energy = -133.463242823092
-converged SCF energy = -133.470506004737
-converged SCF energy = -133.474010148118
-converged SCF energy = -133.469566735794
-converged SCF energy = -133.470436153152
-converged SCF energy = -133.475091665671
-converged SCF energy = -133.470668587031
-converged SCF energy = -133.477287308071
-converged SCF energy = -133.462776014313
-converged SCF energy = -133.472375245309
-converged SCF energy = -133.471369400639
-converged SCF energy = -133.458741628848
-converged SCF energy = -133.466046912468
-converged SCF energy = -133.481704849328
-converged SCF energy = -133.467730914472
-converged SCF energy = -154.054724861411
-converged SCF energy = -244.035914531326
-converged SCF energy = -133.475594433386
-converged SCF energy = -133.47827333403
-converged SCF energy = -186.862670814682
-converged SCF energy = -190.654017743029
-converged SCF energy = -133.469584153793
-converged SCF energy = -133.46616252818
-converged SCF energy = -133.466840732616
-converged SCF energy = -133.465198430227
-converged SCF energy = -133.470631434823
-converged SCF energy = -133.483084294591
-converged SCF energy = -133.469026930471
-converged SCF energy = -243.967586379874
-converged SCF energy = -154.057440328391
-converged SCF energy = -133.471325865237
-converged SCF energy = -133.466133953499
-converged SCF energy = -133.465864478897
-converged SCF energy = -133.468834095461
-converged SCF energy = -169.927258578848
-converged SCF energy = -227.164387878749
-converged SCF energy = -133.479088662582
-converged SCF energy = -133.479012764942
-converged SCF energy = -186.788968066803
-converged SCF energy = -133.4704796772
-converged SCF energy = -133.459704153821
-converged SCF energy = -133.476480232603
-converged SCF energy = -227.163567839846
-converged SCF energy = -227.163339261003
-converged SCF energy = -154.080670106111
-converged SCF energy = -133.476556539951
-converged SCF energy = -190.657929713727
-converged SCF energy = -243.935729270418
-converged SCF energy = -133.476823102652
-converged SCF energy = -133.476165308151
-converged SCF energy = -133.474317693198
-converged SCF energy = -190.592117917644
-converged SCF energy = -154.054622129305
-converged SCF energy = -133.473951145363
-converged SCF energy = -133.47617525601
-converged SCF energy = -190.645260093917
-converged SCF energy = -133.472553592216
-converged SCF energy = -133.476907188223
-converged SCF energy = -154.058380215929
-converged SCF energy = -133.463338071748
-converged SCF energy = -133.469097563797
-converged SCF energy = -223.348499879004
-converged SCF energy = -133.480530327272
-Aligning...
-Epoch: 0, Loss: 0.15627898240292123
-Epoch: 1, Loss: 0.21501973296590626
-Epoch: 2, Loss: 0.19569682205647923
-Epoch: 3, Loss: 0.19813480673334624
-Epoch: 4, Loss: 0.20660379730621617
-Epoch: 5, Loss: 0.17532648348652724
-Epoch: 6, Loss: 0.18919601243331055
-Epoch: 7, Loss: 0.1890186899441493
-Epoch: 8, Loss: 0.17822900919884738
-Epoch: 9, Loss: 0.1400275265732835
-Epoch: 10, Loss: 0.1655031542434197
-Epoch: 11, Loss: 0.19532655859820844
-Epoch: 12, Loss: 0.16756779209240497
-Epoch: 13, Loss: 0.1454436889326252
-Epoch: 14, Loss: 0.1526691101341042
-Epoch: 15, Loss: 0.1852439647708487
-Epoch: 16, Loss: 0.17250548942906804
-Epoch: 17, Loss: 0.18313482363499886
-Epoch: 18, Loss: 0.1859130511243257
-Epoch: 19, Loss: 0.20978930165341866
-Epoch: 20, Loss: 0.17984452132007206
-Epoch: 21, Loss: 0.17919750450211322
-Epoch: 22, Loss: 0.1699850092257405
-Epoch: 23, Loss: 0.20415037152749238
-Epoch: 24, Loss: 0.18451345767397243
-Epoch: 25, Loss: 0.1912843345664984
-Epoch: 26, Loss: 0.1699120146838766
-Epoch: 27, Loss: 0.16321230620767693
-Epoch: 28, Loss: 0.18769542458907143
-Epoch: 29, Loss: 0.15432670377868038
-Epoch: 30, Loss: 0.1982427848945661
-Epoch: 31, Loss: 0.19619166305935637
-Epoch: 32, Loss: 0.19543353802939614
-Epoch: 33, Loss: 0.20781428640967511
-Epoch: 34, Loss: 0.17411034581773105
-Epoch: 35, Loss: 0.17588542928493234
-Epoch: 36, Loss: 0.18335489286991752
-Epoch: 37, Loss: 0.1537204269655093
-Epoch: 38, Loss: 0.17152249558323263
-Epoch: 39, Loss: 0.190858253778
-Epoch: 40, Loss: 0.18186740032307838
-Epoch: 41, Loss: 0.15644102829098816
-Epoch: 42, Loss: 0.17604625234719526
-Epoch: 43, Loss: 0.17245555833631168
-Epoch: 44, Loss: 0.19059964930054946
-Epoch: 45, Loss: 0.18084463198553125
-Epoch: 46, Loss: 0.18559324800690488
-Epoch: 47, Loss: 0.1643955962435021
-Epoch: 48, Loss: 0.17812663027149686
-Epoch: 49, Loss: 0.17705385276928395
-Epoch: 50, Loss: 0.18001393971012739
-Epoch: 51, Loss: 0.1796289862622647
-Epoch: 52, Loss: 0.1693885261578582
-Epoch: 53, Loss: 0.16706744131759188
-Epoch: 54, Loss: 0.18921011896502918
-Epoch: 55, Loss: 0.16294198916663086
-Epoch: 56, Loss: 0.140678568447264
-Epoch: 57, Loss: 0.20177069926003668
-Epoch: 58, Loss: 0.16640019748469925
-Epoch: 59, Loss: 0.18058226996178248
-Epoch: 60, Loss: 0.15121290429983517
-Epoch: 61, Loss: 0.18467731018403302
-Epoch: 62, Loss: 0.1743587894769265
-Epoch: 63, Loss: 0.18245024347856387
-Epoch: 64, Loss: 0.20546251646299118
-Epoch: 65, Loss: 0.18567350968888371
-Epoch: 66, Loss: 0.17285533630116048
-Epoch: 67, Loss: 0.19006806130603493
-Epoch: 68, Loss: 0.15756299231426385
-Epoch: 69, Loss: 0.160352483375057
-Epoch: 70, Loss: 0.19533372980575767
-Epoch: 71, Loss: 0.18449681373564644
-Epoch: 72, Loss: 0.20204539361298288
-Epoch: 73, Loss: 0.17712924204052122
-Epoch: 74, Loss: 0.17692321611112266
-Epoch: 75, Loss: 0.17634615640316476
-Epoch: 76, Loss: 0.1719562189631582
-Epoch: 77, Loss: 0.19024601907411376
-Epoch: 78, Loss: 0.16621467089908173
-Epoch: 79, Loss: 0.18333135385900337
-Epoch: 80, Loss: 0.16547589686670602
-Epoch: 81, Loss: 0.17153510908113334
-Epoch: 82, Loss: 0.13952872330610952
-Epoch: 83, Loss: 0.18709437865736814
-Epoch: 84, Loss: 0.1677557884874285
-Epoch: 85, Loss: 0.15915847321686113
-Epoch: 86, Loss: 0.16697223047135137
-Epoch: 87, Loss: 0.1769949782064189
-Epoch: 88, Loss: 0.180239701882579
-Epoch: 89, Loss: 0.19394954336861073
-Epoch: 90, Loss: 0.1777009752824318
-Epoch: 91, Loss: 0.1662420331136037
-Epoch: 92, Loss: 0.17639265610521207
-Epoch: 93, Loss: 0.18144106629347215
-Epoch: 94, Loss: 0.20115194368752426
-Epoch: 95, Loss: 0.158174877561644
-Epoch: 96, Loss: 0.1997883393896538
-Epoch: 97, Loss: 0.16380170568802294
-Epoch: 98, Loss: 0.17499942480354086
-Epoch: 99, Loss: 0.18125631037321324
-Sampling...
-	Found stable molecule 1/100
-	Found stable molecule 2/100
-	Found stable molecule 3/100
-	Found stable molecule 4/100
-	Found stable molecule 5/100
-	Found stable molecule 6/100
-	Found stable molecule 7/100
-	Found stable molecule 8/100
-	Found stable molecule 9/100
-	Found stable molecule 10/100
-	Found stable molecule 11/100
-	Found stable molecule 12/100
-	Found stable molecule 13/100
-	Found stable molecule 14/100
-	Found stable molecule 15/100
-	Found stable molecule 16/100
-	Found stable molecule 17/100
-	Found stable molecule 18/100
-	Found stable molecule 19/100
-	Found stable molecule 20/100
-	Found stable molecule 21/100
-	Found stable molecule 22/100
-	Found stable molecule 23/100
-	Found stable molecule 24/100
-	Found stable molecule 25/100
-	Found stable molecule 26/100
-	Found stable molecule 27/100
-	Found stable molecule 28/100
-	Found stable molecule 29/100
-	Found stable molecule 30/100
-	Found stable molecule 31/100
-	Found stable molecule 32/100
-	Found stable molecule 33/100
-	Found stable molecule 34/100
-	Found stable molecule 35/100
-	Found stable molecule 36/100
-	Found stable molecule 37/100
-	Found stable molecule 38/100
-	Found stable molecule 39/100
-	Found stable molecule 40/100
-	Found stable molecule 41/100
-	Found stable molecule 42/100
-	Found stable molecule 43/100
-	Found stable molecule 44/100
-	Found stable molecule 45/100
-	Found stable molecule 46/100
-	Found stable molecule 47/100
-	Found stable molecule 48/100
-	Found stable molecule 49/100
-	Found stable molecule 50/100
-	Found stable molecule 51/100
-	Found stable molecule 52/100
-	Found stable molecule 53/100
-	Found stable molecule 54/100
-	Found stable molecule 55/100
-	Found stable molecule 56/100
-	Found stable molecule 57/100
-	Found stable molecule 58/100
-	Found stable molecule 59/100
-	Found stable molecule 60/100
-	Found stable molecule 61/100
-	Found stable molecule 62/100
-	Found stable molecule 63/100
-	Found stable molecule 64/100
-	Found stable molecule 65/100
-	Found stable molecule 66/100
-	Found stable molecule 67/100
-	Found stable molecule 68/100
-	Found stable molecule 69/100
-	Found stable molecule 70/100
-	Found stable molecule 71/100
-	Found stable molecule 72/100
-	Found stable molecule 73/100
-	Found stable molecule 74/100
-	Found stable molecule 75/100
-	Found stable molecule 76/100
-	Found stable molecule 77/100
-	Found stable molecule 78/100
-	Found stable molecule 79/100
-	Found stable molecule 80/100
-	Found stable molecule 81/100
-	Found stable molecule 82/100
-	Found stable molecule 83/100
-	Found stable molecule 84/100
-	Found stable molecule 85/100
-	Found stable molecule 86/100
-	Found stable molecule 87/100
-	Found stable molecule 88/100
-	Found stable molecule 89/100
-	Found stable molecule 90/100
-	Found stable molecule 91/100
-	Found stable molecule 92/100
-	Found stable molecule 93/100
-	Found stable molecule 94/100
-	Found stable molecule 95/100
-	Found stable molecule 96/100
-	Found stable molecule 97/100
-	Found stable molecule 98/100
-	Found stable molecule 99/100
-	Found stable molecule 100/100
-Scoring...
-converged SCF energy = -133.46372040471
-converged SCF energy = -133.471214986747
-converged SCF energy = -133.481980642176
-converged SCF energy = -133.469196584652
-converged SCF energy = -154.058422967014
-converged SCF energy = -133.47191122314
-converged SCF energy = -133.465670487466
-converged SCF energy = -133.466020544748
-converged SCF energy = -133.469143249138
-converged SCF energy = -133.470556126308
-converged SCF energy = -133.48021789868
-converged SCF energy = -154.05893582036
-converged SCF energy = -133.471819254508
-converged SCF energy = -133.477794457435
-converged SCF energy = -133.469857362143
-converged SCF energy = -133.46939406905
-converged SCF energy = -133.466273957326
-converged SCF energy = -133.463775102813
-converged SCF energy = -133.475664989969
-converged SCF energy = -133.475413382008
-converged SCF energy = -133.471893457507
-converged SCF energy = -133.465188314215
-converged SCF energy = -133.471558222459
-converged SCF energy = -133.463751267006
-converged SCF energy = -227.15534864445
-converged SCF energy = -133.474597868444
-converged SCF energy = -133.469735068737
-converged SCF energy = -133.472814176936
-converged SCF energy = -133.476456697324
-converged SCF energy = -133.475092598495
-converged SCF energy = -154.076231836446
-converged SCF energy = -133.473748974545
-converged SCF energy = -133.473381309647
-converged SCF energy = -133.473346958699
-converged SCF energy = -154.057493747172
-converged SCF energy = -133.465272406778
-converged SCF energy = -133.4613722903
-converged SCF energy = -190.547699244327
-converged SCF energy = -133.473006975029
-converged SCF energy = -133.477796318343
-converged SCF energy = -133.480838052203
-converged SCF energy = -133.479155008394
-converged SCF energy = -133.471888329986
-converged SCF energy = -133.479866642525
-converged SCF energy = -133.470290734114
-converged SCF energy = -133.475336260937
-converged SCF energy = -133.467308725567
-converged SCF energy = -186.823349769926
-converged SCF energy = -133.478008281668
-converged SCF energy = -227.167483431603
-converged SCF energy = -227.176453453575
-converged SCF energy = -133.476360336236
-converged SCF energy = -133.468434282521
-converged SCF energy = -133.46439591353
-converged SCF energy = -227.168420536835
-converged SCF energy = -133.481423584472
-converged SCF energy = -133.471765651308
-converged SCF energy = -133.465216566916
-converged SCF energy = -133.477111642143
-converged SCF energy = -133.469343798015
-converged SCF energy = -133.46652910102
-converged SCF energy = -133.474877146159
-converged SCF energy = -133.466862001378
-converged SCF energy = -133.465244267324
-converged SCF energy = -133.470213391737
-converged SCF energy = -133.473499855102
-converged SCF energy = -133.47308227698
-converged SCF energy = -133.473095611049
-converged SCF energy = -133.458222479078
-converged SCF energy = -133.47208894121
-converged SCF energy = -133.466363790259
-converged SCF energy = -133.478935206339
-converged SCF energy = -133.469051982887
-converged SCF energy = -133.468806298611
-converged SCF energy = -133.475391833966
-converged SCF energy = -133.472034698924
-converged SCF energy = -133.47872256743
-converged SCF energy = -133.468206705675
-converged SCF energy = -133.467375875196
-converged SCF energy = -133.469377584213
-converged SCF energy = -154.056256976942
-converged SCF energy = -133.473310817281
-converged SCF energy = -133.479490836545
-converged SCF energy = -133.471618331205
-converged SCF energy = -133.467849370534
-converged SCF energy = -133.461075545925
-converged SCF energy = -133.476983711934
-converged SCF energy = -133.467367633582
-converged SCF energy = -133.468249732884
-converged SCF energy = -133.477797218977
-converged SCF energy = -133.479440500248
-converged SCF energy = -133.469896433242
-converged SCF energy = -133.46605185842
-converged SCF energy = -133.471420351125
-converged SCF energy = -133.465986940405
-converged SCF energy = -133.476451129146
-converged SCF energy = -133.476714624901
-converged SCF energy = -133.471294705018
-converged SCF energy = -133.465868506516
-converged SCF energy = -133.467329302786
-Aligning...
-Epoch: 0, Loss: 0.14662928605063172
-Epoch: 1, Loss: 0.21310785673561092
-Epoch: 2, Loss: 0.173098231818087
-Epoch: 3, Loss: 0.17968923324415628
-Epoch: 4, Loss: 0.2010001694623096
-Epoch: 5, Loss: 0.19301793581642038
-Epoch: 6, Loss: 0.18068071431715033
-Epoch: 7, Loss: 0.20822742304498779
-Epoch: 8, Loss: 0.1837591016362221
-Epoch: 9, Loss: 0.1847928483216812
-Epoch: 10, Loss: 0.16329300260725912
-Epoch: 11, Loss: 0.16548138881932845
-Epoch: 12, Loss: 0.19597399972417917
-Epoch: 13, Loss: 0.13766893962280383
-Epoch: 14, Loss: 0.1917445264453628
-Epoch: 15, Loss: 0.1808412742950332
-Epoch: 16, Loss: 0.17231758487821766
-Epoch: 17, Loss: 0.18244168045929363
-Epoch: 18, Loss: 0.17551408658163553
-Epoch: 19, Loss: 0.17991920092284588
-Epoch: 20, Loss: 0.1747110926613705
-Epoch: 21, Loss: 0.18513246701461492
-Epoch: 22, Loss: 0.17501042666276326
-Epoch: 23, Loss: 0.18499715668809255
-Epoch: 24, Loss: 0.15755125896519862
-Epoch: 25, Loss: 0.17692431564582442
-Epoch: 26, Loss: 0.16807583660859846
-Epoch: 27, Loss: 0.16992655022594366
-Epoch: 28, Loss: 0.18691135849937127
-Epoch: 29, Loss: 0.1589055759497878
-Epoch: 30, Loss: 0.16335508848595723
-Epoch: 31, Loss: 0.16728984326907295
-Epoch: 32, Loss: 0.19771905011654908
-Epoch: 33, Loss: 0.15658164132727334
-Epoch: 34, Loss: 0.17787548530927963
-Epoch: 35, Loss: 0.15818201713734736
-Epoch: 36, Loss: 0.16202140398755902
-Epoch: 37, Loss: 0.1695325057577073
-Epoch: 38, Loss: 0.16308458539469756
-Epoch: 39, Loss: 0.17937677760280504
-Epoch: 40, Loss: 0.18193840305067138
-Epoch: 41, Loss: 0.15586271501726257
-Epoch: 42, Loss: 0.17006126682708167
-Epoch: 43, Loss: 0.1897361100368103
-Epoch: 44, Loss: 0.18413678900209532
-Epoch: 45, Loss: 0.18895179341416427
-Epoch: 46, Loss: 0.19597155128948004
-Epoch: 47, Loss: 0.15134181056588197
-Epoch: 48, Loss: 0.17110673917418354
-Epoch: 49, Loss: 0.15930381405024288
-Epoch: 50, Loss: 0.16114366700535282
-Epoch: 51, Loss: 0.1490791647456273
-Epoch: 52, Loss: 0.15156302483310014
-Epoch: 53, Loss: 0.1523197542368588
-Epoch: 54, Loss: 0.15730402975240437
-Epoch: 55, Loss: 0.1784392772057177
-Epoch: 56, Loss: 0.1584567714267871
-Epoch: 57, Loss: 0.14935618945642623
-Epoch: 58, Loss: 0.20302141193765935
-Epoch: 59, Loss: 0.16459924035200274
-Epoch: 60, Loss: 0.16908370598799713
-Epoch: 61, Loss: 0.20765096342662567
-Epoch: 62, Loss: 0.14909763948844817
-Epoch: 63, Loss: 0.19335937807177103
-Epoch: 64, Loss: 0.15369333079586986
-Epoch: 65, Loss: 0.157893614221683
-Epoch: 66, Loss: 0.16879403816181268
-Epoch: 67, Loss: 0.1946632515062729
-Epoch: 68, Loss: 0.16709020554838477
-Epoch: 69, Loss: 0.16727685979913726
-Epoch: 70, Loss: 0.20356369343684796
-Epoch: 71, Loss: 0.16291458449234505
-Epoch: 72, Loss: 0.1538164509294851
-Epoch: 73, Loss: 0.170807453020876
-Epoch: 74, Loss: 0.17449920192814333
-Epoch: 75, Loss: 0.17288373057326353
-Epoch: 76, Loss: 0.15927137837354285
-Epoch: 77, Loss: 0.15247563261213049
-Epoch: 78, Loss: 0.1822136086866345
-Epoch: 79, Loss: 0.14486900828124227
-Epoch: 80, Loss: 0.2029026227132305
-Epoch: 81, Loss: 0.1889163783100931
-Epoch: 82, Loss: 0.19179991532914245
-Epoch: 83, Loss: 0.16708525229559132
-Epoch: 84, Loss: 0.20432400581832652
-Epoch: 85, Loss: 0.1612973373851486
-Epoch: 86, Loss: 0.1676305674957827
-Epoch: 87, Loss: 0.19166801302678585
-Epoch: 88, Loss: 0.16387546254741886
-Epoch: 89, Loss: 0.15275041749337745
-Epoch: 90, Loss: 0.16842433994290598
-Epoch: 91, Loss: 0.1697049847508098
-Epoch: 92, Loss: 0.19615505469384012
-Epoch: 93, Loss: 0.17966495769611854
-Epoch: 94, Loss: 0.14670060455573497
-Epoch: 95, Loss: 0.178207198093624
-Epoch: 96, Loss: 0.16865491870313307
-Epoch: 97, Loss: 0.1882799968008287
-Epoch: 98, Loss: 0.16218426885888307
-Epoch: 99, Loss: 0.1726679671171971
-Sampling...
-	Found stable molecule 1/100
-	Found stable molecule 2/100
-	Found stable molecule 3/100
-	Found stable molecule 4/100
-	Found stable molecule 5/100
-	Found stable molecule 6/100
-	Found stable molecule 7/100
-	Found stable molecule 8/100
-	Found stable molecule 9/100
-	Found stable molecule 10/100
-	Found stable molecule 11/100
-	Found stable molecule 12/100
-	Found stable molecule 13/100
-	Found stable molecule 14/100
-	Found stable molecule 15/100
-	Found stable molecule 16/100
-	Found stable molecule 17/100
-	Found stable molecule 18/100
-	Found stable molecule 19/100
-	Found stable molecule 20/100
-	Found stable molecule 21/100
-	Found stable molecule 22/100
-	Found stable molecule 23/100
-	Found stable molecule 24/100
-	Found stable molecule 25/100
-	Found stable molecule 26/100
-	Found stable molecule 27/100
-	Found stable molecule 28/100
-	Found stable molecule 29/100
-	Found stable molecule 30/100
-	Found stable molecule 31/100
-	Found stable molecule 32/100
-	Found stable molecule 33/100
-	Found stable molecule 34/100
-	Found stable molecule 35/100
-	Found stable molecule 36/100
-	Found stable molecule 37/100
-	Found stable molecule 38/100
-	Found stable molecule 39/100
-	Found stable molecule 40/100
-	Found stable molecule 41/100
-	Found stable molecule 42/100
-	Found stable molecule 43/100
-	Found stable molecule 44/100
-	Found stable molecule 45/100
-	Found stable molecule 46/100
-	Found stable molecule 47/100
-	Found stable molecule 48/100
-	Found stable molecule 49/100
-	Found stable molecule 50/100
-	Found stable molecule 51/100
-	Found stable molecule 52/100
-	Found stable molecule 53/100
-	Found stable molecule 54/100
-	Found stable molecule 55/100
-	Found stable molecule 56/100
-	Found stable molecule 57/100
-	Found stable molecule 58/100
-	Found stable molecule 59/100
-	Found stable molecule 60/100
-	Found stable molecule 61/100
-	Found stable molecule 62/100
-	Found stable molecule 63/100
-	Found stable molecule 64/100
-	Found stable molecule 65/100
-	Found stable molecule 66/100
-	Found stable molecule 67/100
-	Found stable molecule 68/100
-	Found stable molecule 69/100
-	Found stable molecule 70/100
-	Found stable molecule 71/100
-	Found stable molecule 72/100
-	Found stable molecule 73/100
-	Found stable molecule 74/100
-	Found stable molecule 75/100
-	Found stable molecule 76/100
-	Found stable molecule 77/100
-	Found stable molecule 78/100
-	Found stable molecule 79/100
-	Found stable molecule 80/100
-	Found stable molecule 81/100
-	Found stable molecule 82/100
-	Found stable molecule 83/100
-	Found stable molecule 84/100
-	Found stable molecule 85/100
-	Found stable molecule 86/100
-	Found stable molecule 87/100
-	Found stable molecule 88/100
-	Found stable molecule 89/100
-	Found stable molecule 90/100
-	Found stable molecule 91/100
-	Found stable molecule 92/100
-	Found stable molecule 93/100
-	Found stable molecule 94/100
-	Found stable molecule 95/100
-	Found stable molecule 96/100
-	Found stable molecule 97/100
-	Found stable molecule 98/100
-	Found stable molecule 99/100
-	Found stable molecule 100/100
-Scoring...
-converged SCF energy = -133.454781751337
-converged SCF energy = -133.456639317551
-converged SCF energy = -133.461700069749
-converged SCF energy = -133.465856756711
-converged SCF energy = -133.47544031586
-converged SCF energy = -133.465905883731
-converged SCF energy = -133.465342880862
-converged SCF energy = -133.475130246171
-converged SCF energy = -133.465101566432
-converged SCF energy = -133.464103045651
-converged SCF energy = -133.464293402233
-converged SCF energy = -133.468776124408
-converged SCF energy = -133.471931674333
-converged SCF energy = -133.460124926984
-converged SCF energy = -133.470985540151
-converged SCF energy = -133.471426543011
-converged SCF energy = -133.463771649062
-converged SCF energy = -133.465583772702
-converged SCF energy = -133.459776276472
-converged SCF energy = -133.469158190386
-converged SCF energy = -133.472577669291
-converged SCF energy = -133.47553817813
-converged SCF energy = -133.461324007456
-converged SCF energy = -133.467924055873
-converged SCF energy = -133.471241652319
-converged SCF energy = -133.464343387506
-converged SCF energy = -133.462464001669
-converged SCF energy = -133.463168180947
-converged SCF energy = -133.476228945675
-converged SCF energy = -133.464539965749
-converged SCF energy = -133.465813740872
-converged SCF energy = -133.464721610244
-converged SCF energy = -133.458504230009
-converged SCF energy = -133.468365394234
-converged SCF energy = -133.461014398602
-converged SCF energy = -133.464818423232
-converged SCF energy = -133.467960305841
-converged SCF energy = -133.47643477139
-converged SCF energy = -133.468280333578
-converged SCF energy = -133.467980333759
-converged SCF energy = -133.478494670584
-converged SCF energy = -133.474835850548
-converged SCF energy = -133.470472255596
-converged SCF energy = -133.466005386709
-converged SCF energy = -133.471866191023
-converged SCF energy = -133.462442937188
-converged SCF energy = -133.478031034552
-converged SCF energy = -133.467549961497
-converged SCF energy = -133.474683839044
-converged SCF energy = -133.47350953743
-converged SCF energy = -133.469353949841
-converged SCF energy = -133.47383293357
-converged SCF energy = -133.466896744915
-converged SCF energy = -133.472463548804
-converged SCF energy = -133.476751039771
-converged SCF energy = -133.470875637115
-converged SCF energy = -133.463788476651
-converged SCF energy = -133.469571886123
-converged SCF energy = -133.474106399799
-converged SCF energy = -133.465489919777
-converged SCF energy = -133.463009530578
-converged SCF energy = -133.459363381489
-converged SCF energy = -133.470735478733
-converged SCF energy = -133.472280818026
-converged SCF energy = -133.473279382096
-converged SCF energy = -133.472794811513
-converged SCF energy = -133.467671924169
-converged SCF energy = -133.471536028951
-converged SCF energy = -133.466411017015
-converged SCF energy = -133.472770156775
-converged SCF energy = -154.058630357359
-converged SCF energy = -133.474354692685
-converged SCF energy = -133.469889108817
-converged SCF energy = -133.473742970682
-converged SCF energy = -133.472702319215
-converged SCF energy = -133.468999153207
-converged SCF energy = -133.473684708115
-converged SCF energy = -133.466573514317
-converged SCF energy = -133.464115015039
-converged SCF energy = -133.476754823032
-converged SCF energy = -133.465809168296
-converged SCF energy = -154.058167747914
-converged SCF energy = -133.46391772649
-converged SCF energy = -133.479673418231
-converged SCF energy = -133.461028300543
-converged SCF energy = -133.470885910624
-converged SCF energy = -133.47205145642
-converged SCF energy = -133.470236077667
-converged SCF energy = -133.467368670334
-converged SCF energy = -133.46389941609
-converged SCF energy = -133.468488988641
-converged SCF energy = -133.478173247111
-converged SCF energy = -133.474586759048
-converged SCF energy = -133.466086373035
-converged SCF energy = -133.466387896099
-converged SCF energy = -133.463093975845
-converged SCF energy = -133.466566829528
-converged SCF energy = -154.055729609102
-converged SCF energy = -133.468557418016
-converged SCF energy = -133.469151485065
-Aligning...
-Epoch: 0, Loss: 0.17031962986224777
-Epoch: 1, Loss: 0.1679307017445276
-Epoch: 2, Loss: 0.18170398880742397
-Epoch: 3, Loss: 0.1853802415796337
-Epoch: 4, Loss: 0.19068182877421083
-Epoch: 5, Loss: 0.180643055941149
-Epoch: 6, Loss: 0.19605206550105514
-Epoch: 7, Loss: 0.16858439390089053
-Epoch: 8, Loss: 0.1687657167982799
-Epoch: 9, Loss: 0.1559816877866707
-Epoch: 10, Loss: 0.1814365780752911
-Epoch: 11, Loss: 0.13953208884313528
-Epoch: 12, Loss: 0.1784512067578033
-Epoch: 13, Loss: 0.14452023297761313
-Epoch: 14, Loss: 0.18818738517410702
-Epoch: 15, Loss: 0.16202020730086816
-Epoch: 16, Loss: 0.1820567275305485
-Epoch: 17, Loss: 0.16673532188981177
-Epoch: 18, Loss: 0.14868334543519265
-Epoch: 19, Loss: 0.17635919150114268
-Epoch: 20, Loss: 0.16511746010380013
-Epoch: 21, Loss: 0.19669301892749158
-Epoch: 22, Loss: 0.1889578122116551
-Epoch: 23, Loss: 0.16946336088811037
-Epoch: 24, Loss: 0.1763034330101452
-Epoch: 25, Loss: 0.1877166501367444
-Epoch: 26, Loss: 0.1873681438191401
-Epoch: 27, Loss: 0.16998493510103735
-Epoch: 28, Loss: 0.16963952027717993
-Epoch: 29, Loss: 0.15818876283515187
-Epoch: 30, Loss: 0.17681802979223923
-Epoch: 31, Loss: 0.17807528432153405
-Epoch: 32, Loss: 0.17216187483947246
-Epoch: 33, Loss: 0.17090463130137434
-Epoch: 34, Loss: 0.1624714272045477
-Epoch: 35, Loss: 0.16426930252821875
-Epoch: 36, Loss: 0.1751329304823497
-Epoch: 37, Loss: 0.13841598950511613
-Epoch: 38, Loss: 0.153353853463722
-Epoch: 39, Loss: 0.1588223515409609
-Epoch: 40, Loss: 0.16515807279129938
-Epoch: 41, Loss: 0.18103568459547006
-Epoch: 42, Loss: 0.18520165750263387
-Epoch: 43, Loss: 0.16339336669436072
-Epoch: 44, Loss: 0.19180356168793375
-Epoch: 45, Loss: 0.17794355781716617
-Epoch: 46, Loss: 0.16032269120558468
-Epoch: 47, Loss: 0.19634446636416625
-Epoch: 48, Loss: 0.19930789944408617
-Epoch: 49, Loss: 0.16799553996846509
-Epoch: 50, Loss: 0.1577452579084808
-Epoch: 51, Loss: 0.15598500919120087
-Epoch: 52, Loss: 0.18336714162052517
-Epoch: 53, Loss: 0.18245916658530995
-Epoch: 54, Loss: 0.17583359794672024
-Epoch: 55, Loss: 0.16650791234192197
-Epoch: 56, Loss: 0.18386187562518244
-Epoch: 57, Loss: 0.1859778881810881
-Epoch: 58, Loss: 0.15891678318816968
-Epoch: 59, Loss: 0.16146488679041582
-Epoch: 60, Loss: 0.1723284741904647
-Epoch: 61, Loss: 0.16853847014660162
-Epoch: 62, Loss: 0.17342419344825863
-Epoch: 63, Loss: 0.17195309809138037
-Epoch: 64, Loss: 0.1837628126600428
-Epoch: 65, Loss: 0.17225729626897607
-Epoch: 66, Loss: 0.1714583805074826
-Epoch: 67, Loss: 0.16100935504183692
-Epoch: 68, Loss: 0.1674036615408066
-Epoch: 69, Loss: 0.1624102303952542
-Epoch: 70, Loss: 0.16903976142075658
-Epoch: 71, Loss: 0.15793355553616337
-Epoch: 72, Loss: 0.16005339755479142
-Epoch: 73, Loss: 0.1676029458074881
-Epoch: 74, Loss: 0.16492741237242128
-Epoch: 75, Loss: 0.16121126340202035
-Epoch: 76, Loss: 0.17261808856324048
-Epoch: 77, Loss: 0.18062049304050237
-Epoch: 78, Loss: 0.1901593004906041
-Epoch: 79, Loss: 0.20049067350705296
-Epoch: 80, Loss: 0.17596946588052106
-Epoch: 81, Loss: 0.18296568410501354
-Epoch: 82, Loss: 0.16490202044435454
-Epoch: 83, Loss: 0.1691610005133864
-Epoch: 84, Loss: 0.18358786032648283
-Epoch: 85, Loss: 0.17434528417728692
-Epoch: 86, Loss: 0.16330996315533902
-Epoch: 87, Loss: 0.17394003055733173
-Epoch: 88, Loss: 0.18538536652157966
-Epoch: 89, Loss: 0.17226697934852056
-Epoch: 90, Loss: 0.15632197965432507
-Epoch: 91, Loss: 0.1808478751309928
-Epoch: 92, Loss: 0.17909966685255121
-Epoch: 93, Loss: 0.18815985566571958
-Epoch: 94, Loss: 0.19012926181253037
-Epoch: 95, Loss: 0.18468618409647292
-Epoch: 96, Loss: 0.1705927590225466
-Epoch: 97, Loss: 0.16758524427740912
-Epoch: 98, Loss: 0.16570166666481648
-Epoch: 99, Loss: 0.20051463858949994
-Sampling...
-	Found stable molecule 1/100
-	Found stable molecule 2/100
-	Found stable molecule 3/100
-	Found stable molecule 4/100
-	Found stable molecule 5/100
-	Found stable molecule 6/100
-	Found stable molecule 7/100
-	Found stable molecule 8/100
-	Found stable molecule 9/100
-	Found stable molecule 10/100
-	Found stable molecule 11/100
-	Found stable molecule 12/100
-	Found stable molecule 13/100
-	Found stable molecule 14/100
-	Found stable molecule 15/100
-	Found stable molecule 16/100
-	Found stable molecule 17/100
-	Found stable molecule 18/100
-	Found stable molecule 19/100
-	Found stable molecule 20/100
-	Found stable molecule 21/100
-	Found stable molecule 22/100
-	Found stable molecule 23/100
-	Found stable molecule 24/100
-	Found stable molecule 25/100
-	Found stable molecule 26/100
-	Found stable molecule 27/100
-	Found stable molecule 28/100
-	Found stable molecule 29/100
-	Found stable molecule 30/100
-	Found stable molecule 31/100
-	Found stable molecule 32/100
-	Found stable molecule 33/100
-	Found stable molecule 34/100
-	Found stable molecule 35/100
-	Found stable molecule 36/100
-	Found stable molecule 37/100
-	Found stable molecule 38/100
-	Found stable molecule 39/100
-	Found stable molecule 40/100
-	Found stable molecule 41/100
-	Found stable molecule 42/100
-	Found stable molecule 43/100
-	Found stable molecule 44/100
-	Found stable molecule 45/100
-	Found stable molecule 46/100
-	Found stable molecule 47/100
-	Found stable molecule 48/100
-	Found stable molecule 49/100
-	Found stable molecule 50/100
-	Found stable molecule 51/100
-	Found stable molecule 52/100
-	Found stable molecule 53/100
-	Found stable molecule 54/100
-	Found stable molecule 55/100
-	Found stable molecule 56/100
-	Found stable molecule 57/100
-	Found stable molecule 58/100
-	Found stable molecule 59/100
-	Found stable molecule 60/100
-	Found stable molecule 61/100
-	Found stable molecule 62/100
-	Found stable molecule 63/100
-	Found stable molecule 64/100
-	Found stable molecule 65/100
-	Found stable molecule 66/100
-	Found stable molecule 67/100
-	Found stable molecule 68/100
-	Found stable molecule 69/100
-	Found stable molecule 70/100
-	Found stable molecule 71/100
-	Found stable molecule 72/100
-	Found stable molecule 73/100
-	Found stable molecule 74/100
-	Found stable molecule 75/100
-	Found stable molecule 76/100
-	Found stable molecule 77/100
-	Found stable molecule 78/100
-	Found stable molecule 79/100
-	Found stable molecule 80/100
-	Found stable molecule 81/100
-	Found stable molecule 82/100
-	Found stable molecule 83/100
-	Found stable molecule 84/100
-	Found stable molecule 85/100
-	Found stable molecule 86/100
-	Found stable molecule 87/100
-	Found stable molecule 88/100
-	Found stable molecule 89/100
-	Found stable molecule 90/100
-	Found stable molecule 91/100
-	Found stable molecule 92/100
-	Found stable molecule 93/100
-	Found stable molecule 94/100
-	Found stable molecule 95/100
-	Found stable molecule 96/100
-	Found stable molecule 97/100
-	Found stable molecule 98/100
-	Found stable molecule 99/100
-	Found stable molecule 100/100
-Scoring...
-converged SCF energy = -133.465468340241
-converged SCF energy = -133.464924537102
-converged SCF energy = -133.46765767246
-converged SCF energy = -133.474793065579
-converged SCF energy = -133.467261758551
-converged SCF energy = -133.463409198268
-converged SCF energy = -133.477259832686
-converged SCF energy = -133.466415712691
-converged SCF energy = -133.474655238067
-converged SCF energy = -133.462571431519
-converged SCF energy = -133.463502330339
-converged SCF energy = -133.476573133217
-converged SCF energy = -133.462642724317
-converged SCF energy = -133.460097807374
-converged SCF energy = -133.465383833822
-converged SCF energy = -133.473384499799
-converged SCF energy = -133.462860114596
-converged SCF energy = -133.470616783063
-converged SCF energy = -133.469667201915
-converged SCF energy = -133.45789160528
-converged SCF energy = -133.461015001294
-converged SCF energy = -133.461236195504
-converged SCF energy = -133.462985212532
-converged SCF energy = -133.464903616704
-converged SCF energy = -133.462837677526
-converged SCF energy = -133.469925382715
-converged SCF energy = -133.46218552722
-converged SCF energy = -133.467940389927
-converged SCF energy = -133.46066393344
-converged SCF energy = -133.460280911332
-converged SCF energy = -133.466545014763
-converged SCF energy = -133.466427973597
-converged SCF energy = -133.46247607601
-converged SCF energy = -133.472403685473
-converged SCF energy = -133.464754113488
-converged SCF energy = -133.470093059551
-converged SCF energy = -133.470968487029
-converged SCF energy = -133.459872961215
-converged SCF energy = -133.469265673057
-converged SCF energy = -133.469736798791
-converged SCF energy = -133.460690486827
-converged SCF energy = -133.468624407674
-converged SCF energy = -133.466243118225
-converged SCF energy = -133.468613718718
-converged SCF energy = -133.467605073602
-converged SCF energy = -133.467577956237
-converged SCF energy = -133.473425358911
-converged SCF energy = -133.461386848877
-converged SCF energy = -133.469196570181
-converged SCF energy = -133.466168126264
-converged SCF energy = -133.458876304532
-converged SCF energy = -133.47155675549
-converged SCF energy = -133.465110691598
-converged SCF energy = -133.463927047891
-converged SCF energy = -133.466018894938
-converged SCF energy = -133.459346652198
-converged SCF energy = -133.468821020145
-converged SCF energy = -133.467227287792
-converged SCF energy = -133.464217836655
-converged SCF energy = -133.463767849348
-converged SCF energy = -133.467903826541
-converged SCF energy = -133.46437855026
-converged SCF energy = -133.465229442607
-converged SCF energy = -133.465490684136
-converged SCF energy = -133.46444695318
-converged SCF energy = -133.463504691045
-converged SCF energy = -133.473597813366
-converged SCF energy = -133.472052731537
-converged SCF energy = -133.469807588411
-converged SCF energy = -133.458441141919
-converged SCF energy = -133.458074028973
-converged SCF energy = -133.465886350307
-converged SCF energy = -133.47792544099
-converged SCF energy = -133.464976328883
-converged SCF energy = -133.465388234345
-converged SCF energy = -133.464626089235
-converged SCF energy = -133.460545880665
-converged SCF energy = -133.456462980861
-converged SCF energy = -133.468641720426
-converged SCF energy = -133.463801324441
-converged SCF energy = -133.466336146189
-converged SCF energy = -133.467930951801
-converged SCF energy = -133.468313829643
-converged SCF energy = -133.469665048999
-converged SCF energy = -133.466791648999
-converged SCF energy = -133.461734569692
-converged SCF energy = -133.465502594389
-converged SCF energy = -133.458785066497
-converged SCF energy = -133.472732406784
-converged SCF energy = -133.467653173809
-converged SCF energy = -133.465863628447
-converged SCF energy = -133.465920786681
-converged SCF energy = -133.462518807329
-converged SCF energy = -80.0631509754548
-converged SCF energy = -223.349097088635
-converged SCF energy = -133.471655777544
-converged SCF energy = -133.462113688978
-converged SCF energy = -133.464117172306
-converged SCF energy = -133.464869459113
-converged SCF energy = -133.465422096703
-Aligning...
-Epoch: 0, Loss: 0.18782774028154173
-Epoch: 1, Loss: 0.08091025941691864
-Epoch: 2, Loss: 0.23857632892221659
-Epoch: 3, Loss: 0.1276848318641155
-Epoch: 4, Loss: 0.19756909879791784
-Epoch: 5, Loss: 0.18283397721438432
-Epoch: 6, Loss: 0.18708752594686
-Epoch: 7, Loss: 0.2529082248116191
-Epoch: 8, Loss: 0.10230306844339569
-Epoch: 9, Loss: 0.2931012185219272
-Epoch: 10, Loss: 0.08587988348177454
-Epoch: 11, Loss: 0.31939161539410776
-Epoch: 12, Loss: 0.10868951032962106
-Epoch: 13, Loss: 0.3468549673622327
-Epoch: 14, Loss: 0.35125761620082535
-Epoch: 15, Loss: 0.2520375151465032
-Epoch: 16, Loss: 0.5335019036060252
-Epoch: 17, Loss: 0.105286541044138
-Epoch: 18, Loss: 0.27389372982244153
-Epoch: 19, Loss: 0.17377660826641478
-Epoch: 20, Loss: 0.15107568406937744
-Epoch: 21, Loss: 0.30134206041036693
-Epoch: 22, Loss: 0.13134472045900566
-Epoch: 23, Loss: 0.2042182176901423
-Epoch: 24, Loss: 0.2656598279224762
-Epoch: 25, Loss: 0.18703986813605591
-Epoch: 26, Loss: 0.08541762131054952
-Epoch: 27, Loss: 0.1892796830874564
-Epoch: 28, Loss: 0.1472646566576733
-Epoch: 29, Loss: 0.16795801662897283
-Epoch: 30, Loss: 0.19410702495033758
-Epoch: 31, Loss: 0.19628893459187688
-Epoch: 32, Loss: 0.17360467192557327
-Epoch: 33, Loss: 0.2338109387565816
-Epoch: 34, Loss: 0.2504333081685278
-Epoch: 35, Loss: 0.1204610086101631
-Epoch: 36, Loss: 0.09871327698323107
-Epoch: 37, Loss: 0.14719230059080896
-Epoch: 38, Loss: 0.07565144042833942
-Epoch: 39, Loss: 0.2729598189838281
-Epoch: 40, Loss: 0.07512920819598928
-Epoch: 41, Loss: 0.1408415647540786
-Epoch: 42, Loss: 0.1924221650585211
-Epoch: 43, Loss: 0.31268957341857756
-Epoch: 44, Loss: 0.3098706295027131
-Epoch: 45, Loss: 0.17738076363377642
-Epoch: 46, Loss: 0.19184986758899328
-Epoch: 47, Loss: 0.24638717231196414
-Epoch: 48, Loss: 0.1867275856091252
-Epoch: 49, Loss: 0.17606886866065424
-Epoch: 50, Loss: 0.07670524772445039
-Epoch: 51, Loss: 0.3641453504124598
-Epoch: 52, Loss: 0.12385138192649155
-Epoch: 53, Loss: 0.21971610950751255
-Epoch: 54, Loss: 0.19719341185934414
-Epoch: 55, Loss: 0.3284456607341981
-Epoch: 56, Loss: 0.2718820411273671
-Epoch: 57, Loss: 0.08494953466924632
-Epoch: 58, Loss: 0.1596319954885113
-Epoch: 59, Loss: 0.2135790540582729
-Epoch: 60, Loss: 0.14943126271717777
-Epoch: 61, Loss: 0.26775267901875516
-Epoch: 62, Loss: 0.17607263671651313
-Epoch: 63, Loss: 0.22327656397515686
-Epoch: 64, Loss: 0.17382834055425647
-Epoch: 65, Loss: 0.2562000268788453
-Epoch: 66, Loss: 0.19942264306925125
-Epoch: 67, Loss: 0.13963894294599694
-Epoch: 68, Loss: 0.1474483960288715
-Epoch: 69, Loss: 0.08022149555172757
-Epoch: 70, Loss: 0.29522513305263476
-Epoch: 71, Loss: 0.09528192694567932
-Epoch: 72, Loss: 0.39347526931693116
-Epoch: 73, Loss: 0.10283295731670318
-Epoch: 74, Loss: 0.0820390909785238
-Epoch: 75, Loss: 0.09938940414479613
-Epoch: 76, Loss: 0.2889612657489628
-Epoch: 77, Loss: 0.23304330881713545
-Epoch: 78, Loss: 0.12437859259737494
-Epoch: 79, Loss: 0.1483178884992352
-Epoch: 80, Loss: 0.08521641481672551
-Epoch: 81, Loss: 0.13560496892409776
-Epoch: 82, Loss: 0.07837004060153593
-Epoch: 83, Loss: 0.15176404565335155
-Epoch: 84, Loss: 0.13712606640741057
-Epoch: 85, Loss: 0.1307598795088683
-Epoch: 86, Loss: 0.1432862242408074
-Epoch: 87, Loss: 0.16893377809919272
-Epoch: 88, Loss: 0.1732770570732882
-Epoch: 89, Loss: 0.17256241628117813
-Epoch: 90, Loss: 0.20258717733358517
-Epoch: 91, Loss: 0.1786803230202619
-Epoch: 92, Loss: 0.1799018286842199
-Epoch: 93, Loss: 0.3706312934329467
-Epoch: 94, Loss: 0.16655692243193568
-Epoch: 95, Loss: 0.13820689940387498
-Epoch: 96, Loss: 0.1701216469046493
-Epoch: 97, Loss: 0.08746735570619507
-Epoch: 98, Loss: 0.12179073603688319
-Epoch: 99, Loss: 0.14349770855501823
-Sampling...
-	Found stable molecule 1/100
-	Found stable molecule 2/100
-	Found stable molecule 3/100
-	Found stable molecule 4/100
-	Found stable molecule 5/100
-	Found stable molecule 6/100
-	Found stable molecule 7/100
-	Found stable molecule 8/100
-	Found stable molecule 9/100
-	Found stable molecule 10/100
-	Found stable molecule 11/100
-	Found stable molecule 12/100
-	Found stable molecule 13/100
-	Found stable molecule 14/100
-	Found stable molecule 15/100
-	Found stable molecule 16/100
-	Found stable molecule 17/100
-	Found stable molecule 18/100
-	Found stable molecule 19/100
-	Found stable molecule 20/100
-	Found stable molecule 21/100
-	Found stable molecule 22/100
-	Found stable molecule 23/100
-	Found stable molecule 24/100
-	Found stable molecule 25/100
-	Found stable molecule 26/100
-	Found stable molecule 27/100
-	Found stable molecule 28/100
-	Found stable molecule 29/100
-	Found stable molecule 30/100
-	Found stable molecule 31/100
-	Found stable molecule 32/100
-	Found stable molecule 33/100
-	Found stable molecule 34/100
-	Found stable molecule 35/100
-	Found stable molecule 36/100
-	Found stable molecule 37/100
-	Found stable molecule 38/100
-	Found stable molecule 39/100
-	Found stable molecule 40/100
-	Found stable molecule 41/100
-	Found stable molecule 42/100
-	Found stable molecule 43/100
-	Found stable molecule 44/100
-	Found stable molecule 45/100
-	Found stable molecule 46/100
-	Found stable molecule 47/100
-	Found stable molecule 48/100
-	Found stable molecule 49/100
-	Found stable molecule 50/100
-	Found stable molecule 51/100
-	Found stable molecule 52/100
-	Found stable molecule 53/100
-	Found stable molecule 54/100
-	Found stable molecule 55/100
-	Found stable molecule 56/100
-	Found stable molecule 57/100
-	Found stable molecule 58/100
-	Found stable molecule 59/100
-	Found stable molecule 60/100
-	Found stable molecule 61/100
-	Found stable molecule 62/100
-	Found stable molecule 63/100
-	Found stable molecule 64/100
-	Found stable molecule 65/100
-	Found stable molecule 66/100
-	Found stable molecule 67/100
-	Found stable molecule 68/100
-	Found stable molecule 69/100
-	Found stable molecule 70/100
-	Found stable molecule 71/100
-	Found stable molecule 72/100
-	Found stable molecule 73/100
-	Found stable molecule 74/100
-	Found stable molecule 75/100
-	Found stable molecule 76/100
-	Found stable molecule 77/100
-	Found stable molecule 78/100
-	Found stable molecule 79/100
-	Found stable molecule 80/100
-	Found stable molecule 81/100
-	Found stable molecule 82/100
-	Found stable molecule 83/100
-	Found stable molecule 84/100
-	Found stable molecule 85/100
-	Found stable molecule 86/100
-	Found stable molecule 87/100
-	Found stable molecule 88/100
-	Found stable molecule 89/100
-	Found stable molecule 90/100
-	Found stable molecule 91/100
-	Found stable molecule 92/100
-	Found stable molecule 93/100
-	Found stable molecule 94/100
-	Found stable molecule 95/100
-	Found stable molecule 96/100
-	Found stable molecule 97/100
-	Found stable molecule 98/100
-	Found stable molecule 99/100
-	Found stable molecule 100/100
-Scoring...
-converged SCF energy = -133.462945034781
-converged SCF energy = -133.467824347075
-converged SCF energy = -133.462744078352
-converged SCF energy = -133.464409853405
-converged SCF energy = -79.7789389727077
-converged SCF energy = -133.462505665345
-converged SCF energy = -133.458813450467
-converged SCF energy = -133.456866798949
-converged SCF energy = -133.469613909068
-converged SCF energy = -133.46326373159
-converged SCF energy = -169.91133128131
-converged SCF energy = -133.462615510759
-converged SCF energy = -133.467885870911
-converged SCF energy = -133.464518938853
-converged SCF energy = -80.0496402938954
-converged SCF energy = -80.0507650174802
-converged SCF energy = -133.468741357663
-converged SCF energy = -80.0467528018494
-converged SCF energy = -80.0460211580684
-converged SCF energy = -133.463500125945
-converged SCF energy = -80.0558210548531
-converged SCF energy = -186.813020626844
-converged SCF energy = -133.472342143389
-converged SCF energy = -133.464807641251
-converged SCF energy = -133.457348375778
-converged SCF energy = -80.0625237407235
-converged SCF energy = -133.455684074671
-converged SCF energy = -133.453277328929
-converged SCF energy = -80.0399864180383
-converged SCF energy = -80.0524776549655
-converged SCF energy = -79.9404869700513
-converged SCF energy = -133.471132711071
-converged SCF energy = -133.466409297838
-converged SCF energy = -80.0444611484984
-converged SCF energy = -133.470115337942
-converged SCF energy = -133.459303726618
-converged SCF energy = -133.461205333003
-converged SCF energy = -133.464308025407
-converged SCF energy = -133.464417016158
-converged SCF energy = -133.468380516109
-converged SCF energy = -133.468312606812
-converged SCF energy = -133.471820692573
-converged SCF energy = -80.049061818575
-converged SCF energy = -80.039873615334
-converged SCF energy = -133.46242769103
-converged SCF energy = -133.456861004611
-converged SCF energy = -133.458905225979
-converged SCF energy = -133.466367556225
-converged SCF energy = -80.0540749730285
-converged SCF energy = -80.0556250965312
-converged SCF energy = -80.0558640286904
-converged SCF energy = -80.0376043717464
-converged SCF energy = -80.0518603217528
-converged SCF energy = -133.462224651032
-converged SCF energy = -133.468296289336
-converged SCF energy = -133.45498964123
-converged SCF energy = -133.459238167026
-converged SCF energy = -186.853642468695
-converged SCF energy = -80.0537645413606
-converged SCF energy = -80.050062522852
-converged SCF energy = -133.465514747393
-converged SCF energy = -133.462232625824
-converged SCF energy = -80.0566754553889
-converged SCF energy = -80.0111569878139
-converged SCF energy = -80.0454206499563
-converged SCF energy = -133.464047434496
-converged SCF energy = -133.461111007835
-converged SCF energy = -80.037250180463
-converged SCF energy = -133.463679325946
-converged SCF energy = -133.466142653768
-converged SCF energy = -133.46912144977
-converged SCF energy = -133.465748635122
-converged SCF energy = -133.462825408321
-converged SCF energy = -133.465832699583
-converged SCF energy = -80.0616862501956
-converged SCF energy = -133.457962023407
-converged SCF energy = -133.458163924093
-converged SCF energy = -133.459448151047
-converged SCF energy = -80.0378890503816
-converged SCF energy = -133.464050958405
-converged SCF energy = -133.463065592011
-converged SCF energy = -133.461464631368
-converged SCF energy = -133.463748520034
-converged SCF energy = -133.461808184903
-converged SCF energy = -133.469378432092
-converged SCF energy = -80.0438103417436
-converged SCF energy = -80.024891899777
-converged SCF energy = -133.467607250483
-converged SCF energy = -133.459720590208
-converged SCF energy = -80.0580900058915
-converged SCF energy = -133.469394267944
-converged SCF energy = -80.0480115398954
-converged SCF energy = -133.4597962405
-converged SCF energy = -80.0373293656235
-converged SCF energy = -80.0536578168898
-converged SCF energy = -80.0444169846361
-converged SCF energy = -133.474147454291
-converged SCF energy = -80.0530265753567
-converged SCF energy = -133.457457495491
-converged SCF energy = -133.460410567657
-Aligning...
-Epoch: 0, Loss: 0.20475151471262987
-Epoch: 1, Loss: 0.208886230426386
-Epoch: 2, Loss: 0.18942719226634597
-Epoch: 3, Loss: 0.19529327341088934
-Epoch: 4, Loss: 0.2009007883715232
-Epoch: 5, Loss: 0.16600832876553337
-Epoch: 6, Loss: 0.17646265648463455
-Epoch: 7, Loss: 0.17700049574103538
-Epoch: 8, Loss: 0.1906555099326568
-Epoch: 9, Loss: 0.20466979783443176
-Epoch: 10, Loss: 0.21129739691134514
-Epoch: 11, Loss: 0.18537499201813312
-Epoch: 12, Loss: 0.1887468191859989
-Epoch: 13, Loss: 0.18849494347495088
-Epoch: 14, Loss: 0.1741859290382304
-Epoch: 15, Loss: 0.18777863315263155
-Epoch: 16, Loss: 0.20332278398438264
-Epoch: 17, Loss: 0.19624819681189976
-Epoch: 18, Loss: 0.17535675751278493
-Epoch: 19, Loss: 0.17092861426566608
-Epoch: 20, Loss: 0.1909171353541995
-Epoch: 21, Loss: 0.17407744049017013
-Epoch: 22, Loss: 0.1940536407635841
-Epoch: 23, Loss: 0.1668231992863142
-Epoch: 24, Loss: 0.17760480794326372
-Epoch: 25, Loss: 0.19529298274838686
-Epoch: 26, Loss: 0.2149093794466032
-Epoch: 27, Loss: 0.16674530790527659
-Epoch: 28, Loss: 0.1756893286707861
-Epoch: 29, Loss: 0.17215367389245242
-Epoch: 30, Loss: 0.1763789489442349
-Epoch: 31, Loss: 0.16944386722221783
-Epoch: 32, Loss: 0.18916131034045172
-Epoch: 33, Loss: 0.22318601901226084
-Epoch: 34, Loss: 0.1493961384526277
-Epoch: 35, Loss: 0.17902853666362867
-Epoch: 36, Loss: 0.1510642323528614
-Epoch: 37, Loss: 0.21731468899910958
-Epoch: 38, Loss: 0.20993738897271244
-Epoch: 39, Loss: 0.1662933073514937
-Epoch: 40, Loss: 0.17572152084265885
-Epoch: 41, Loss: 0.188306231351083
-Epoch: 42, Loss: 0.18693959213252404
-Epoch: 43, Loss: 0.25158058339054756
-Epoch: 44, Loss: 0.1904204910987255
-Epoch: 45, Loss: 0.19538694868630468
-Epoch: 46, Loss: 0.17883045664298755
-Epoch: 47, Loss: 0.1847524659470276
-Epoch: 48, Loss: 0.16525657577476444
-Epoch: 49, Loss: 0.20572990261209015
-Epoch: 50, Loss: 0.18723845868186875
-Epoch: 51, Loss: 0.19561578110848177
-Epoch: 52, Loss: 0.1848871231810135
-Epoch: 53, Loss: 0.22164899131091165
-Epoch: 54, Loss: 0.17800910251271865
-Epoch: 55, Loss: 0.1437287422197414
-Epoch: 56, Loss: 0.21746561525328836
-Epoch: 57, Loss: 0.21042056712380258
-Epoch: 58, Loss: 0.16143648304311942
-Epoch: 59, Loss: 0.1617295551270234
-Epoch: 60, Loss: 0.17791839110584545
-Epoch: 61, Loss: 0.17338037291270053
-Epoch: 62, Loss: 0.19322374667240866
-Epoch: 63, Loss: 0.18973335850846618
-Epoch: 64, Loss: 0.16395403899995656
-Epoch: 65, Loss: 0.16106159295599093
-Epoch: 66, Loss: 0.17376711605768477
-Epoch: 67, Loss: 0.17557363763018877
-Epoch: 68, Loss: 0.20184361825651045
-Epoch: 69, Loss: 0.1760024731383423
-Epoch: 70, Loss: 0.16880249142004128
-Epoch: 71, Loss: 0.17705601051122982
-Epoch: 72, Loss: 0.19179939321943137
-Epoch: 73, Loss: 0.21975278815776464
-Epoch: 74, Loss: 0.1987609388661764
-Epoch: 75, Loss: 0.18650588545625243
-Epoch: 76, Loss: 0.2036716699263058
-Epoch: 77, Loss: 0.18180234815936253
-Epoch: 78, Loss: 0.17092216089066228
-Epoch: 79, Loss: 0.21146930462882296
-Epoch: 80, Loss: 0.20148510237482725
-Epoch: 81, Loss: 0.16579693595667463
-Epoch: 82, Loss: 0.18557917764957998
-Epoch: 83, Loss: 0.2026317254895139
-Epoch: 84, Loss: 0.2220660104163827
-Epoch: 85, Loss: 0.192854042737291
-Epoch: 86, Loss: 0.18180111391451775
-Epoch: 87, Loss: 0.14136352891384157
-Epoch: 88, Loss: 0.1447753102278656
-Epoch: 89, Loss: 0.18750789022305508
-Epoch: 90, Loss: 0.18591035739590145
-Epoch: 91, Loss: 0.17272129886150886
-Epoch: 92, Loss: 0.14297492927849603
-Epoch: 93, Loss: 0.15808312898737448
-Epoch: 94, Loss: 0.1592054503199611
-Epoch: 95, Loss: 0.19624019160819706
-Epoch: 96, Loss: 0.15109313103556704
-Epoch: 97, Loss: 0.15998885699246548
-Epoch: 98, Loss: 0.20122932770546903
-Epoch: 99, Loss: 0.1818202976344398
-Sampling...
-	Found stable molecule 1/100
-	Found stable molecule 2/100
-	Found stable molecule 3/100
-	Found stable molecule 4/100
-	Found stable molecule 5/100
-	Found stable molecule 6/100
-	Found stable molecule 7/100
-	Found stable molecule 8/100
-	Found stable molecule 9/100
-	Found stable molecule 10/100
-	Found stable molecule 11/100
-	Found stable molecule 12/100
-	Found stable molecule 13/100
-	Found stable molecule 14/100
-	Found stable molecule 15/100
-	Found stable molecule 16/100
-	Found stable molecule 17/100
-	Found stable molecule 18/100
-	Found stable molecule 19/100
-	Found stable molecule 20/100
-	Found stable molecule 21/100
-	Found stable molecule 22/100
-	Found stable molecule 23/100
-	Found stable molecule 24/100
-	Found stable molecule 25/100
-	Found stable molecule 26/100
-	Found stable molecule 27/100
-	Found stable molecule 28/100
-	Found stable molecule 29/100
-	Found stable molecule 30/100
-	Found stable molecule 31/100
-	Found stable molecule 32/100
-	Found stable molecule 33/100
-	Found stable molecule 34/100
-	Found stable molecule 35/100
-	Found stable molecule 36/100
-	Found stable molecule 37/100
-	Found stable molecule 38/100
-	Found stable molecule 39/100
-	Found stable molecule 40/100
-	Found stable molecule 41/100
-	Found stable molecule 42/100
-	Found stable molecule 43/100
-	Found stable molecule 44/100
-	Found stable molecule 45/100
-	Found stable molecule 46/100
-	Found stable molecule 47/100
-	Found stable molecule 48/100
-	Found stable molecule 49/100
-	Found stable molecule 50/100
-	Found stable molecule 51/100
-	Found stable molecule 52/100
-	Found stable molecule 53/100
-	Found stable molecule 54/100
-	Found stable molecule 55/100
-	Found stable molecule 56/100
-	Found stable molecule 57/100
-	Found stable molecule 58/100
-	Found stable molecule 59/100
-	Found stable molecule 60/100
-	Found stable molecule 61/100
-	Found stable molecule 62/100
-	Found stable molecule 63/100
-	Found stable molecule 64/100
-	Found stable molecule 65/100
-	Found stable molecule 66/100
-	Found stable molecule 67/100
-	Found stable molecule 68/100
-	Found stable molecule 69/100
-	Found stable molecule 70/100
-	Found stable molecule 71/100
-	Found stable molecule 72/100
-	Found stable molecule 73/100
-	Found stable molecule 74/100
-	Found stable molecule 75/100
-	Found stable molecule 76/100
-	Found stable molecule 77/100
-	Found stable molecule 78/100
-	Found stable molecule 79/100
-	Found stable molecule 80/100
-	Found stable molecule 81/100
-	Found stable molecule 82/100
-	Found stable molecule 83/100
-	Found stable molecule 84/100
-	Found stable molecule 85/100
-	Found stable molecule 86/100
-	Found stable molecule 87/100
-	Found stable molecule 88/100
-	Found stable molecule 89/100
-	Found stable molecule 90/100
-	Found stable molecule 91/100
-	Found stable molecule 92/100
-	Found stable molecule 93/100
-	Found stable molecule 94/100
-	Found stable molecule 95/100
-	Found stable molecule 96/100
-	Found stable molecule 97/100
-	Found stable molecule 98/100
-	Found stable molecule 99/100
-	Found stable molecule 100/100
-Scoring...
-converged SCF energy = -133.466081892834
-converged SCF energy = -80.0045004799038
-converged SCF energy = -80.0390296977479
-converged SCF energy = -80.042939017872
-converged SCF energy = -80.0432016220497
-converged SCF energy = -80.0404010602692
-converged SCF energy = -80.0441221463216
-converged SCF energy = -133.452713847303
-converged SCF energy = -80.0413169401289
-converged SCF energy = -80.0343885591962
-converged SCF energy = -80.0354478690981
-converged SCF energy = -80.0486673165812
-converged SCF energy = -133.458932233897
-converged SCF energy = -80.0445041256812
-converged SCF energy = -80.0413947717041
-converged SCF energy = -80.0475790800591
-converged SCF energy = -79.7176142464145
-converged SCF energy = -80.0339148353621
-converged SCF energy = -80.033320010865
-converged SCF energy = -80.0462928802625
-converged SCF energy = -133.459131693852
-converged SCF energy = -80.0529152509191
-converged SCF energy = -133.461212475384
-converged SCF energy = -133.454549083476
-converged SCF energy = -80.0388180832222
-converged SCF energy = -133.463080390519
-converged SCF energy = -80.033373444559
-converged SCF energy = -80.0444473648198
-converged SCF energy = -80.0061478225428
-converged SCF energy = -80.034234033361
-converged SCF energy = -133.467079017824
-converged SCF energy = -133.461393903024
-converged SCF energy = -80.0392991629652
-converged SCF energy = -80.0404823863997
-converged SCF energy = -133.454939082987
-converged SCF energy = -80.0469729464749
-converged SCF energy = -79.7604356992157
-converged SCF energy = -80.0324597666269
-converged SCF energy = -80.0456934486964
-converged SCF energy = -80.0439778322242
-converged SCF energy = -80.0347767480457
-converged SCF energy = -80.0567898513569
-converged SCF energy = -80.0247777070308
-converged SCF energy = -80.047650659157
-converged SCF energy = -80.0463540020385
-converged SCF energy = -80.0454771156263
-converged SCF energy = -133.467303892243
-converged SCF energy = -133.457340173281
-converged SCF energy = -80.0493522736078
-converged SCF energy = -80.0292558796452
-converged SCF energy = -80.0526578010904
-converged SCF energy = -133.459052521117
-converged SCF energy = -133.46756262276
-converged SCF energy = -133.461833556967
-converged SCF energy = -133.457066852606
-converged SCF energy = -80.0472224180624
-converged SCF energy = -80.0456701928397
-converged SCF energy = -133.460489620629
-converged SCF energy = -133.465136434986
-converged SCF energy = -80.0504967320674
-converged SCF energy = -80.02439245202
-converged SCF energy = -80.0295340038502
-converged SCF energy = -80.0448338576948
-converged SCF energy = -80.0009506916261
-converged SCF energy = -80.0426456638945
-converged SCF energy = -133.458793949102
-converged SCF energy = -133.469112133839
-converged SCF energy = -80.0361538828483
-converged SCF energy = -80.0371070819196
-converged SCF energy = -80.0402313064843
-converged SCF energy = -80.0491058126463
-converged SCF energy = -80.0555747590851
-converged SCF energy = -80.0407607998955
-converged SCF energy = -133.462812688461
-converged SCF energy = -80.0473172155769
-converged SCF energy = -80.0499707694395
-converged SCF energy = -80.0448417452955
-converged SCF energy = -133.309089409219
-converged SCF energy = -133.455262076045
-converged SCF energy = -80.026145715838
-converged SCF energy = -80.039191106842
-converged SCF energy = -80.0329004250707
-converged SCF energy = -80.0513806564554
-converged SCF energy = -133.450693980618
-converged SCF energy = -133.462679878033
-converged SCF energy = -133.461003090919
-converged SCF energy = -80.040230364823
-converged SCF energy = -80.039049966883
-converged SCF energy = -80.0394577993908
-converged SCF energy = -80.0414075191017
-converged SCF energy = -80.0477753971601
-converged SCF energy = -133.46222780643
-converged SCF energy = -133.46366963547
-converged SCF energy = -80.047483693086
-converged SCF energy = -80.0311484109595
-converged SCF energy = -80.0537412305102
-converged SCF energy = -80.0408416622505
-converged SCF energy = -133.457985520345
-converged SCF energy = -80.0378648555855
-converged SCF energy = -80.0353596723513
-Aligning...
-Epoch: 0, Loss: 0.21477266750037433
-Epoch: 1, Loss: 0.19860695196844524
-Epoch: 2, Loss: 0.1580293095005045
-Epoch: 3, Loss: 0.18892735779297604
-Epoch: 4, Loss: 0.1869285820142156
-Epoch: 5, Loss: 0.18818737424822585
-Epoch: 6, Loss: 0.17898680589226118
-Epoch: 7, Loss: 0.17444104323801796
-Epoch: 8, Loss: 0.1702849191162611
-Epoch: 9, Loss: 0.20839626161281138
-Epoch: 10, Loss: 0.18212573250239486
-Epoch: 11, Loss: 0.17180338516773197
-Epoch: 12, Loss: 0.180728039087321
-Epoch: 13, Loss: 0.19288347330707922
-Epoch: 14, Loss: 0.16219254932905908
-Epoch: 15, Loss: 0.1994849587233052
-Epoch: 16, Loss: 0.16409174192872464
-Epoch: 17, Loss: 0.18977171308506663
-Epoch: 18, Loss: 0.18958315911214066
-Epoch: 19, Loss: 0.18050682208672203
-Epoch: 20, Loss: 0.1792621975425126
-Epoch: 21, Loss: 0.13735573623269154
-Epoch: 22, Loss: 0.15948642308659738
-Epoch: 23, Loss: 0.18894768069937903
-Epoch: 24, Loss: 0.16766914725382873
-Epoch: 25, Loss: 0.1792545062729019
-Epoch: 26, Loss: 0.1629058657558097
-Epoch: 27, Loss: 0.1985015513564745
-Epoch: 28, Loss: 0.18565087827842613
-Epoch: 29, Loss: 0.1459739179678918
-Epoch: 30, Loss: 0.17648156816230753
-Epoch: 31, Loss: 0.15838816031072098
-Epoch: 32, Loss: 0.17570111725921325
-Epoch: 33, Loss: 0.18549666431336617
-Epoch: 34, Loss: 0.18240041304200424
-Epoch: 35, Loss: 0.1734975491802222
-Epoch: 36, Loss: 0.18010950283014232
-Epoch: 37, Loss: 0.19775333695384004
-Epoch: 38, Loss: 0.19150032764437627
-Epoch: 39, Loss: 0.17996107987756552
-Epoch: 40, Loss: 0.16256050078983308
-Epoch: 41, Loss: 0.16765684905800585
-Epoch: 42, Loss: 0.18547523235257196
-Epoch: 43, Loss: 0.17435584138496385
-Epoch: 44, Loss: 0.17607038641272796
-Epoch: 45, Loss: 0.1700278911503878
-Epoch: 46, Loss: 0.1546233330982808
-Epoch: 47, Loss: 0.1608326351650051
-Epoch: 48, Loss: 0.19856194406694933
-Epoch: 49, Loss: 0.19242820622263737
-Epoch: 50, Loss: 0.1897120295191269
-Epoch: 51, Loss: 0.1463887461656412
-Epoch: 52, Loss: 0.17689979677328133
-Epoch: 53, Loss: 0.18773156744925984
-Epoch: 54, Loss: 0.19686247265809212
-Epoch: 55, Loss: 0.167400309390118
-Epoch: 56, Loss: 0.1398821690860412
-Epoch: 57, Loss: 0.16112113944290113
-Epoch: 58, Loss: 0.1625916257663878
-Epoch: 59, Loss: 0.18058788558936392
-Epoch: 60, Loss: 0.1685127213029999
-Epoch: 61, Loss: 0.20005565443425005
-Epoch: 62, Loss: 0.19165982698675102
-Epoch: 63, Loss: 0.1484421899867677
-Epoch: 64, Loss: 0.1716994961491144
-Epoch: 65, Loss: 0.18284223221958923
-Epoch: 66, Loss: 0.18337209844391697
-Epoch: 67, Loss: 0.19666642050657743
-Epoch: 68, Loss: 0.18757165602356496
-Epoch: 69, Loss: 0.14214894969849518
-Epoch: 70, Loss: 0.17652850803147083
-Epoch: 71, Loss: 0.16422386086322552
-Epoch: 72, Loss: 0.20440229496943527
-Epoch: 73, Loss: 0.16186871110316745
-Epoch: 74, Loss: 0.16431456733856997
-Epoch: 75, Loss: 0.2026047674883596
-Epoch: 76, Loss: 0.18020700447044624
-Epoch: 77, Loss: 0.2086302249749852
-Epoch: 78, Loss: 0.18093553697178094
-Epoch: 79, Loss: 0.16971122819532033
-Epoch: 80, Loss: 0.17500173053847207
-Epoch: 81, Loss: 0.16706122784984956
-Epoch: 82, Loss: 0.16783709940783273
-Epoch: 83, Loss: 0.1812959078816518
-Epoch: 84, Loss: 0.17339732532164914
-Epoch: 85, Loss: 0.17298809870372486
-Epoch: 86, Loss: 0.18091244963212488
-Epoch: 87, Loss: 0.18242217107216413
-Epoch: 88, Loss: 0.17592419053970948
-Epoch: 89, Loss: 0.1992241378354254
-Epoch: 90, Loss: 0.15525512114207252
-Epoch: 91, Loss: 0.1750234621198768
-Epoch: 92, Loss: 0.1713295027460877
-Epoch: 93, Loss: 0.16174428767236598
-Epoch: 94, Loss: 0.15434777180074583
-Epoch: 95, Loss: 0.20990321685880609
-Epoch: 96, Loss: 0.18506867931221035
-Epoch: 97, Loss: 0.1588142045883312
-Epoch: 98, Loss: 0.16754390703416797
-Epoch: 99, Loss: 0.18002554424237446
-Sampling...
-	Found stable molecule 1/100
-	Found stable molecule 2/100
-	Found stable molecule 3/100
-	Found stable molecule 4/100
-	Found stable molecule 5/100
-	Found stable molecule 6/100
-	Found stable molecule 7/100
-	Found stable molecule 8/100
-	Found stable molecule 9/100
-	Found stable molecule 10/100
-	Found stable molecule 11/100
-	Found stable molecule 12/100
-	Found stable molecule 13/100
-	Found stable molecule 14/100
-	Found stable molecule 15/100
-	Found stable molecule 16/100
-	Found stable molecule 17/100
-	Found stable molecule 18/100
-	Found stable molecule 19/100
-	Found stable molecule 20/100
-	Found stable molecule 21/100
-	Found stable molecule 22/100
-	Found stable molecule 23/100
-	Found stable molecule 24/100
-	Found stable molecule 25/100
-	Found stable molecule 26/100
-	Found stable molecule 27/100
-	Found stable molecule 28/100
-	Found stable molecule 29/100
-	Found stable molecule 30/100
-	Found stable molecule 31/100
-	Found stable molecule 32/100
-	Found stable molecule 33/100
-	Found stable molecule 34/100
-	Found stable molecule 35/100
-	Found stable molecule 36/100
-	Found stable molecule 37/100
-	Found stable molecule 38/100
-	Found stable molecule 39/100
-	Found stable molecule 40/100
-	Found stable molecule 41/100
-	Found stable molecule 42/100
-	Found stable molecule 43/100
-	Found stable molecule 44/100
-	Found stable molecule 45/100
-	Found stable molecule 46/100
-	Found stable molecule 47/100
-	Found stable molecule 48/100
-	Found stable molecule 49/100
-	Found stable molecule 50/100
-	Found stable molecule 51/100
-	Found stable molecule 52/100
-	Found stable molecule 53/100
-	Found stable molecule 54/100
-	Found stable molecule 55/100
-	Found stable molecule 56/100
-	Found stable molecule 57/100
-	Found stable molecule 58/100
-	Found stable molecule 59/100
-	Found stable molecule 60/100
-	Found stable molecule 61/100
-	Found stable molecule 62/100
-	Found stable molecule 63/100
-	Found stable molecule 64/100
-	Found stable molecule 65/100
-	Found stable molecule 66/100
-	Found stable molecule 67/100
-	Found stable molecule 68/100
-	Found stable molecule 69/100
-	Found stable molecule 70/100
-	Found stable molecule 71/100
-	Found stable molecule 72/100
-	Found stable molecule 73/100
-	Found stable molecule 74/100
-	Found stable molecule 75/100
-	Found stable molecule 76/100
-	Found stable molecule 77/100
-	Found stable molecule 78/100
-	Found stable molecule 79/100
-	Found stable molecule 80/100
-	Found stable molecule 81/100
-	Found stable molecule 82/100
-	Found stable molecule 83/100
-	Found stable molecule 84/100
-	Found stable molecule 85/100
-	Found stable molecule 86/100
-	Found stable molecule 87/100
-	Found stable molecule 88/100
-	Found stable molecule 89/100
-	Found stable molecule 90/100
-	Found stable molecule 91/100
-	Found stable molecule 92/100
-	Found stable molecule 93/100
-	Found stable molecule 94/100
-	Found stable molecule 95/100
-	Found stable molecule 96/100
-	Found stable molecule 97/100
-	Found stable molecule 98/100
-	Found stable molecule 99/100
-	Found stable molecule 100/100
-Scoring...
-converged SCF energy = -80.0141863453049
-converged SCF energy = -80.05848798662
-converged SCF energy = -80.0538513728323
-converged SCF energy = -80.046201294693
-converged SCF energy = -80.0167134443877
-converged SCF energy = -80.0346341853305
-converged SCF energy = -80.0508160975974
-converged SCF energy = -80.0473544403312
-converged SCF energy = -80.0540951900501
-converged SCF energy = -79.7917454487189
-converged SCF energy = -80.0400503198129
-converged SCF energy = -80.0417531829187
-converged SCF energy = -80.0263025326304
-converged SCF energy = -80.0497945077116
-converged SCF energy = -133.457857004624
-converged SCF energy = -80.036601343013
-converged SCF energy = -80.0316542865777
-converged SCF energy = -80.0428015885471
-converged SCF energy = -80.0552243181452
-converged SCF energy = -133.457476656037
-converged SCF energy = -80.0482597292491
-converged SCF energy = -79.9059810749553
-converged SCF energy = -80.0404651305435
-converged SCF energy = -80.0383259794161
-converged SCF energy = -80.0357327763388
-converged SCF energy = -80.060342828601
-converged SCF energy = -80.0308185487212
-converged SCF energy = -80.0448240787182
-converged SCF energy = -79.948605370935
-converged SCF energy = -133.466233294588
-converged SCF energy = -80.0412385342322
-converged SCF energy = -80.0247024170113
-converged SCF energy = -80.0397975141764
-converged SCF energy = -80.0507398398269
-converged SCF energy = -80.0467169867516
-converged SCF energy = -80.0500808285412
-converged SCF energy = -80.0529838862034
-converged SCF energy = -80.0444423733422
-converged SCF energy = -80.0204442576447
-converged SCF energy = -80.0358839396184
-converged SCF energy = -80.0360975673171
-converged SCF energy = -80.0417772151392
-converged SCF energy = -133.458240472594
-converged SCF energy = -79.8808214177633
-converged SCF energy = -80.0551364764149
-converged SCF energy = -80.030602990575
-converged SCF energy = -80.0376052725282
-converged SCF energy = -80.0437520159966
-converged SCF energy = -80.0603779253428
-converged SCF energy = -80.0504195314295
-converged SCF energy = -80.0392350572775
-converged SCF energy = -80.0475195761927
-converged SCF energy = -80.0373564334608
-converged SCF energy = -80.032671110935
-converged SCF energy = -80.0557260263521
-converged SCF energy = -80.0378993591726
-converged SCF energy = -80.0040319728589
-converged SCF energy = -133.467023062413
-converged SCF energy = -80.0575281530437
-converged SCF energy = -80.0475270268746
-converged SCF energy = -80.0571395903282
-converged SCF energy = -80.0369440636332
-converged SCF energy = -80.0514103646894
-converged SCF energy = -80.0526212338697
-converged SCF energy = -80.0532076234461
-converged SCF energy = -80.0020349342933
-converged SCF energy = -80.0245081748543
-converged SCF energy = -80.0420627693301
-converged SCF energy = -80.0185316858037
-converged SCF energy = -80.0431989054669
-converged SCF energy = -133.469778004143
-converged SCF energy = -80.045341628388
-converged SCF energy = -80.049654159434
-converged SCF energy = -80.0495479680782
-converged SCF energy = -80.0448748755877
-converged SCF energy = -80.0162203416004
-converged SCF energy = -80.0488985029186
-converged SCF energy = -79.9631674518083
-converged SCF energy = -80.0436087586102
-converged SCF energy = -80.0427278457353
-converged SCF energy = -80.0470427969678
-converged SCF energy = -80.0388373395654
-converged SCF energy = -80.0324631225411
-converged SCF energy = -80.04162188733
-converged SCF energy = -80.0375658403711
-converged SCF energy = -80.036169627415
-converged SCF energy = -79.9849053464056
-converged SCF energy = -80.0021288291529
-converged SCF energy = -80.0423894020834
-converged SCF energy = -80.0471384965351
-converged SCF energy = -80.0379763642924
-converged SCF energy = -80.0588634306681
-converged SCF energy = -80.0504208036738
-converged SCF energy = -80.0349635246434
-converged SCF energy = -133.467649753647
-converged SCF energy = -80.0482091013303
-converged SCF energy = -80.0423167476393
-converged SCF energy = -133.461317136656
-converged SCF energy = -133.460937282531
-converged SCF energy = -80.0363405998199
-Aligning...
-Epoch: 0, Loss: 0.1747310535384862
-Epoch: 1, Loss: 0.2302051638975891
-Epoch: 2, Loss: 0.1762593401080658
-Epoch: 3, Loss: 0.20302298778908742
-Epoch: 4, Loss: 0.18443145366655186
-Epoch: 5, Loss: 0.180623696958289
-Epoch: 6, Loss: 0.18142829046702189
-Epoch: 7, Loss: 0.1455733865747052
-Epoch: 8, Loss: 0.16643600884556878
-Epoch: 9, Loss: 0.16381496686102714
-Epoch: 10, Loss: 0.17434217064530777
-Epoch: 11, Loss: 0.18182968392486218
-Epoch: 12, Loss: 0.15912506744738245
-Epoch: 13, Loss: 0.15963509017240632
-Epoch: 14, Loss: 0.15870175688201063
-Epoch: 15, Loss: 0.1582764571798617
-Epoch: 16, Loss: 0.18992430521257858
-Epoch: 17, Loss: 0.17875097586519595
-Epoch: 18, Loss: 0.17645349128034613
-Epoch: 19, Loss: 0.187610792000326
-Epoch: 20, Loss: 0.17488234933992922
-Epoch: 21, Loss: 0.195373735323482
-Epoch: 22, Loss: 0.1845099301379357
-Epoch: 23, Loss: 0.15312562334667465
-Epoch: 24, Loss: 0.17890783591614912
-Epoch: 25, Loss: 0.15448183649351177
-Epoch: 26, Loss: 0.17262299258012648
-Epoch: 27, Loss: 0.17460482444037032
-Epoch: 28, Loss: 0.16704415810233866
-Epoch: 29, Loss: 0.16485002221830267
-Epoch: 30, Loss: 0.20090703935060183
-Epoch: 31, Loss: 0.17791355713574533
-Epoch: 32, Loss: 0.16642998372620116
-Epoch: 33, Loss: 0.15281737440931933
-Epoch: 34, Loss: 0.19065111898714882
-Epoch: 35, Loss: 0.17531610648826945
-Epoch: 36, Loss: 0.15897191054465734
-Epoch: 37, Loss: 0.19754940937319718
-Epoch: 38, Loss: 0.155627280998663
-Epoch: 39, Loss: 0.17202927140478647
-Epoch: 40, Loss: 0.18688507502165255
-Epoch: 41, Loss: 0.16243352335604272
-Epoch: 42, Loss: 0.18031136983597087
-Epoch: 43, Loss: 0.16696664509552697
-Epoch: 44, Loss: 0.2008221841011056
-Epoch: 45, Loss: 0.16988431326825412
-Epoch: 46, Loss: 0.1733171160302194
-Epoch: 47, Loss: 0.19790837451329027
-Epoch: 48, Loss: 0.1885817647197826
-Epoch: 49, Loss: 0.1669689178392719
-Epoch: 50, Loss: 0.16522093495572324
-Epoch: 51, Loss: 0.1615096766584448
-Epoch: 52, Loss: 0.15901811307228622
-Epoch: 53, Loss: 0.18948356652834236
-Epoch: 54, Loss: 0.1568158002016817
-Epoch: 55, Loss: 0.1591133595877899
-Epoch: 56, Loss: 0.15784254147157137
-Epoch: 57, Loss: 0.16550780870154122
-Epoch: 58, Loss: 0.19409182909696435
-Epoch: 59, Loss: 0.15960172356867416
-Epoch: 60, Loss: 0.1781444630939689
-Epoch: 61, Loss: 0.18778646176301478
-Epoch: 62, Loss: 0.18155322249047207
-Epoch: 63, Loss: 0.1564282003720876
-Epoch: 64, Loss: 0.15213708657365627
-Epoch: 65, Loss: 0.19927010187517627
-Epoch: 66, Loss: 0.19697892539897
-Epoch: 67, Loss: 0.19423157677988065
-Epoch: 68, Loss: 0.1502501910184129
-Epoch: 69, Loss: 0.16123729339263076
-Epoch: 70, Loss: 0.1815931839198317
-Epoch: 71, Loss: 0.18630446104375994
-Epoch: 72, Loss: 0.1808652442592409
-Epoch: 73, Loss: 0.17840102674790984
-Epoch: 74, Loss: 0.17964357847764068
-Epoch: 75, Loss: 0.18545871556748658
-Epoch: 76, Loss: 0.1607799644589425
-Epoch: 77, Loss: 0.1791833196363886
-Epoch: 78, Loss: 0.16908000492957126
-Epoch: 79, Loss: 0.1651776548216334
-Epoch: 80, Loss: 0.1747741673858335
-Epoch: 81, Loss: 0.19068787520203834
-Epoch: 82, Loss: 0.18939580796456054
-Epoch: 83, Loss: 0.17788392229902067
-Epoch: 84, Loss: 0.20053184676026484
-Epoch: 85, Loss: 0.18539159503129077
-Epoch: 86, Loss: 0.19024760904993782
-Epoch: 87, Loss: 0.18025751232171636
-Epoch: 88, Loss: 0.16911154634134562
-Epoch: 89, Loss: 0.18481329407286082
-Epoch: 90, Loss: 0.17603545345507896
-Epoch: 91, Loss: 0.15177653744127825
-Epoch: 92, Loss: 0.16198626009883718
-Epoch: 93, Loss: 0.15459447165928325
-Epoch: 94, Loss: 0.17392997711770916
-Epoch: 95, Loss: 0.16981863881344814
-Epoch: 96, Loss: 0.17403731523430005
-Epoch: 97, Loss: 0.17911179439902608
-Epoch: 98, Loss: 0.1800269753522479
-Epoch: 99, Loss: 0.15611240743627516
-Sampling...
-	Found stable molecule 1/100
-	Found stable molecule 2/100
-	Found stable molecule 3/100
-	Found stable molecule 4/100
-	Found stable molecule 5/100
-	Found stable molecule 6/100
-	Found stable molecule 7/100
-	Found stable molecule 8/100
-	Found stable molecule 9/100
-	Found stable molecule 10/100
-	Found stable molecule 11/100
-	Found stable molecule 12/100
-	Found stable molecule 13/100
-	Found stable molecule 14/100
-	Found stable molecule 15/100
-	Found stable molecule 16/100
-	Found stable molecule 17/100
-	Found stable molecule 18/100
-	Found stable molecule 19/100
-	Found stable molecule 20/100
-	Found stable molecule 21/100
-	Found stable molecule 22/100
-	Found stable molecule 23/100
-	Found stable molecule 24/100
-	Found stable molecule 25/100
-	Found stable molecule 26/100
-	Found stable molecule 27/100
-	Found stable molecule 28/100
-	Found stable molecule 29/100
-	Found stable molecule 30/100
-	Found stable molecule 31/100
-	Found stable molecule 32/100
-	Found stable molecule 33/100
-	Found stable molecule 34/100
-	Found stable molecule 35/100
-	Found stable molecule 36/100
-	Found stable molecule 37/100
-	Found stable molecule 38/100
-	Found stable molecule 39/100
-	Found stable molecule 40/100
-	Found stable molecule 41/100
-	Found stable molecule 42/100
-	Found stable molecule 43/100
-	Found stable molecule 44/100
-	Found stable molecule 45/100
-	Found stable molecule 46/100
-	Found stable molecule 47/100
-	Found stable molecule 48/100
-	Found stable molecule 49/100
-	Found stable molecule 50/100
-	Found stable molecule 51/100
-	Found stable molecule 52/100
-	Found stable molecule 53/100
-	Found stable molecule 54/100
-	Found stable molecule 55/100
-	Found stable molecule 56/100
-	Found stable molecule 57/100
-	Found stable molecule 58/100
-	Found stable molecule 59/100
-	Found stable molecule 60/100
-	Found stable molecule 61/100
-	Found stable molecule 62/100
-	Found stable molecule 63/100
-	Found stable molecule 64/100
-	Found stable molecule 65/100
-	Found stable molecule 66/100
-	Found stable molecule 67/100
-	Found stable molecule 68/100
-	Found stable molecule 69/100
-	Found stable molecule 70/100
-	Found stable molecule 71/100
-	Found stable molecule 72/100
-	Found stable molecule 73/100
-	Found stable molecule 74/100
-	Found stable molecule 75/100
-	Found stable molecule 76/100
-	Found stable molecule 77/100
-	Found stable molecule 78/100
-	Found stable molecule 79/100
-	Found stable molecule 80/100
-	Found stable molecule 81/100
-	Found stable molecule 82/100
-	Found stable molecule 83/100
-	Found stable molecule 84/100
-	Found stable molecule 85/100
-	Found stable molecule 86/100
-	Found stable molecule 87/100
-	Found stable molecule 88/100
-	Found stable molecule 89/100
-	Found stable molecule 90/100
-	Found stable molecule 91/100
-	Found stable molecule 92/100
-	Found stable molecule 93/100
-	Found stable molecule 94/100
-	Found stable molecule 95/100
-	Found stable molecule 96/100
-	Found stable molecule 97/100
-	Found stable molecule 98/100
-	Found stable molecule 99/100
-	Found stable molecule 100/100
-Scoring...
-converged SCF energy = -80.0225903479201
-converged SCF energy = -80.0398259927261
-converged SCF energy = -80.0399563704686
-converged SCF energy = -80.0450078959147
-converged SCF energy = -80.0516516278257
-converged SCF energy = -80.0506974038151
-converged SCF energy = -80.0517217555127
-converged SCF energy = -80.0545349893274
-converged SCF energy = -80.0156064158859
-converged SCF energy = -80.0400799487723
-converged SCF energy = -80.0298219133435
-converged SCF energy = -80.031541869502
-converged SCF energy = -80.0291271543084
-converged SCF energy = -80.0424306554332
-converged SCF energy = -80.0515316388081
-converged SCF energy = -80.0472162369529
-converged SCF energy = -80.055144403309
-converged SCF energy = -80.0487273356804
-converged SCF energy = -80.0083751434944
-converged SCF energy = -80.0354318806449
-converged SCF energy = -80.0478160412842
-converged SCF energy = -80.0493104262273
-converged SCF energy = -80.0546803778808
-converged SCF energy = -80.0441093448266
-converged SCF energy = -80.0533353032171
-converged SCF energy = -80.0388432816381
-converged SCF energy = -80.0418456013654
-converged SCF energy = -80.0450626707947
-converged SCF energy = -80.0493963156336
-converged SCF energy = -80.0364103167693
-converged SCF energy = -80.0329120355417
-converged SCF energy = -80.033906224309
-converged SCF energy = -80.0410257654444
-converged SCF energy = -80.026922597844
-converged SCF energy = -80.0373519171242
-converged SCF energy = -80.0497559161383
-converged SCF energy = -80.043852630844
-converged SCF energy = -79.7916748290055
-converged SCF energy = -80.0374008383888
-converged SCF energy = -80.0485929155163
-converged SCF energy = -80.0361157493737
-converged SCF energy = -80.0513294999419
-converged SCF energy = -80.0472873491096
-converged SCF energy = -80.0368562333939
-converged SCF energy = -80.0416731842718
-converged SCF energy = -80.0398017381961
-converged SCF energy = -80.0517730338531
-converged SCF energy = -80.0319077151386
-converged SCF energy = -80.0401222483562
-converged SCF energy = -80.0420474467072
-converged SCF energy = -133.448145134487
-converged SCF energy = -80.0533778040242
-converged SCF energy = -80.0488152897737
-converged SCF energy = -80.0478553978564
-converged SCF energy = -80.0492870043895
-converged SCF energy = -80.0379244893589
-converged SCF energy = -80.0461458241986
-converged SCF energy = -80.0469961972441
-converged SCF energy = -80.0431384513756
-converged SCF energy = -80.0555127311331
-converged SCF energy = -80.0531181055964
-converged SCF energy = -80.0327521008173
-converged SCF energy = -80.0484171448976
-converged SCF energy = -79.9506980427498
-converged SCF energy = -80.0513790411148
-converged SCF energy = -80.0438600982721
-converged SCF energy = -80.0575916214107
-converged SCF energy = -80.0175508230067
-converged SCF energy = -80.037722324937
-converged SCF energy = -80.0229900658333
-converged SCF energy = -80.0452545657156
-converged SCF energy = -80.0463507180593
-converged SCF energy = -80.0352432862582
-converged SCF energy = -80.0454005075583
-converged SCF energy = -80.0552714021593
-converged SCF energy = -80.0390811373595
-converged SCF energy = -80.0498817639123
-converged SCF energy = -80.0512901648845
-converged SCF energy = -80.0485524809807
-converged SCF energy = -80.035984232993
-converged SCF energy = -80.0461595864114
-converged SCF energy = -80.036412201552
-converged SCF energy = -80.0408908686451
-converged SCF energy = -80.0503355549297
-converged SCF energy = -80.0455454014919
-converged SCF energy = -80.0492226727312
-converged SCF energy = -80.054913426078
-converged SCF energy = -80.0530948920684
-converged SCF energy = -80.0432522148475
-converged SCF energy = -80.03742129312
-converged SCF energy = -80.0357855905222
-converged SCF energy = -80.0460113043464
-converged SCF energy = -80.0301839986763
-converged SCF energy = -80.0192519967814
-converged SCF energy = -80.0411754434197
-converged SCF energy = -80.044650169368
-converged SCF energy = -80.0378446839028
-converged SCF energy = -80.043817400954
-converged SCF energy = -80.0343007010587
-converged SCF energy = -80.0542220424918
-Aligning...
-Epoch: 0, Loss: 0.15764464602574635
-Epoch: 1, Loss: 0.23561494588654916
-Epoch: 2, Loss: 0.19343211880666622
-Epoch: 3, Loss: 0.17957185722579622
-Epoch: 4, Loss: 0.18142445029055979
-Epoch: 5, Loss: 0.18037961314844167
-Epoch: 6, Loss: 0.19042500544324006
-Epoch: 7, Loss: 0.1724971557384746
-Epoch: 8, Loss: 0.1610133532330927
-Epoch: 9, Loss: 0.21246153283496902
-Epoch: 10, Loss: 0.16252381017262554
-Epoch: 11, Loss: 0.1629250027371819
-Epoch: 12, Loss: 0.19731652208141412
-Epoch: 13, Loss: 0.1734912858078107
-Epoch: 14, Loss: 0.207947384663836
-Epoch: 15, Loss: 0.1712971370816332
-Epoch: 16, Loss: 0.18214941696174036
-Epoch: 17, Loss: 0.1645644000038001
-Epoch: 18, Loss: 0.15633066607785698
-Epoch: 19, Loss: 0.15370686824738447
-Epoch: 20, Loss: 0.16944029740231362
-Epoch: 21, Loss: 0.16731106500905824
-Epoch: 22, Loss: 0.1709384500661791
-Epoch: 23, Loss: 0.15606387696939145
-Epoch: 24, Loss: 0.16697321957251823
-Epoch: 25, Loss: 0.17967892710389485
-Epoch: 26, Loss: 0.16079044876094892
-Epoch: 27, Loss: 0.16645278107544825
-Epoch: 28, Loss: 0.17025982381601926
-Epoch: 29, Loss: 0.17549907507816007
-Epoch: 30, Loss: 0.21195098851956296
-Epoch: 31, Loss: 0.1929608590687566
-Epoch: 32, Loss: 0.1848583441419545
-Epoch: 33, Loss: 0.17399021427474984
-Epoch: 34, Loss: 0.1678675093298483
-Epoch: 35, Loss: 0.180419866241049
-Epoch: 36, Loss: 0.1622211224090882
-Epoch: 37, Loss: 0.16862642738851513
-Epoch: 38, Loss: 0.16477788407207677
-Epoch: 39, Loss: 0.15700294733166634
-Epoch: 40, Loss: 0.17564515520062038
-Epoch: 41, Loss: 0.1596957673040951
-Epoch: 42, Loss: 0.17790294735375228
-Epoch: 43, Loss: 0.18554780125973375
-Epoch: 44, Loss: 0.17926215308169183
-Epoch: 45, Loss: 0.18493556947924306
-Epoch: 46, Loss: 0.16300984248464442
-Epoch: 47, Loss: 0.17676398040244354
-Epoch: 48, Loss: 0.15881259256210892
-Epoch: 49, Loss: 0.1677302059904305
-Epoch: 50, Loss: 0.1699841598399358
-Epoch: 51, Loss: 0.1874162172293979
-Epoch: 52, Loss: 0.1598200524178554
-Epoch: 53, Loss: 0.16459581699441703
-Epoch: 54, Loss: 0.1663337981488864
-Epoch: 55, Loss: 0.1688985556028068
-Epoch: 56, Loss: 0.18157347946230978
-Epoch: 57, Loss: 0.16193745609245294
-Epoch: 58, Loss: 0.16242462290395238
-Epoch: 59, Loss: 0.18526769855555342
-Epoch: 60, Loss: 0.1758806086183424
-Epoch: 61, Loss: 0.16827064143353376
-Epoch: 62, Loss: 0.18063517723511063
-Epoch: 63, Loss: 0.17049057712549398
-Epoch: 64, Loss: 0.18881857126758333
-Epoch: 65, Loss: 0.1817179466416978
-Epoch: 66, Loss: 0.16033732570312517
-Epoch: 67, Loss: 0.17818940172546804
-Epoch: 68, Loss: 0.1705237676842923
-Epoch: 69, Loss: 0.1714381660283246
-Epoch: 70, Loss: 0.18609298816670236
-Epoch: 71, Loss: 0.16783894256609
-Epoch: 72, Loss: 0.18430206475635885
-Epoch: 73, Loss: 0.17804232301816977
-Epoch: 74, Loss: 0.14514133135475932
-Epoch: 75, Loss: 0.17597093509167372
-Epoch: 76, Loss: 0.17588517227382347
-Epoch: 77, Loss: 0.17443717298973493
-Epoch: 78, Loss: 0.17897371009248325
-Epoch: 79, Loss: 0.145738401565182
-Epoch: 80, Loss: 0.15786530540605745
-Epoch: 81, Loss: 0.163201778286873
-Epoch: 82, Loss: 0.1815894093740073
-Epoch: 83, Loss: 0.16394918650529128
-Epoch: 84, Loss: 0.1662902532865506
-Epoch: 85, Loss: 0.18946159525065687
-Epoch: 86, Loss: 0.1631533393226014
-Epoch: 87, Loss: 0.171543929646594
-Epoch: 88, Loss: 0.17625315276757708
-Epoch: 89, Loss: 0.15413245172317544
-Epoch: 90, Loss: 0.16705182018768594
-Epoch: 91, Loss: 0.17502457996478404
-Epoch: 92, Loss: 0.15406235355911485
-Epoch: 93, Loss: 0.19723494234922492
-Epoch: 94, Loss: 0.14269445125411
-Epoch: 95, Loss: 0.16294736632024315
-Epoch: 96, Loss: 0.1882436727150612
-Epoch: 97, Loss: 0.15539671374860323
-Epoch: 98, Loss: 0.15688121346590683
-Epoch: 99, Loss: 0.1716713231104554
-Sampling...
-	Found stable molecule 1/100
-	Found stable molecule 2/100
-	Found stable molecule 3/100
-	Found stable molecule 4/100
-	Found stable molecule 5/100
-	Found stable molecule 6/100
-	Found stable molecule 7/100
-	Found stable molecule 8/100
-	Found stable molecule 9/100
-	Found stable molecule 10/100
-	Found stable molecule 11/100
-	Found stable molecule 12/100
-	Found stable molecule 13/100
-	Found stable molecule 14/100
-	Found stable molecule 15/100
-	Found stable molecule 16/100
-	Found stable molecule 17/100
-	Found stable molecule 18/100
-	Found stable molecule 19/100
-	Found stable molecule 20/100
-	Found stable molecule 21/100
-	Found stable molecule 22/100
-	Found stable molecule 23/100
-	Found stable molecule 24/100
-	Found stable molecule 25/100
-	Found stable molecule 26/100
-	Found stable molecule 27/100
-	Found stable molecule 28/100
-	Found stable molecule 29/100
-	Found stable molecule 30/100
-	Found stable molecule 31/100
-	Found stable molecule 32/100
-	Found stable molecule 33/100
-	Found stable molecule 34/100
-	Found stable molecule 35/100
-	Found stable molecule 36/100
-	Found stable molecule 37/100
-	Found stable molecule 38/100
-	Found stable molecule 39/100
-	Found stable molecule 40/100
-	Found stable molecule 41/100
-	Found stable molecule 42/100
-	Found stable molecule 43/100
-	Found stable molecule 44/100
-	Found stable molecule 45/100
-	Found stable molecule 46/100
-	Found stable molecule 47/100
-	Found stable molecule 48/100
-	Found stable molecule 49/100
-	Found stable molecule 50/100
-	Found stable molecule 51/100
-	Found stable molecule 52/100
-	Found stable molecule 53/100
-	Found stable molecule 54/100
-	Found stable molecule 55/100
-	Found stable molecule 56/100
-	Found stable molecule 57/100
-	Found stable molecule 58/100
-	Found stable molecule 59/100
-	Found stable molecule 60/100
-	Found stable molecule 61/100
-	Found stable molecule 62/100
-	Found stable molecule 63/100
-	Found stable molecule 64/100
-	Found stable molecule 65/100
-	Found stable molecule 66/100
-	Found stable molecule 67/100
-	Found stable molecule 68/100
-	Found stable molecule 69/100
-	Found stable molecule 70/100
-	Found stable molecule 71/100
-	Found stable molecule 72/100
-	Found stable molecule 73/100
-	Found stable molecule 74/100
-	Found stable molecule 75/100
-	Found stable molecule 76/100
-	Found stable molecule 77/100
-	Found stable molecule 78/100
-	Found stable molecule 79/100
-	Found stable molecule 80/100
-	Found stable molecule 81/100
-	Found stable molecule 82/100
-	Found stable molecule 83/100
-	Found stable molecule 84/100
-	Found stable molecule 85/100
-	Found stable molecule 86/100
-	Found stable molecule 87/100
-	Found stable molecule 88/100
-	Found stable molecule 89/100
-	Found stable molecule 90/100
-	Found stable molecule 91/100
-	Found stable molecule 92/100
-	Found stable molecule 93/100
-	Found stable molecule 94/100
-	Found stable molecule 95/100
-	Found stable molecule 96/100
-	Found stable molecule 97/100
-	Found stable molecule 98/100
-	Found stable molecule 99/100
-	Found stable molecule 100/100
-Scoring...
-converged SCF energy = -80.0036369918641
-converged SCF energy = -80.0494114086779
-converged SCF energy = -80.043175396977
-converged SCF energy = -80.0154426318672
-converged SCF energy = -80.037322686522
-converged SCF energy = -80.0432017142931
-converged SCF energy = -80.0377846739379
-converged SCF energy = -80.0303296697699
-converged SCF energy = -80.0325386671463
-converged SCF energy = -80.0332679006002
-converged SCF energy = -80.0409250878889
-converged SCF energy = -80.026295339709
-converged SCF energy = -80.0017689028346
-converged SCF energy = -80.0437381241987
-converged SCF energy = -80.0426772333742
-converged SCF energy = -80.0281356048637
-converged SCF energy = -80.0338242133758
-converged SCF energy = -80.0422428876558
-converged SCF energy = -80.0513703094196
-converged SCF energy = -80.0357588314682
-converged SCF energy = -80.0349860886978
-converged SCF energy = -80.0558227764765
-converged SCF energy = -80.0500974727814
-converged SCF energy = -80.0379544451666
-converged SCF energy = -80.0296334142664
-converged SCF energy = -80.0413594308042
-converged SCF energy = -80.0327806140491
-converged SCF energy = -80.046919361387
-converged SCF energy = -80.044886136722
-converged SCF energy = -80.0434528640521
-converged SCF energy = -80.0438884380473
-converged SCF energy = -80.0350364307973
-converged SCF energy = -80.0466586046141
-converged SCF energy = -80.0378310811172
-converged SCF energy = -80.0352328634146
-converged SCF energy = -80.0451811728727
-converged SCF energy = -80.0400416940251
-converged SCF energy = -80.0475999137539
-converged SCF energy = -80.0557957776112
-converged SCF energy = -80.0445206172814
-converged SCF energy = -80.0532302747426
-converged SCF energy = -80.0380413038316
-converged SCF energy = -80.0237863754597
-converged SCF energy = -80.0423763930252
-converged SCF energy = -80.0342139454684
-converged SCF energy = -80.0450611853455
-converged SCF energy = -80.0347412316154
-converged SCF energy = -80.0544099977659
-converged SCF energy = -80.0443850065709
-converged SCF energy = -80.0466413272927
-converged SCF energy = -80.0470730883352
-converged SCF energy = -80.0238593395198
-converged SCF energy = -80.0480633686479
-converged SCF energy = -80.0290312101375
-converged SCF energy = -80.036327026595
-converged SCF energy = -80.0412772031004
-converged SCF energy = -80.0379333942395
-converged SCF energy = -80.0523791849028
-converged SCF energy = -80.0388314818157
-converged SCF energy = -80.0277543317185
-converged SCF energy = -80.0437782814108
-converged SCF energy = -80.0319475963351
-converged SCF energy = -80.0428033412205
-converged SCF energy = -80.040292691905
-converged SCF energy = -80.0176035329822
-converged SCF energy = -80.0425801647102
-converged SCF energy = -80.0301477739741
-converged SCF energy = -80.0321712556396
-converged SCF energy = -80.0353754490339
-converged SCF energy = -80.045713869853
-converged SCF energy = -80.0306636461078
-converged SCF energy = -80.034514867766
-converged SCF energy = -80.035736952492
-converged SCF energy = -80.0271934100323
-converged SCF energy = -80.0422824145771
-converged SCF energy = -80.0412321307353
-converged SCF energy = -80.0114147789639
-converged SCF energy = -80.0263509629229
-converged SCF energy = -80.0337205530709
-converged SCF energy = -80.0302016063812
-converged SCF energy = -80.0466277832745
-converged SCF energy = -80.0479430048531
-converged SCF energy = -80.0432570452002
-converged SCF energy = -80.043713955024
-converged SCF energy = -80.0447795745571
-converged SCF energy = -80.0551184804073
-converged SCF energy = -80.0379005110137
-converged SCF energy = -80.0476910040008
-converged SCF energy = -80.0467780755806
-converged SCF energy = -80.0472367411244
-converged SCF energy = -80.0538068403552
-converged SCF energy = -80.0327410476416
-converged SCF energy = -80.0371854428449
-converged SCF energy = -80.0443073574175
-converged SCF energy = -80.0243570575311
-converged SCF energy = -80.0426302287446
-converged SCF energy = -80.0420992727018
-converged SCF energy = -80.0387588302185
-converged SCF energy = -80.0145754902115
-converged SCF energy = -80.0412617514403
-Aligning...
-Epoch: 0, Loss: 0.18189946730103781
-Epoch: 1, Loss: 0.1633525093142705
-Epoch: 2, Loss: 0.12936297091981236
-Epoch: 3, Loss: 0.18842120004664115
-Epoch: 4, Loss: 0.21489533888338075
-Epoch: 5, Loss: 0.18902530465391024
-Epoch: 6, Loss: 0.23300602816303884
-Epoch: 7, Loss: 0.15729384673095975
-Epoch: 8, Loss: 0.2551418778502189
-Epoch: 9, Loss: 0.25047384680799994
-Epoch: 10, Loss: 0.22892569350022085
-Epoch: 11, Loss: 0.18527612963441692
-Epoch: 12, Loss: 0.19540767582320517
-Epoch: 13, Loss: 0.1503445046547068
-Epoch: 14, Loss: 0.15930073269112974
-Epoch: 15, Loss: 0.14999713714638868
-Epoch: 16, Loss: 0.17444000287142178
-Epoch: 17, Loss: 0.21186425837322237
-Epoch: 18, Loss: 0.1759499674308355
-Epoch: 19, Loss: 0.1843102859895903
-Epoch: 20, Loss: 0.17472293825838134
-Epoch: 21, Loss: 0.16270525656185952
-Epoch: 22, Loss: 0.20448186202304533
-Epoch: 23, Loss: 0.19589600094483509
-Epoch: 24, Loss: 0.1903538937885503
-Epoch: 25, Loss: 0.1735643918662416
-Epoch: 26, Loss: 0.1482604971114076
-Epoch: 27, Loss: 0.17000793965521183
-Epoch: 28, Loss: 0.1557813883815502
-Epoch: 29, Loss: 0.17897070111707017
-Epoch: 30, Loss: 0.19729987667547697
-Epoch: 31, Loss: 0.14801835871638422
-Epoch: 32, Loss: 0.22319121253720234
-Epoch: 33, Loss: 0.2139352060926329
-Epoch: 34, Loss: 0.16448216368797433
-Epoch: 35, Loss: 0.2045962897794967
-Epoch: 36, Loss: 0.1712097793570013
-Epoch: 37, Loss: 0.17202097441588707
-Epoch: 38, Loss: 0.193397615970061
-Epoch: 39, Loss: 0.19220244434100703
-Epoch: 40, Loss: 0.12176563370353222
-Epoch: 41, Loss: 0.1877195425005667
-Epoch: 42, Loss: 0.23472510158578316
-Epoch: 43, Loss: 0.1468722135215008
-Epoch: 44, Loss: 0.1601154751202094
-Epoch: 45, Loss: 0.1698966869061837
-Epoch: 46, Loss: 0.16992125531920946
-Epoch: 47, Loss: 0.11561519108510039
-Epoch: 48, Loss: 0.18476740980372916
-Epoch: 49, Loss: 0.12438822043560174
-Epoch: 50, Loss: 0.195335420953979
-Epoch: 51, Loss: 0.19050994119732914
-Epoch: 52, Loss: 0.14397545652546548
-Epoch: 53, Loss: 0.1846624326547903
-Epoch: 54, Loss: 0.1443578956189658
-Epoch: 55, Loss: 0.19013224365535186
-Epoch: 56, Loss: 0.163850223606274
-Epoch: 57, Loss: 0.12948202181739807
-Epoch: 58, Loss: 0.16230982598665922
-Epoch: 59, Loss: 0.17069483232887148
-Epoch: 60, Loss: 0.16729971761143836
-Epoch: 61, Loss: 0.17005366189316157
-Epoch: 62, Loss: 0.17546949590162567
-Epoch: 63, Loss: 0.22214960945954232
-Epoch: 64, Loss: 0.20376543477540693
-Epoch: 65, Loss: 0.15189618082940343
-Epoch: 66, Loss: 0.15004476482483736
-Epoch: 67, Loss: 0.22581681254074196
-Epoch: 68, Loss: 0.14597636270637998
-Epoch: 69, Loss: 0.2181585896584186
-Epoch: 70, Loss: 0.19736315885975358
-Epoch: 71, Loss: 0.18662119052051307
-Epoch: 72, Loss: 0.15392674463717124
-Epoch: 73, Loss: 0.20976171439543456
-Epoch: 74, Loss: 0.21588404048528467
-Epoch: 75, Loss: 0.15623421751460495
-Epoch: 76, Loss: 0.15117362034334664
-Epoch: 77, Loss: 0.19852941061386475
-Epoch: 78, Loss: 0.25114751149035636
-Epoch: 79, Loss: 0.17946995156692416
-Epoch: 80, Loss: 0.20031027790598097
-Epoch: 81, Loss: 0.18539401098539723
-Epoch: 82, Loss: 0.20400545316719063
-Epoch: 83, Loss: 0.15301633971203318
-Epoch: 84, Loss: 0.13893194869042141
-Epoch: 85, Loss: 0.18130730873398057
-Epoch: 86, Loss: 0.15728015228464076
-Epoch: 87, Loss: 0.17965461777908887
-Epoch: 88, Loss: 0.1784236402305756
-Epoch: 89, Loss: 0.14657520505072213
-Epoch: 90, Loss: 0.1817807926708565
-Epoch: 91, Loss: 0.11516392955064458
-Epoch: 92, Loss: 0.1887280705441621
-Epoch: 93, Loss: 0.17846153270425216
-Epoch: 94, Loss: 0.17327510335228077
-Epoch: 95, Loss: 0.16581572996680607
-Epoch: 96, Loss: 0.24265862351356127
-Epoch: 97, Loss: 0.13517860339060034
-Epoch: 98, Loss: 0.1861448270195607
-Epoch: 99, Loss: 0.174914377024055
-Sampling...
-	Found stable molecule 1/100
-	Found stable molecule 2/100
-	Found stable molecule 3/100
-	Found stable molecule 4/100
-	Found stable molecule 5/100
-	Found stable molecule 6/100
-	Found stable molecule 7/100
-	Found stable molecule 8/100
-	Found stable molecule 9/100
-	Found stable molecule 10/100
-	Found stable molecule 11/100
-	Found stable molecule 12/100
-	Found stable molecule 13/100
-	Found stable molecule 14/100
-	Found stable molecule 15/100
-	Found stable molecule 16/100
-	Found stable molecule 17/100
-	Found stable molecule 18/100
-	Found stable molecule 19/100
-	Found stable molecule 20/100
-	Found stable molecule 21/100
-	Found stable molecule 22/100
-	Found stable molecule 23/100
-	Found stable molecule 24/100
-	Found stable molecule 25/100
-	Found stable molecule 26/100
-	Found stable molecule 27/100
-	Found stable molecule 28/100
-	Found stable molecule 29/100
-	Found stable molecule 30/100
-	Found stable molecule 31/100
-	Found stable molecule 32/100
-	Found stable molecule 33/100
-	Found stable molecule 34/100
-	Found stable molecule 35/100
-	Found stable molecule 36/100
-	Found stable molecule 37/100
-	Found stable molecule 38/100
-	Found stable molecule 39/100
-	Found stable molecule 40/100
-	Found stable molecule 41/100
-	Found stable molecule 42/100
-	Found stable molecule 43/100
-	Found stable molecule 44/100
-	Found stable molecule 45/100
-	Found stable molecule 46/100
-	Found stable molecule 47/100
-	Found stable molecule 48/100
-	Found stable molecule 49/100
-	Found stable molecule 50/100
-	Found stable molecule 51/100
-	Found stable molecule 52/100
-	Found stable molecule 53/100
-	Found stable molecule 54/100
-	Found stable molecule 55/100
-	Found stable molecule 56/100
-	Found stable molecule 57/100
-	Found stable molecule 58/100
-	Found stable molecule 59/100
-	Found stable molecule 60/100
-	Found stable molecule 61/100
-	Found stable molecule 62/100
-	Found stable molecule 63/100
-	Found stable molecule 64/100
-	Found stable molecule 65/100
-	Found stable molecule 66/100
-	Found stable molecule 67/100
-	Found stable molecule 68/100
-	Found stable molecule 69/100
-	Found stable molecule 70/100
-	Found stable molecule 71/100
-	Found stable molecule 72/100
-	Found stable molecule 73/100
-	Found stable molecule 74/100
-	Found stable molecule 75/100
-	Found stable molecule 76/100
-	Found stable molecule 77/100
-	Found stable molecule 78/100
-	Found stable molecule 79/100
-	Found stable molecule 80/100
-	Found stable molecule 81/100
-	Found stable molecule 82/100
-	Found stable molecule 83/100
-	Found stable molecule 84/100
-	Found stable molecule 85/100
-	Found stable molecule 86/100
-	Found stable molecule 87/100
-	Found stable molecule 88/100
-	Found stable molecule 89/100
-	Found stable molecule 90/100
-	Found stable molecule 91/100
-	Found stable molecule 92/100
-	Found stable molecule 93/100
-	Found stable molecule 94/100
-	Found stable molecule 95/100
-	Found stable molecule 96/100
-	Found stable molecule 97/100
-	Found stable molecule 98/100
-	Found stable molecule 99/100
-	Found stable molecule 100/100
-Scoring...
-converged SCF energy = -80.0296837894066
-converged SCF energy = -80.0386053591689
-converged SCF energy = -79.9946112582331
-converged SCF energy = -80.0090637291516
-converged SCF energy = -80.045900188901
-converged SCF energy = -80.0199585907611
-converged SCF energy = -80.042020892637
-converged SCF energy = -79.9358954874291
-converged SCF energy = -80.0340037780036
-converged SCF energy = -80.0177286190233
-converged SCF energy = -80.0362151909015
-converged SCF energy = -80.0318583768645
-converged SCF energy = -80.0305893305156
-converged SCF energy = -80.0420485549713
-converged SCF energy = -80.0359938108497
-converged SCF energy = -80.0186596110176
-converged SCF energy = -80.0279796722906
-converged SCF energy = -79.9778201978232
-converged SCF energy = -79.9712937994659
-converged SCF energy = -80.016190507586
-converged SCF energy = -80.0026940493617
-converged SCF energy = -79.977027629301
-converged SCF energy = -80.0205962742119
-converged SCF energy = -79.9406146553933
-converged SCF energy = -80.0251679673099
-converged SCF energy = -80.0425428441828
-converged SCF energy = -80.0273739226136
-converged SCF energy = -80.0421495183472
-converged SCF energy = -80.0089436551823
-converged SCF energy = -80.0422226939258
-converged SCF energy = -80.0205104562282
-converged SCF energy = -80.0250433198325
-converged SCF energy = -80.0109130018774
-converged SCF energy = -79.9573807359592
-converged SCF energy = -80.0384706781478
-converged SCF energy = -80.0457919037139
-converged SCF energy = -80.0206373942055
-converged SCF energy = -80.0431053745784
-converged SCF energy = -80.0459891478029
-converged SCF energy = -80.0354949704634
-converged SCF energy = -80.0169660010117
-converged SCF energy = -80.0189854477375
-converged SCF energy = -80.0304066629249
-converged SCF energy = -80.0248605882873
-converged SCF energy = -79.9035298657163
-converged SCF energy = -80.0468159742948
-converged SCF energy = -80.0013608959315
-converged SCF energy = -80.0418219240059
-converged SCF energy = -80.0347302369272
-converged SCF energy = -80.0005580478515
-converged SCF energy = -80.036931536563
-converged SCF energy = -79.9970239946038
-converged SCF energy = -80.0197971404972
-converged SCF energy = -79.9880358919644
-converged SCF energy = -80.0003779944467
-converged SCF energy = -80.0044495172791
-converged SCF energy = -80.0249180235247
-converged SCF energy = -80.0200824831315
-converged SCF energy = -80.0391283115179
-converged SCF energy = -80.0368325632268
-converged SCF energy = -80.032024107569
-converged SCF energy = -79.9816179822106
-converged SCF energy = -80.0319815290657
-converged SCF energy = -80.0146228055503
-converged SCF energy = -80.0444822253815
-converged SCF energy = -80.012210874546
-converged SCF energy = -79.9997370999568
-converged SCF energy = -80.0364682076052
-converged SCF energy = -80.0186962291307
-converged SCF energy = -80.0458529767993
-converged SCF energy = -80.0073450711034
-converged SCF energy = -80.0216953985655
-converged SCF energy = -79.8421997270737
-converged SCF energy = -80.0470267062719
-converged SCF energy = -79.973105851479
-converged SCF energy = -79.9975079799988
-converged SCF energy = -80.0249071625354
-converged SCF energy = -80.0212345994547
-converged SCF energy = -80.0493676318709
-converged SCF energy = -80.0027023494739
-converged SCF energy = -80.0142656234254
-converged SCF energy = -80.0009139967883
-converged SCF energy = -80.0240678188566
-converged SCF energy = -79.8880573711319
-converged SCF energy = -79.8757402969241
-converged SCF energy = -80.0339392522849
-converged SCF energy = -80.0093028233564
-converged SCF energy = -79.8764138104174
-converged SCF energy = -80.0410107325716
-converged SCF energy = -79.9496568006978
-converged SCF energy = -80.015924766221
-converged SCF energy = -80.0278849702542
-converged SCF energy = -80.032162771396
-converged SCF energy = -80.0156844595597
-converged SCF energy = -80.0354125781537
-converged SCF energy = -80.0312713232742
-converged SCF energy = -80.0280995066858
-converged SCF energy = -79.9743443814108
-converged SCF energy = -80.0419771686829
-converged SCF energy = -80.0065528671805
-Aligning...
-Epoch: 0, Loss: 0.20756074758176454
-Epoch: 1, Loss: 0.18343474466112278
-Epoch: 2, Loss: 0.26356076147206053
-Epoch: 3, Loss: 0.28290864245691666
-Epoch: 4, Loss: 0.28770091459498887
-Epoch: 5, Loss: 0.20605862711761988
-Epoch: 6, Loss: 0.19127244468756055
-Epoch: 7, Loss: 0.20618464457369168
-Epoch: 8, Loss: 0.18778572807445948
-Epoch: 9, Loss: 0.2509123233263408
-Epoch: 10, Loss: 0.1453027372832893
-Epoch: 11, Loss: 0.11858249009349461
-Epoch: 12, Loss: 0.19580539752303214
-Epoch: 13, Loss: 0.20591306719568508
-Epoch: 14, Loss: 0.17056872214995397
-Epoch: 15, Loss: 0.17405591045028565
-Epoch: 16, Loss: 0.3077762581556852
-Epoch: 17, Loss: 0.26288242336511447
-Epoch: 18, Loss: 0.18083398224181516
-Epoch: 19, Loss: 0.17099783798474263
-Epoch: 20, Loss: 0.1982180778006551
-Epoch: 21, Loss: 0.24704110278732164
-Epoch: 22, Loss: 0.22070770527843803
-Epoch: 23, Loss: 0.2215061009134292
-Epoch: 24, Loss: 0.17312963252978428
-Epoch: 25, Loss: 0.2764613277391333
-Epoch: 26, Loss: 0.12182975736376019
-Epoch: 27, Loss: 0.20925432272900246
-Epoch: 28, Loss: 0.17006622988294878
-Epoch: 29, Loss: 0.18461219126732709
-Epoch: 30, Loss: 0.23183818771874898
-Epoch: 31, Loss: 0.1580990833885377
-Epoch: 32, Loss: 0.2616161317084354
-Epoch: 33, Loss: 0.17723354685631398
-Epoch: 34, Loss: 0.22114971678551773
-Epoch: 35, Loss: 0.2654931595826062
-Epoch: 36, Loss: 0.24033880192302837
-Epoch: 37, Loss: 0.11591842057836627
-Epoch: 38, Loss: 0.2894567601171178
-Epoch: 39, Loss: 0.25092418689074764
-Epoch: 40, Loss: 0.26793423385462123
-Epoch: 41, Loss: 0.15934798778447104
-Epoch: 42, Loss: 0.22631303521724963
-Epoch: 43, Loss: 0.19890368107081358
-Epoch: 44, Loss: 0.24159832979623921
-Epoch: 45, Loss: 0.11264772840032417
-Epoch: 46, Loss: 0.27915535603647956
-Epoch: 47, Loss: 0.18424713177579455
-Epoch: 48, Loss: 0.2614618571456374
-Epoch: 49, Loss: 0.20330972526682065
-Epoch: 50, Loss: 0.20338490671255827
-Epoch: 51, Loss: 0.12987197847681403
-Epoch: 52, Loss: 0.17194341854624248
-Epoch: 53, Loss: 0.20654264608762896
-Epoch: 54, Loss: 0.17895197564630774
-Epoch: 55, Loss: 0.19792514639588873
-Epoch: 56, Loss: 0.24492738070308365
-Epoch: 57, Loss: 0.1980268247781969
-Epoch: 58, Loss: 0.19240899028130456
-Epoch: 59, Loss: 0.2736130577583514
-Epoch: 60, Loss: 0.21069488614781448
-Epoch: 61, Loss: 0.12752980810441997
-Epoch: 62, Loss: 0.20624392745952114
-Epoch: 63, Loss: 0.20496720919388942
-Epoch: 64, Loss: 0.24544728496002408
-Epoch: 65, Loss: 0.15381145903405777
-Epoch: 66, Loss: 0.23468880928061006
-Epoch: 67, Loss: 0.17675103685343982
-Epoch: 68, Loss: 0.15326639051135688
-Epoch: 69, Loss: 0.17217433317676825
-Epoch: 70, Loss: 0.1992177094834773
-Epoch: 71, Loss: 0.18080671247736924
-Epoch: 72, Loss: 0.24471842694287455
-Epoch: 73, Loss: 0.2367518857959763
-Epoch: 74, Loss: 0.2581442153372689
-Epoch: 75, Loss: 0.2752957037315613
-Epoch: 76, Loss: 0.2696604054316822
-Epoch: 77, Loss: 0.15607411884487232
-Epoch: 78, Loss: 0.18086924846831517
-Epoch: 79, Loss: 0.15293945880135282
-Epoch: 80, Loss: 0.1227198585689917
-Epoch: 81, Loss: 0.19842791465047774
-Epoch: 82, Loss: 0.1576417031851473
-Epoch: 83, Loss: 0.17100696823321368
-Epoch: 84, Loss: 0.17886424552072966
-Epoch: 85, Loss: 0.15563630032192285
-Epoch: 86, Loss: 0.20344983251683332
-Epoch: 87, Loss: 0.14196134278382486
-Epoch: 88, Loss: 0.26394625632050195
-Epoch: 89, Loss: 0.19938622901404224
-Epoch: 90, Loss: 0.2615503932240288
-Epoch: 91, Loss: 0.1544709061446831
-Epoch: 92, Loss: 0.14698064876110806
-Epoch: 93, Loss: 0.22131806468021747
-Epoch: 94, Loss: 0.1383648722789826
-Epoch: 95, Loss: 0.16405282512195973
-Epoch: 96, Loss: 0.15564253642826498
-Epoch: 97, Loss: 0.18117199873286283
-Epoch: 98, Loss: 0.21783002175096236
-Epoch: 99, Loss: 0.2106154639300765
-Sampling...
+converged SCF energy = -371.38437489638
+converged SCF energy = -481.972808435248
+converged SCF energy = -407.977410214528
+converged SCF energy = -408.008605088096
+converged SCF energy = -497.902443585843
+converged SCF energy = -354.564554527065
+converged SCF energy = -411.69249243366
+converged SCF energy = -411.689256174183
+converged SCF energy = -346.951109816258
+converged SCF energy = -444.613185541686
+converged SCF energy = -354.517956871081
+converged SCF energy = -448.274850129768
+converged SCF energy = -354.632522438777
+converged SCF energy = -301.168718208621
+converged SCF energy = -444.647170864242
+converged SCF energy = -501.745762354324
+converged SCF energy = -408.005661111475
+converged SCF energy = -444.614054097388
+converged SCF energy = -400.328994241827
+converged SCF energy = -448.274420605635
+converged SCF energy = -354.59184151133
+converged SCF energy = -391.146425589126
+converged SCF energy = -408.006128047698
+converged SCF energy = -444.614061200303
+converged SCF energy = -501.733072273466
+converged SCF energy = -440.770451164413
+converged SCF energy = -404.149849786348
+converged SCF energy = -387.399434445806
+converged SCF energy = -501.715486541432
+converged SCF energy = -501.766985158073
+converged SCF energy = -350.832755787087
+converged SCF energy = -407.990498177165
+converged SCF energy = -404.116123881484
+converged SCF energy = -391.138129759799
+converged SCF energy = -411.685137272486
+converged SCF energy = -391.161208114609
+converged SCF energy = -337.708841306762
+converged SCF energy = -318.011295155381
+converged SCF energy = -501.774000385868
+converged SCF energy = -457.60453263566
+converged SCF energy = -407.990845129551
+converged SCF energy = -350.873752722578
+converged SCF energy = -400.341810005497
+converged SCF energy = -411.687643202908
+converged SCF energy = -444.522420533951
+converged SCF energy = -444.568336942709
+converged SCF energy = -318.005429961677
+converged SCF energy = -497.923146351994
+converged SCF energy = -346.931971662804
+converged SCF energy = -440.57941494773
+converged SCF energy = -465.150929125346
+converged SCF energy = -444.626467205864
+converged SCF energy = -391.139410052873
+converged SCF energy = -404.151304491331
+converged SCF energy = -391.199766800685
+converged SCF energy = -333.965675998466
+converged SCF energy = -411.690796544726
+converged SCF energy = -494.122864913679
+converged SCF energy = -444.512709869779
+converged SCF energy = -501.77502734698
+converged SCF energy = -314.284807708128
+converged SCF energy = -391.108683341556
+converged SCF energy = -465.12710646218
+converged SCF energy = -400.301327489319
+converged SCF energy = -444.525343855079
+converged SCF energy = -354.637006933128
+converged SCF energy = -444.553330611982
+converged SCF energy = -411.694665653736
+converged SCF energy = -461.424484273107
+converged SCF energy = -411.693346807158
