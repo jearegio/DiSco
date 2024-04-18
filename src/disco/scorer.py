@@ -1,9 +1,15 @@
+import json
+from abc import ABC, abstractmethod
 from pyscf import dft, gto
 from pyscf.tools import cubegen
 import numpy as np
-# from pyscf.prop.polarizability.rks import Polarizability
-from abc import ABC, abstractmethod
-import multiprocessing
+import paddle
+from pahelix.model_zoo.gem_model import GeoGNNModel
+from gem.src.model import DownstreamModel
+from gem.src.featurizer import DownstreamCollateFn, DownstreamTransformFn
+from gem.src.utils import get_downstream_task_names
+from rdkit import Chem
+from rdkit.Geometry import Point3D
 
 class Scorer(ABC):
     @abstractmethod
@@ -106,3 +112,88 @@ class PySCFScorer(Scorer):
     #     pol_norm = np.linalg.norm(pol_tensor)
 
     #     return pol_norm
+
+class GEMScorer(Scorer):
+    def __init__(self, metric):
+        compound_encoder_config = load_json("src/disco/gem/model_configs/geognn_l8.json")
+        model_config = load_json("src/disco/gem/model_configs/down_mlp3.json")
+
+        task_names = get_downstream_task_names(metric, None)
+
+        task_type = 'regr'
+        model_config['task_type'] = task_type
+        model_config['num_tasks'] = len(task_names)
+        print('model_config:')
+        print(model_config)
+
+        ### build model
+        compound_encoder = GeoGNNModel(compound_encoder_config)
+        compound_encoder.set_state_dict(paddle.load(f"src/disco/gem/models/{metric}/compound_encoder.pdparams"))
+        model = DownstreamModel(model_config, compound_encoder)
+        model.set_state_dict(paddle.load(f"src/disco/gem/models/{metric}/model.pdparams"))
+        model.eval()
+
+        # set up collate function
+        collate_fn = DownstreamCollateFn(
+            atom_names=compound_encoder_config['atom_names'], 
+            bond_names=compound_encoder_config['bond_names'],
+            bond_float_names=compound_encoder_config['bond_float_names'],
+            bond_angle_float_names=compound_encoder_config['bond_angle_float_names'],
+            task_type=model_config['task_type'])
+
+        self.metric = metric
+        self.model = model
+        self.collate_fn = collate_fn
+
+    def read_xyz_file(self, filename):
+        mol = Chem.RWMol()  # Create an editable RDKit molecule
+
+        with open(filename, 'r') as file:
+            lines = file.readlines()
+            num_atoms = int(lines[0].strip())  # First line is the number of atoms
+
+            # Initialize the conformer once we know the number of atoms
+            conf = Chem.Conformer(num_atoms)
+
+            for i in range(2, 2 + num_atoms):  # Start reading atoms from line 2
+                parts = lines[i].strip().split()
+                element = parts[0]
+                x, y, z = map(float, parts[1:4])  # Convert strings to floats
+
+                # Add atom to molecule
+                atom = Chem.Atom(element)
+                atom_idx = mol.AddAtom(atom)
+
+                # Set atom coordinates
+                conf.SetAtomPosition(atom_idx, Point3D(x, y, z))
+
+            # Add the conformer to the molecule after all atoms are added and positions set
+            mol.AddConformer(conf, assignId=True)
+
+        # Sanitize the molecule to calculate all required properties like valence
+        Chem.SanitizeMol(mol)
+
+        return mol.GetMol()  # Convert to immutable RDKit molecule
+
+    def predict(self, mol):
+        featurizer_obj = DownstreamTransformFn(is_inference=True)
+        graph_data = featurizer_obj(mol)  # Modified to take RDKit Mol directly
+        
+        # Prepare graphs for model input
+        atom_bond_graph, bond_angle_graph, _ = self.collate_fn([graph_data])
+        # Predict using the model
+        prediction = self.model(atom_bond_graph, bond_angle_graph)
+
+        return prediction
+
+    def score(self, filename):
+        mol = self.read_xyz_file(filename)
+        prediction = self.predict(mol).item()
+        
+        return prediction
+
+def load_json(filepath):
+    with open(filepath, 'r') as f:
+        data = json.load(f)
+
+    return data

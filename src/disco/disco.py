@@ -3,7 +3,7 @@ import os
 import pickle
 import torch
 from os.path import join
-from scorer import PySCFScorer
+from scorer import PySCFScorer, GEMScorer
 import edm.qm9.visualizer as vis
 import edm.utils as utils
 from edm.configs.datasets_config import get_dataset_info
@@ -48,7 +48,10 @@ class DiSco:
         self.nodes_dist = nodes_dist
 
         # initialize scorer
-        self.scorer = PySCFScorer(metric=disco_args['metric'], basis=disco_args['basis'], xc=disco_args['xc'])
+        if disco_args['scorer'] == 'pyscf':
+            self.scorer = PySCFScorer(metric=disco_args['metric'], basis=disco_args['basis'], xc=disco_args['xc'])
+        elif disco_args['scorer'] == 'gem':
+            self.scorer = GEMScorer(metric=disco_args['metric'])
 
         self.disco_args = disco_args
         self.curr_cycle = 0

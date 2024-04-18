@@ -31,3 +31,5 @@ figures/
 geom_drugs.sh
 src/disco/disco_outputs/
 analysis/*/gif/*.png
+.venv
+.conda
