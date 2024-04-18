@@ -788,6 +788,7 @@ class EnVariationalDiffusion(torch.nn.Module):
 
         # Iteratively sample p(z_s | z_t) for t = 1, ..., T, with s = t - 1.
         for s in reversed(range(0, self.T)):
+            print(f"\tSampling at timestep = {s}")
             s_array = torch.full((n_samples, 1), fill_value=s, device=z.device)
             t_array = s_array + 1
             s_array = s_array / self.T

@@ -1,3 +1,4 @@
+import gc
 import os
 import pickle
 import torch
@@ -25,7 +26,12 @@ class DiSco:
 
         # initialize device
         self.args.cuda = not self.args.no_cuda and torch.cuda.is_available()
-        self.device = torch.device("cuda" if self.args.cuda else "cpu")
+        if disco_args['device'] is not None:
+            self.device = disco_args['device']
+        elif torch.cuda.is_available():
+            self.device = 'cuda'
+        else:
+            self.device = 'cpu'
         self.args.device = self.device
 
         # initialize data
@@ -97,7 +103,8 @@ class DiSco:
     def disco_score(self, filenames):
         print("Scoring...")
 
-        scores = torch.tensor([self.scorer.score(filename) for filename in filenames])
+        scores = [self.scorer.score(filename) for filename in filenames]
+        scores = torch.tensor(scores)
 
         return scores
 
@@ -136,6 +143,9 @@ class DiSco:
             print(f"Epoch: {epoch}, Loss: {weighted_loss.item()}")
         
         losses = torch.tensor(losses)
+
+        torch.cuda.empty_cache()
+        gc.collect()
         
         return losses
 

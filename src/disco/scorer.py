@@ -1,7 +1,9 @@
 from pyscf import dft, gto
+from pyscf.tools import cubegen
 import numpy as np
 # from pyscf.prop.polarizability.rks import Polarizability
 from abc import ABC, abstractmethod
+import multiprocessing
 
 class Scorer(ABC):
     @abstractmethod
@@ -15,7 +17,7 @@ class PySCFScorer(Scorer):
         self.xc = xc
 
     def score(self, filename):
-        mf = self.calc(filename)
+        mf, mol = self.calc(filename)
         if self.metric == 'energy':
             return self.calc_energy(mf)
         elif self.metric == 'homo_lumo_gap':
@@ -28,6 +30,8 @@ class PySCFScorer(Scorer):
             return self.calc_electron_affinity(mf)
         elif self.metric == 'dipole_magnitude':
             return self.calc_dipole_magnitude(mf)
+        elif self.metric == 'coper':
+            return self.calc_coper(mf, mol)
         # elif self.metric == 'polarizability':
         #     return self.calc_polarizability(mf)
         else:
@@ -42,7 +46,7 @@ class PySCFScorer(Scorer):
         mf.xc = self.xc
         mf.kernel()
         
-        return mf
+        return mf, mol
 
     def calc_energy(self, mf):
         energy = mf.e_tot
@@ -84,9 +88,21 @@ class PySCFScorer(Scorer):
 
         return dipole_magnitude
 
-    def calc_polarizability(self, mf):
-        polar = Polarizability(mf)
-        pol_tensor = polar.kernel()
-        pol_norm = np.linalg.norm(pol_tensor)
+    def calc_coper(self, mf, mol, l=100, outfile="out.cube"):
+        density = mf.make_rdm1()
+        cube = cubegen.density(mol, outfile, density, nx=l, ny=l, nz=l)
 
-        return pol_norm
+        z = np.sum(cube)    # partition function
+        cube /= z           # normalize densities
+        entropy = -np.sum(cube * np.log(cube))   
+
+        coper = np.exp(entropy - (3 * np.log(l)))
+
+        return coper
+
+    # def calc_polarizability(self, mf):
+    #     polar = Polarizability(mf)
+    #     pol_tensor = polar.kernel()
+    #     pol_norm = np.linalg.norm(pol_tensor)
+
+    #     return pol_norm
