@@ -17,10 +17,10 @@ disco_args = DiScoArgs(
     num_epochs=100, 
     beta=1,
     scorer='gem',
-    metric='lipophilicity',
+    metric='freesolv',
     basis='sto-3g',
     xc='b3lyp',
-    device='cuda:1')
+    device='cuda:3')
 
 # Run DiSco
 disco = DiSco(disco_args)

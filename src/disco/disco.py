@@ -105,8 +105,12 @@ class DiSco:
 
     def disco_score(self, filenames):
         print("Scoring...")
-
-        scores = [self.scorer.score(filename) for filename in filenames]
+        
+        scores = []
+        for i in range(len(filenames)):
+            print(f"Scoring molecule {i+1}/{len(filenames)}...")
+            score = self.scorer.score(filenames[i])
+            scores.append(score)
         scores = torch.tensor(scores)
 
         return scores
