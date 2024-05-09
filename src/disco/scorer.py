@@ -1,15 +1,18 @@
+import torch
 import json
 from abc import ABC, abstractmethod
 from pyscf import dft, gto
 from pyscf.tools import cubegen
 import numpy as np
-import paddle
-from pahelix.model_zoo.gem_model import GeoGNNModel
-from gem.src.model import DownstreamModel
-from gem.src.featurizer import DownstreamCollateFn, DownstreamTransformFn
-from gem.src.utils import get_downstream_task_names
+from torch_geometric.data import Data
+# import paddle
+# from pahelix.model_zoo.gem_model import GeoGNNModel
+# from gem.src.model import DownstreamModel
+# from gem.src.featurizer import DownstreamCollateFn, DownstreamTransformFn
+# from gem.src.utils import get_downstream_task_names
 from rdkit import Chem
 from rdkit.Geometry import Point3D
+from LeftNet.utils import EnsembleModel
 
 class Scorer(ABC):
     @abstractmethod
@@ -197,3 +200,47 @@ def load_json(filepath):
         data = json.load(f)
 
     return data
+
+class LeftNetScorer(Scorer):
+    def __init__(self, device):
+        self.model = EnsembleModel(sweep_id="ov9qdqml", num_models=5, retrain=False).to(device)
+        self.model.load_state_dict(torch.load("src/disco/LeftNet/ensemble_model_weights.pth"))
+        self.model.eval()
+
+        self.device = device
+
+    def score(self, filename):
+        data = self.parse_xyz(filename).to(self.device)
+
+        with torch.no_grad():
+            out = self.model(data.z, data.pos, data.batch).item()
+
+        return out
+        
+    def parse_xyz(self, file_path):
+        # QM9 EDM only has 5 types of atoms
+        atom_dict = {
+            'H': 1,    # Hydrogen
+            'C': 6,    # Carbon
+            'N': 7,    # Nitrogen
+            'O': 8,    # Oxygen
+            'F': 9,    # Fluorine
+        }
+
+        with open(file_path, 'r') as file:
+            lines = file.readlines()
+            num_atoms = int(lines[0].strip())
+            z = []
+            pos = []
+            for line in lines[2:2+num_atoms]:  # Skip the first two lines
+                parts = line.split()
+                z.append(atom_dict[parts[0]])  # Element type
+                pos.append([float(parts[1]), float(parts[2]), float(parts[3])])
+
+            z = torch.tensor(z, dtype=torch.long)
+            pos = torch.tensor(pos, dtype=torch.float)
+            batch = torch.zeros(size=(z.size()), dtype=torch.int64)
+
+            data = Data(z=z, pos=pos, batch=batch)
+
+        return data

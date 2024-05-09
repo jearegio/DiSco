@@ -3,7 +3,8 @@ import os
 import pickle
 import torch
 from os.path import join
-from scorer import PySCFScorer, GEMScorer
+from scorer import PySCFScorer, GEMScorer, LeftNetScorer
+from utils import check_connected
 import edm.qm9.visualizer as vis
 import edm.utils as utils
 from edm.configs.datasets_config import get_dataset_info
@@ -52,6 +53,8 @@ class DiSco:
             self.scorer = PySCFScorer(metric=disco_args['metric'], basis=disco_args['basis'], xc=disco_args['xc'])
         elif disco_args['scorer'] == 'gem':
             self.scorer = GEMScorer(metric=disco_args['metric'])
+        elif disco_args['scorer'] == 'leftnet':
+            self.scorer = LeftNetScorer(device=disco_args['device'])
 
         self.disco_args = disco_args
         self.curr_cycle = 0
@@ -81,8 +84,9 @@ class DiSco:
             atom_type = one_hot[i:i+1, :num_atoms].argmax(2).squeeze(0).cpu().detach().numpy()
             x_squeeze = x[i:i+1, :num_atoms].squeeze(0).cpu().detach().numpy()
             mol_stable = check_stability(x_squeeze, atom_type, self.dataset_info)[0]
+            mol_connected = check_connected(x_squeeze, atom_type, self.dataset_info)
 
-            if mol_stable:
+            if mol_stable and mol_connected:
                 print(f"\tFound stable molecule {stable_counter+1}/{self.disco_args['n_samples']}")
                 filename = f'{self.get_cycle_dir()}/molecule_{stable_counter+1}.xyz'
                 vis.save_xyz_file(filename, one_hot[i:i+1], charges[i:i+1], x[i:i+1], self.dataset_info, node_mask=node_mask[i:i+1])

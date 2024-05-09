@@ -33,3 +33,5 @@ src/disco/disco_outputs/
 analysis/*/gif/*.png
 .venv
 .conda
+LeftNet/output/*
+*.out
