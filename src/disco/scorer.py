@@ -203,15 +203,15 @@ def load_json(filepath):
 
 class LeftNetScorer(Scorer):
     def __init__(self, device):
-        self.model = EnsembleModel(sweep_id="ov9qdqml", num_models=5, retrain=False).to(device)
-        self.model.load_state_dict(torch.load("src/disco/LeftNet/ensemble_model_weights.pth"))
+        self.model = EnsembleModel(sweep_id="ov9qdqml", num_models=5).to("cpu")
+        self.model.load_state_dict(torch.load("src/disco/LeftNet/ensemble_model_weights.pth", map_location='cpu'))
+        print("Loaded ensemble model")
         self.model.eval()
 
         self.device = device
 
     def score(self, filename):
         data = self.parse_xyz(filename).to(self.device)
-
         with torch.no_grad():
             out = self.model(data.z, data.pos, data.batch).item()
 

@@ -105,17 +105,27 @@ class DiSco:
         node_mask_stable = node_mask[idx_stable, :, :]
         edge_mask_stable = edge_mask.reshape(self.disco_args['n_tries'], self.dataset_info['max_n_nodes'], self.dataset_info['max_n_nodes'])[idx_stable, :, :] # TODO: is this correct?
 
+        torch.cuda.empty_cache()
+        gc.collect()
+
         return x_stable, h_stable, node_mask_stable, edge_mask_stable, filenames_stable
 
     def disco_score(self, filenames):
         print("Scoring...")
         
+        self.scorer.model = self.scorer.model.to(self.disco_args['device'])
+
         scores = []
         for i in range(len(filenames)):
             print(f"Scoring molecule {i+1}/{len(filenames)}...")
             score = self.scorer.score(filenames[i])
             scores.append(score)
         scores = torch.tensor(scores)
+
+        torch.cuda.empty_cache()
+        gc.collect()
+
+        self.scorer.model = self.scorer.model.to("cpu")
 
         return scores
 
